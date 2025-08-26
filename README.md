@@ -1,5 +1,5 @@
 
-#Project structure
+# Project structure
 ```
 movie_analysis/
 ├── data/
