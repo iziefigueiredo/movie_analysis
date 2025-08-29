@@ -4,7 +4,7 @@ Dep. Variable:             _log_gross   R-squared:                       0.363
 Model:                            OLS   Adj. R-squared:                  0.362
 Method:                 Least Squares   F-statistic:                     405.8
 Date:                Thu, 28 Aug 2025   Prob (F-statistic):           9.41e-72
-Time:                        22:26:25   Log-Likelihood:                -1372.3
+Time:                        23:37:41   Log-Likelihood:                -1372.3
 No. Observations:                 713   AIC:                             2749.
 Df Residuals:                     711   BIC:                             2758.
 Df Model:                           1                                         

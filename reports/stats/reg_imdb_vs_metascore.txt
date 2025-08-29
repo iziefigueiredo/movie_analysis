@@ -4,7 +4,7 @@ Dep. Variable:            IMDB_Rating   R-squared:                       0.081
 Model:                            OLS   Adj. R-squared:                  0.079
 Method:                 Least Squares   F-statistic:                     62.26
 Date:                Thu, 28 Aug 2025   Prob (F-statistic):           1.14e-14
-Time:                        22:26:25   Log-Likelihood:                -96.208
+Time:                        23:37:41   Log-Likelihood:                -96.208
 No. Observations:                 713   AIC:                             196.4
 Df Residuals:                     711   BIC:                             205.6
 Df Model:                           1                                         
