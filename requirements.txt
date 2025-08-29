@@ -6,4 +6,4 @@ seaborn==0.13.2
 reportlab==4.2.0
 pyyaml==6.0.2
 joblib==1.4.2
-
+ydata-profiling>=4.9.0

@@ -1,0 +1,15 @@
+diff a/.gitignore b/.gitignore	(rejected hunks)
+@@ -0,0 +1,13 @@
++venv/
++.venv/
++__pycache__/
++*.pyc
++.ipynb_checkpoints/
++*.log
++.DS_Store
++venv/
++.venv/
++__pycache__/
++*.pyc
++.ipynb_checkpoints/
++*.log

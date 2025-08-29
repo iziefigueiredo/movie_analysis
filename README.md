@@ -14,7 +14,10 @@ movie_analysis/
 │   ├── __init__.py
 │   ├── processing_imdb.py
 │   ├── processing_tmdb.py
-│   ├── exploratory_analysis.py
+│   ├── eda_imdb.py
+│   ├── eda_tmdb.py
+│   ├── profile_imdb.py
+│   ├── profile_tmdb.py
 │   ├── modeling.py
 │   └── predict.py
 ├── config.yaml

@@ -18,7 +18,6 @@ def clean_tmdb(df: pd.DataFrame) -> pd.DataFrame:
     #======== Padronização ======== 
    
    #Coluna keywords 
-   # garantir que keywords seja string
     df["keywords"] = df["keywords"].fillna("[]")
 
     # transformar de string para lista de dicts
@@ -50,7 +49,25 @@ def clean_tmdb(df: pd.DataFrame) -> pd.DataFrame:
     df["production_companies"] = df["production_companies_clean"].apply(lambda x: ", ".join(x))
 
     # descartar a coluna auxiliar
-    df = df.drop(columns=["production_companies_clean"])   
+    df = df.drop(columns=["production_companies_clean"])
+
+    # Coluna production_countries
+    # garantir que não seja nulo
+    df["production_countries"] = df["production_countries"].fillna("[]")
+
+    # transformar string JSON → lista de dicts
+    df["production_countries"] = df["production_countries"].apply(ast.literal_eval)
+
+    # extrair só os nomesd
+    df["production_countries_clean"] = df["production_countries"].apply(
+        lambda x: [d["name"] for d in x if "name" in d]
+    )
+
+    # juntar em string separada por vírgulas
+    df["production_countries"] = df["production_countries_clean"].apply(lambda x: ", ".join(x))
+
+    # descartar auxiliar
+    df = df.drop(columns=["production_countries_clean"])   
     
     return df
 

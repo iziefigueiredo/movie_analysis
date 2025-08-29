@@ -1,0 +1,25 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:            IMDB_Rating   R-squared:                       0.081
+Model:                            OLS   Adj. R-squared:                  0.079
+Method:                 Least Squares   F-statistic:                     62.26
+Date:                Thu, 28 Aug 2025   Prob (F-statistic):           1.14e-14
+Time:                        22:26:25   Log-Likelihood:                -96.208
+No. Observations:                 713   AIC:                             196.4
+Df Residuals:                     711   BIC:                             205.6
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          7.4254      0.065    113.458      0.000       7.297       7.554
+Meta_score     0.0066      0.001      7.890      0.000       0.005       0.008
+==============================================================================
+Omnibus:                      114.643   Durbin-Watson:                   0.144
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              174.856
+Skew:                           1.074   Prob(JB):                     1.07e-38
+Kurtosis:                       4.129   Cond. No.                         493.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
