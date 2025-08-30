@@ -12,7 +12,7 @@ def clean_tmdb(df: pd.DataFrame) -> pd.DataFrame:
     df = df.dropna()
 
     # Drop colunas irrelevantes
-    df = df.drop(columns=["runtime", "genres", "homepage", "id", "original_language", "overview", "spoken_languages"])
+    df = df.drop(columns=["runtime", "genres", "homepage", "id", "original_language", "overview", "spoken_languages", "status"])
     
     
     #======== Padronização ======== 
