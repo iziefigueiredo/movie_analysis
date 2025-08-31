@@ -2,10 +2,9 @@ import os
 import pandas as pd
 
 def load_data(path: str) -> pd.DataFrame:
-    return pd.read_csv(path)  # como os anteriores
+    return pd.read_csv(path)  
 
 def clean_data(df: pd.DataFrame) -> pd.DataFrame:
-    # 0) Padroniza nomes de colunas primeiro (snake_case)
     df.columns = (
         df.columns
           .str.strip()
@@ -14,27 +13,26 @@ def clean_data(df: pd.DataFrame) -> pd.DataFrame:
           .str.replace(r"[^\w]", "", regex=True)
     )
 
-    # 1) Remove colunas irrelevantes (já em snake_case)
     df = df.drop(
         columns=["year", "ceremony", "film_year", "note", "nomid", "nomineeids", "filmid", "citation"],
         errors="ignore"
     )
 
-    # 2) Tira espaços nas pontas das strings
+    # Tira espaços nas pontas das strings
     for c in df.columns:
         if df[c].dtype == "object":
             df[c] = df[c].astype(str).str.strip()
 
-    # 3) Remove linhas totalmente vazias (todas colunas NaN/vazias)
+    # Remove linhas totalmente vazias (todas colunas NaN/vazias)
     df = df.replace({"": pd.NA}).dropna(how="all")
 
-    # 4) Mantém apenas linhas com 'film' (chave mínima para análise)
+    # Mantém apenas linhas com 'film' (chave mínima para análise)
     if "film" in df.columns:
         df = df.dropna(subset=["film"])
-        # normaliza 'film' minimamente para evitar diferenças bobas
+        # normaliza 'film' minimamente para evitar diferenças 
         df["film"] = df["film"].str.replace(r"\s+", " ", regex=True)
 
-    # 5) Converte 'winner' para boolean se existir
+    # Converte 'winner' para boolean 
     if "winner" in df.columns:
         df["winner"] = (
             df["winner"].astype(str).str.lower().map({
@@ -42,18 +40,8 @@ def clean_data(df: pd.DataFrame) -> pd.DataFrame:
             }).fillna(False)
         )
 
-    # 6) Remove colunas constantes (zero variância)
-    nunique = df.nunique(dropna=False)
-    drop_const = nunique[nunique <= 1].index.tolist()
-    if drop_const:
-        df = df.drop(columns=drop_const)
+    df = df.drop_duplicates()
 
-    # 7) Remove duplicatas por subconjunto (use o que existir)
-    subset_keys = [c for c in ["film", "category", "name"] if c in df.columns]
-    if subset_keys:
-        df = df.drop_duplicates(subset=subset_keys)
-    else:
-        df = df.drop_duplicates()
 
     return df
 
