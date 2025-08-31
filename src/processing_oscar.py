@@ -20,7 +20,6 @@ def clean_data(df: pd.DataFrame) -> pd.DataFrame:
         errors="ignore"
     )
 
-
     # remove linhas onde 'film' é nulo ou vazio
     df = df.dropna(subset=["film"])
     df = df[df["film"].str.strip() != ""]
@@ -38,8 +37,6 @@ def clean_data(df: pd.DataFrame) -> pd.DataFrame:
         df = df.dropna(subset=["film"])
         df["film"] = df["film"].str.replace(r"\s+", " ", regex=True)
 
-    # Converte 'winner' para boolean 
-    df["winner"] = df["winner"].fillna("False").astype(bool)
     
     if "winner" in df.columns:
         df["winner"] = (
@@ -48,11 +45,12 @@ def clean_data(df: pd.DataFrame) -> pd.DataFrame:
             }).fillna(False)
         )
 
-   
-
-    df = df.drop_duplicates()
+    # Remove duplicatas exatas
+    df = df.drop_duplicates().reset_index(drop=True)
 
     return df
+
+
 
 if __name__ == "__main__":
     raw_path = "data/raw/oscar.csv"
