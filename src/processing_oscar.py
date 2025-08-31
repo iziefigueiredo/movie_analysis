@@ -39,6 +39,8 @@ def clean_data(df: pd.DataFrame) -> pd.DataFrame:
         df["film"] = df["film"].str.replace(r"\s+", " ", regex=True)
 
     # Converte 'winner' para boolean 
+    df["winner"] = df["winner"].fillna("False").astype(bool)
+    
     if "winner" in df.columns:
         df["winner"] = (
             df["winner"].astype(str).str.lower().map({
