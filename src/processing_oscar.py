@@ -20,6 +20,11 @@ def clean_data(df: pd.DataFrame) -> pd.DataFrame:
         errors="ignore"
     )
 
+
+    # remove linhas onde 'film' é nulo ou vazio
+    df = df.dropna(subset=["film"])
+    df = df[df["film"].str.strip() != ""]
+
     # Tira espaços nas pontas das strings
     for c in df.columns:
         if df[c].dtype == "object":

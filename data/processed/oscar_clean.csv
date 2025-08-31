@@ -21,9 +21,7 @@ DIRECTING (Comedy Picture),Speedy,Ted Wilde,False
 DIRECTING (Dramatic Picture),7th Heaven,Frank Borzage,True
 DIRECTING (Dramatic Picture),Sorrell and Son,Herbert Brenon,False
 DIRECTING (Dramatic Picture),The Crowd,King Vidor,False
-VISUAL EFFECTS,nan,Ralph Hammeras,False
 VISUAL EFFECTS,Wings,Roy Pomeroy,True
-VISUAL EFFECTS,nan,Nugent Slaughter,False
 BEST PICTURE,The Racket,The Caddo Company,False
 BEST PICTURE,7th Heaven,Fox,False
 BEST PICTURE,Wings,Paramount Famous Lasky,True
@@ -36,8 +34,6 @@ WRITING (Adapted Screenplay),7th Heaven,Benjamin Glazer,True
 WRITING (Original Story),The Last Command,Lajos Biro,False
 WRITING (Original Story),Underworld,Ben Hecht,True
 WRITING (Title Writing),The Private Life of Helen of Troy,Gerald Duffy,False
-WRITING (Title Writing),nan,Joseph Farnham,True
-WRITING (Title Writing),nan,"George Marion, Jr.",False
 SPECIAL AWARD,The Jazz Singer,nan,True
 SPECIAL AWARD,The Circus,nan,True
 ACTOR IN A LEADING ROLE,Thunderbolt,George Bancroft,False
@@ -162,10 +158,6 @@ BEST PICTURE,East Lynne,Fox,False
 BEST PICTURE,The Front Page,The Caddo Company,False
 BEST PICTURE,Skippy,Paramount Publix,False
 BEST PICTURE,Trader Horn,Metro-Goldwyn-Mayer,False
-SOUND RECORDING,nan,Samuel Goldwyn - United Artists Studio Sound Department,False
-SOUND RECORDING,nan,Metro-Goldwyn-Mayer Studio Sound Department,False
-SOUND RECORDING,nan,Paramount Publix Studio Sound Department,True
-SOUND RECORDING,nan,RKO Radio Studio Sound Department,False
 WRITING (Adapted Screenplay),Cimarron,Howard Estabrook,True
 WRITING (Adapted Screenplay),The Criminal Code,"Seton I. Miller, Fred Niblo, Jr.",False
 WRITING (Adapted Screenplay),Holiday,Horace Jackson,False
@@ -176,9 +168,6 @@ WRITING (Original Story),The Doorway to Hell,Rowland Brown,False
 WRITING (Original Story),Laughter,"Harry d'Abbadie d'Arrast, Douglas Doty, Donald Ogden Stewart",False
 WRITING (Original Story),The Public Enemy,"John Bright, Kubec Glasmon",False
 WRITING (Original Story),Smart Money,"Lucien Hubbard, Joseph Jackson",False
-SCIENTIFIC OR TECHNICAL AWARD (Class I),nan,nan,True
-SCIENTIFIC OR TECHNICAL AWARD (Class II),nan,nan,True
-SCIENTIFIC OR TECHNICAL AWARD (Class III),nan,nan,True
 ACTOR IN A LEADING ROLE,The Champ,Wallace Beery,True
 ACTOR IN A LEADING ROLE,The Guardsman,Alfred Lunt,False
 ACTOR IN A LEADING ROLE,Dr. Jekyll and Mr. Hyde,Fredric March,True
@@ -212,7 +201,6 @@ SHORT SUBJECT (Comedy),Stout Hearts and Willing Hands,RKO Radio,False
 SHORT SUBJECT (Novelty),Screen Souvenirs,Paramount Publix,False
 SHORT SUBJECT (Novelty),Swing High,Metro-Goldwyn-Mayer,False
 SHORT SUBJECT (Novelty),Wrestling Swordfish,"Mack Sennett, Producer",True
-SOUND RECORDING,nan,Warner Bros.-First National Studio Sound Department,False
 WRITING (Adapted Screenplay),Arrowsmith,Sidney Howard,False
 WRITING (Adapted Screenplay),Bad Girl,Edwin Burke,True
 WRITING (Adapted Screenplay),Dr. Jekyll and Mr. Hyde,"Percy Heath, Samuel Hoffenstein",False
@@ -220,7 +208,6 @@ WRITING (Original Story),The Champ,Frances Marion,True
 WRITING (Original Story),Lady and Gent,"Grover Jones, William Slavens McNutt",False
 WRITING (Original Story),The Star Witness,Lucien Hubbard,False
 WRITING (Original Story),What Price Hollywood?,"Adela Rogers St. Johns, Jane Murfin",False
-SPECIAL AWARD,nan,nan,True
 ACTOR IN A LEADING ROLE,Berkeley Square,Leslie Howard,False
 ACTOR IN A LEADING ROLE,The Private Life of Henry VIII,Charles Laughton,True
 ACTOR IN A LEADING ROLE,I Am a Fugitive from a Chain Gang,Paul Muni,False
@@ -230,24 +217,6 @@ ACTRESS IN A LEADING ROLE,Cavalcade,Diana Wynyard,False
 ART DIRECTION,Cavalcade,William S. Darling,True
 ART DIRECTION,A Farewell to Arms,"Hans Dreier, Roland Anderson",False
 ART DIRECTION,When Ladies Meet,Cedric Gibbons,False
-ASSISTANT DIRECTOR,nan,Percy Ikerd (Fox),False
-ASSISTANT DIRECTOR,nan,William Tummel (Fox),True
-ASSISTANT DIRECTOR,nan,Charles Dorian (Metro-Goldwyn-Mayer),True
-ASSISTANT DIRECTOR,nan,Bunny Dull (Metro-Goldwyn-Mayer),False
-ASSISTANT DIRECTOR,nan,John S. Waters (Metro-Goldwyn-Mayer),False
-ASSISTANT DIRECTOR,nan,Charles Barton (Paramount),True
-ASSISTANT DIRECTOR,nan,Sidney S. Brod (Paramount),False
-ASSISTANT DIRECTOR,nan,Arthur Jacobson (Paramount),False
-ASSISTANT DIRECTOR,nan,Eddie Killey (RKO Radio),False
-ASSISTANT DIRECTOR,nan,Dewey Starkey (RKO Radio),True
-ASSISTANT DIRECTOR,nan,Fred Fox (United Artists),True
-ASSISTANT DIRECTOR,nan,Benjamin Silvey (United Artists),False
-ASSISTANT DIRECTOR,nan,Scott Beal (Universal),True
-ASSISTANT DIRECTOR,nan,Joe McDonough (Universal),False
-ASSISTANT DIRECTOR,nan,W. J. Reiter (Universal),False
-ASSISTANT DIRECTOR,nan,Al Alborn (Warner Bros.),False
-ASSISTANT DIRECTOR,nan,Gordon Hollingshead (Warner Bros.),True
-ASSISTANT DIRECTOR,nan,Frank X. Shaw (Warner Bros.),False
 CINEMATOGRAPHY,A Farewell to Arms,"Charles Bryant Lang, Jr.",True
 CINEMATOGRAPHY,Reunion in Vienna,George J. Folsey,False
 CINEMATOGRAPHY,The Sign of the Cross,Karl Struss,False
@@ -660,7 +629,6 @@ WRITING (Adapted Screenplay),The Life of Emile Zola,"Norman Reilly Raine, Heinz 
 WRITING (Adapted Screenplay),Stage Door,"Morris Ryskind, Anthony Veiller",False
 WRITING (Adapted Screenplay),A Star Is Born,"Dorothy Parker, Alan Campbell, Robert Carson",False
 SPECIAL AWARD,A Star Is Born,nan,True
-IRVING G. THALBERG MEMORIAL AWARD,nan,Darryl F. Zanuck,True
 ACTOR IN A LEADING ROLE,Algiers,Charles Boyer,False
 ACTOR IN A LEADING ROLE,Angels with Dirty Faces,James Cagney,False
 ACTOR IN A LEADING ROLE,The Citadel,Robert Donat,False
@@ -790,13 +758,6 @@ WRITING (Adapted Screenplay),You Can't Take It with You,Robert Riskin,False
 SPECIAL AWARD,Snow White and the Seven Dwarfs,nan,True
 SPECIAL AWARD,Sweethearts,nan,True
 SPECIAL AWARD,Spawn of the North,nan,True
-IRVING G. THALBERG MEMORIAL AWARD,nan,Samuel Goldwyn,False
-IRVING G. THALBERG MEMORIAL AWARD,nan,Joe Pasternak,False
-IRVING G. THALBERG MEMORIAL AWARD,nan,David O. Selznick,False
-IRVING G. THALBERG MEMORIAL AWARD,nan,Hunt Stromberg,False
-IRVING G. THALBERG MEMORIAL AWARD,nan,Hal B. Wallis,True
-IRVING G. THALBERG MEMORIAL AWARD,nan,Walter Wanger,False
-IRVING G. THALBERG MEMORIAL AWARD,nan,Darryl F. Zanuck,False
 ACTOR IN A LEADING ROLE,"Goodbye, Mr. Chips",Robert Donat,True
 ACTOR IN A LEADING ROLE,Gone with the Wind,Clark Gable,False
 ACTOR IN A LEADING ROLE,Wuthering Heights,Laurence Olivier,False
@@ -935,7 +896,6 @@ WRITING (Adapted Screenplay),Mr. Smith Goes to Washington,Sidney Buchman,False
 WRITING (Adapted Screenplay),Ninotchka,"Charles Brackett, Billy Wilder, Walter Reisch",False
 WRITING (Adapted Screenplay),Wuthering Heights,"Charles MacArthur, Ben Hecht",False
 SPECIAL AWARD,Gone with the Wind,nan,True
-IRVING G. THALBERG MEMORIAL AWARD,nan,David O. Selznick,True
 SCIENTIFIC OR TECHNICAL AWARD (Class III),Gone with the Wind,nan,True
 ACTOR IN A LEADING ROLE,The Great Dictator,Charles Chaplin,False
 ACTOR IN A LEADING ROLE,The Grapes of Wrath,Henry Fonda,False
@@ -1276,7 +1236,6 @@ WRITING (Adapted Screenplay),The Maltese Falcon,John Huston,False
 SPECIAL AWARD,Kukan,nan,True
 SPECIAL AWARD,Target for Tonight,nan,True
 SPECIAL AWARD,Fantasia,nan,True
-IRVING G. THALBERG MEMORIAL AWARD,nan,Walt Disney,True
 ACTOR IN A LEADING ROLE,Yankee Doodle Dandy,James Cagney,True
 ACTOR IN A LEADING ROLE,Random Harvest,Ronald Colman,False
 ACTOR IN A LEADING ROLE,The Pride of the Yankees,Gary Cooper,False
@@ -1460,7 +1419,6 @@ WRITING (Adapted Screenplay),The Pride of the Yankees,"Jo Swerling, Herman J. Ma
 WRITING (Adapted Screenplay),Random Harvest,"Claudine West, George Froeschel, Arthur Wimperis",False
 WRITING (Adapted Screenplay),The Talk of the Town,"Irwin Shaw, Sidney Buchman",False
 SPECIAL AWARD,In Which We Serve,nan,True
-IRVING G. THALBERG MEMORIAL AWARD,nan,Sidney Franklin,True
 ACTOR IN A LEADING ROLE,Casablanca,Humphrey Bogart,False
 ACTOR IN A LEADING ROLE,For Whom the Bell Tolls,Gary Cooper,False
 ACTOR IN A LEADING ROLE,Watch on the Rhine,Paul Lukas,True
@@ -2065,7 +2023,6 @@ WRITING (Adapted Screenplay),The Killers,Anthony Veiller,False
 WRITING (Adapted Screenplay),Open City,"Sergio Amidei, F. Fellini",False
 SPECIAL AWARD,Henry V,nan,True
 SPECIAL AWARD,The Best Years of Our Lives,nan,True
-IRVING G. THALBERG MEMORIAL AWARD,nan,Samuel Goldwyn,True
 ACTOR IN A LEADING ROLE,A Double Life,Ronald Colman,True
 ACTOR IN A LEADING ROLE,Body and Soul,John Garfield,False
 ACTOR IN A LEADING ROLE,Gentleman's Agreement,Gregory Peck,False
@@ -2275,7 +2232,6 @@ WRITING (Adapted Screenplay),The Treasure of the Sierra Madre,John Huston,True
 SPECIAL FOREIGN LANGUAGE FILM AWARD,Monsieur Vincent,nan,True
 SPECIAL AWARD,The Search,nan,True
 SPECIAL AWARD,Joan of Arc,nan,True
-IRVING G. THALBERG MEMORIAL AWARD,nan,Jerry Wald,True
 ACTOR IN A LEADING ROLE,All the King's Men,Broderick Crawford,True
 ACTOR IN A LEADING ROLE,Champion,Kirk Douglas,False
 ACTOR IN A LEADING ROLE,Twelve O'Clock High,Gregory Peck,False
@@ -2493,7 +2449,6 @@ WRITING (Original Screenplay),The Men,Carl Foreman,False
 WRITING (Original Screenplay),No Way Out,"Joseph L. Mankiewicz, Lesser Samuels",False
 WRITING (Original Screenplay),Sunset Blvd.,"Charles Brackett, Billy Wilder, D. M. Marshman, Jr.",True
 INTERNATIONAL FEATURE FILM,The Walls of Malapaga,nan,True
-HONORARY AWARD,nan,nan,True
 ACTOR IN A LEADING ROLE,The African Queen,Humphrey Bogart,True
 ACTOR IN A LEADING ROLE,A Streetcar Named Desire,Marlon Brando,False
 ACTOR IN A LEADING ROLE,A Place in the Sun,Montgomery Clift,False
@@ -2610,7 +2565,6 @@ WRITING (Original Screenplay),David and Bathsheba,Philip Dunne,False
 WRITING (Original Screenplay),Go for Broke!,Robert Pirosh,False
 WRITING (Original Screenplay),The Well,"Clarence Greene, Russell Rouse",False
 INTERNATIONAL FEATURE FILM,Rashomon,nan,True
-IRVING G. THALBERG MEMORIAL AWARD,nan,Arthur Freed,True
 ACTOR IN A LEADING ROLE,Viva Zapata!,Marlon Brando,False
 ACTOR IN A LEADING ROLE,High Noon,Gary Cooper,True
 ACTOR IN A LEADING ROLE,The Bad and the Beautiful,Kirk Douglas,False
@@ -2734,7 +2688,6 @@ WRITING (Original Screenplay),The Lavender Hill Mob,T. E. B. Clarke,True
 WRITING (Original Screenplay),Pat and Mike,"Ruth Gordon, Garson Kanin",False
 WRITING (Original Screenplay),Viva Zapata!,John Steinbeck,False
 INTERNATIONAL FEATURE FILM,Forbidden Games,nan,True
-IRVING G. THALBERG MEMORIAL AWARD,nan,Cecil B. DeMille,True
 ACTOR IN A LEADING ROLE,Julius Caesar,Marlon Brando,False
 ACTOR IN A LEADING ROLE,The Robe,Richard Burton,False
 ACTOR IN A LEADING ROLE,From Here to Eternity,Montgomery Clift,False
@@ -2859,7 +2812,6 @@ WRITING (Original Screenplay),The Desert Rats,Richard Murphy,False
 WRITING (Original Screenplay),The Naked Spur,"Sam Rolfe, Harold Jack Bloom",False
 WRITING (Original Screenplay),Take the High Ground,Millard Kaufman,False
 WRITING (Original Screenplay),Titanic,"Charles Brackett, Walter Reisch, Richard Breen",True
-IRVING G. THALBERG MEMORIAL AWARD,nan,George Stevens,True
 ACTOR IN A LEADING ROLE,The Caine Mutiny,Humphrey Bogart,False
 ACTOR IN A LEADING ROLE,On the Waterfront,Marlon Brando,True
 ACTOR IN A LEADING ROLE,The Country Girl,Bing Crosby,False
@@ -3229,8 +3181,6 @@ WRITING (Original Screenplay),Julie,Andrew L. Stone,False
 WRITING (Original Screenplay),La Strada,"Federico Fellini, Tullio Pinelli",False
 WRITING (Original Screenplay),The Ladykillers,William Rose,False
 WRITING (Original Screenplay),The Red Balloon,Albert Lamorisse,True
-JEAN HERSHOLT HUMANITARIAN AWARD,nan,Y. Frank Freeman,True
-IRVING G. THALBERG MEMORIAL AWARD,nan,Buddy Adler,True
 ACTOR IN A LEADING ROLE,Sayonara,Marlon Brando,False
 ACTOR IN A LEADING ROLE,A Hatful of Rain,Anthony Franciosa,False
 ACTOR IN A LEADING ROLE,The Bridge on the River Kwai,Alec Guinness,True
@@ -3326,7 +3276,6 @@ WRITING (Original Screenplay),Funny Face,Leonard Gershe,False
 WRITING (Original Screenplay),Man of a Thousand Faces,"Story by Ralph Wheelwright; Screenplay by R. Wright Campbell, Ivan Goff, Ben Roberts",False
 WRITING (Original Screenplay),The Tin Star,"Story by Barney Slater, Joel Kane; Screenplay by Dudley Nichols",False
 WRITING (Original Screenplay),Vitelloni,"Story by Federico Fellini, Ennio Flaiano, Tullio Pinelli; Screenplay by Federico Fellini, Ennio Flaiano",False
-JEAN HERSHOLT HUMANITARIAN AWARD,nan,Samuel Goldwyn,True
 ACTOR IN A LEADING ROLE,The Defiant Ones,Tony Curtis,False
 ACTOR IN A LEADING ROLE,Cat on a Hot Tin Roof,Paul Newman,False
 ACTOR IN A LEADING ROLE,Separate Tables,David Niven,True
@@ -3436,7 +3385,6 @@ WRITING (Original Screenplay),The Goddess,Paddy Chayefsky,False
 WRITING (Original Screenplay),Houseboat,"Melville Shavelson, Jack Rose",False
 WRITING (Original Screenplay),The Sheepman,"Story by James Edward Grant; Screenplay by William Bowers, James Edward Grant",False
 WRITING (Original Screenplay),Teacher's Pet,"Fay Kanin, Michael Kanin",False
-IRVING G. THALBERG MEMORIAL AWARD,nan,Jack L. Warner,True
 ACTOR IN A LEADING ROLE,Room at the Top,Laurence Harvey,False
 ACTOR IN A LEADING ROLE,Ben-Hur,Charlton Heston,True
 ACTOR IN A LEADING ROLE,Some Like It Hot,Jack Lemmon,False
@@ -3553,7 +3501,6 @@ WRITING (Original Screenplay),North by Northwest,Ernest Lehman,False
 WRITING (Original Screenplay),Operation Petticoat,"Story by Paul King, Joseph Stone; Screenplay by Stanley Shapiro, Maurice Richlin",False
 WRITING (Original Screenplay),Pillow Talk,"Story by Russell Rouse, Clarence Greene; Screenplay by Stanley Shapiro, Maurice Richlin",True
 WRITING (Original Screenplay),Wild Strawberries,Ingmar Bergman,False
-JEAN HERSHOLT HUMANITARIAN AWARD,nan,Bob Hope,True
 ACTOR IN A LEADING ROLE,Sons and Lovers,Trevor Howard,False
 ACTOR IN A LEADING ROLE,Elmer Gantry,Burt Lancaster,True
 ACTOR IN A LEADING ROLE,The Apartment,Jack Lemmon,False
@@ -3672,7 +3619,6 @@ WRITING (Original Screenplay),The Apartment,"Billy Wilder, I. A. L. Diamond",Tru
 WRITING (Original Screenplay),The Facts of Life,"Norman Panama, Melvin Frank",False
 WRITING (Original Screenplay),"Hiroshima, Mon Amour",Marguerite Duras,False
 WRITING (Original Screenplay),Never on Sunday,Jules Dassin,False
-JEAN HERSHOLT HUMANITARIAN AWARD,nan,Sol Lesser,True
 HONORARY AWARD,Pollyanna,nan,True
 ACTOR IN A LEADING ROLE,Fanny,Charles Boyer,False
 ACTOR IN A LEADING ROLE,The Hustler,Paul Newman,False
@@ -3793,9 +3739,7 @@ WRITING (Original Screenplay),General Della Rovere,"Sergio Amidei, Diego Fabbri,
 WRITING (Original Screenplay),La Dolce Vita,"Federico Fellini, Tullio Pinelli, Ennio Flaiano, Brunello Rondi",False
 WRITING (Original Screenplay),Lover Come Back,"Stanley Shapiro, Paul Henning",False
 WRITING (Original Screenplay),Splendor in the Grass,William Inge,True
-JEAN HERSHOLT HUMANITARIAN AWARD,nan,George Seaton,True
 HONORARY AWARD,A Force in Readiness,nan,True
-IRVING G. THALBERG MEMORIAL AWARD,nan,Stanley Kramer,True
 ACTOR IN A LEADING ROLE,Birdman of Alcatraz,Burt Lancaster,False
 ACTOR IN A LEADING ROLE,Days of Wine and Roses,Jack Lemmon,False
 ACTOR IN A LEADING ROLE,Divorce--Italian Style,Marcello Mastroianni,False
@@ -3913,7 +3857,6 @@ WRITING (Original Screenplay),Freud,"Story by Charles Kaufman; Screenplay by Cha
 WRITING (Original Screenplay),Last Year at Marienbad,Alain Robbe-Grillet,False
 WRITING (Original Screenplay),That Touch of Mink,"Stanley Shapiro, Nate Monaster",False
 WRITING (Original Screenplay),Through a Glass Darkly,Ingmar Bergman,False
-JEAN HERSHOLT HUMANITARIAN AWARD,nan,Steve Broidy,True
 ACTOR IN A LEADING ROLE,Tom Jones,Albert Finney,False
 ACTOR IN A LEADING ROLE,This Sporting Life,Richard Harris,False
 ACTOR IN A LEADING ROLE,Cleopatra,Rex Harrison,False
@@ -4037,7 +3980,6 @@ WRITING (Original Screenplay),Federico Fellini's 8-1/2,"Federico Fellini, Ennio 
 WRITING (Original Screenplay),The Four Days of Naples,"Story by Pasquale Festa Campanile, Massimo Franciosa, Nanni Loy, Vasco Pratolini; Screenplay by Carlo Bernari, Pasquale Festa Campanile, Massimo Franciosa, Nanni Loy",False
 WRITING (Original Screenplay),How the West Was Won,James R. Webb,True
 WRITING (Original Screenplay),Love with the Proper Stranger,Arnold Schulman,False
-IRVING G. THALBERG MEMORIAL AWARD,nan,Sam Spiegel,True
 ACTOR IN A LEADING ROLE,Becket,Richard Burton,False
 ACTOR IN A LEADING ROLE,My Fair Lady,Rex Harrison,True
 ACTOR IN A LEADING ROLE,Becket,Peter O'Toole,False
@@ -4282,8 +4224,6 @@ WRITING (Original Screenplay),Darling,Frederic Raphael,True
 WRITING (Original Screenplay),Those Magnificent Men in Their Flying Machines,"Jack Davies, Ken Annakin",False
 WRITING (Original Screenplay),The Train,"Franklin Coen, Frank Davis",False
 WRITING (Original Screenplay),The Umbrellas of Cherbourg,Jacques Demy,False
-JEAN HERSHOLT HUMANITARIAN AWARD,nan,Edmond L. DePatie,True
-IRVING G. THALBERG MEMORIAL AWARD,nan,William Wyler,True
 ACTOR IN A LEADING ROLE,The Russians Are Coming The Russians Are Coming,Alan Arkin,False
 ACTOR IN A LEADING ROLE,Who's Afraid of Virginia Woolf?,Richard Burton,False
 ACTOR IN A LEADING ROLE,Alfie,Michael Caine,False
@@ -4404,8 +4344,6 @@ WRITING (Original Screenplay),The Fortune Cookie,"Billy Wilder, I. A. L. Diamond
 WRITING (Original Screenplay),Khartoum,Robert Ardrey,False
 WRITING (Original Screenplay),A Man and a Woman,"Story by Claude Lelouch; Screenplay by Claude Lelouch, Pierre Uytterhoeven",True
 WRITING (Original Screenplay),The Naked Prey,"Clint Johnston, Don Peters",False
-JEAN HERSHOLT HUMANITARIAN AWARD,nan,George Bagnall,True
-IRVING G. THALBERG MEMORIAL AWARD,nan,Robert Wise,True
 ACTOR IN A LEADING ROLE,Bonnie and Clyde,Warren Beatty,False
 ACTOR IN A LEADING ROLE,The Graduate,Dustin Hoffman,False
 ACTOR IN A LEADING ROLE,Cool Hand Luke,Paul Newman,False
@@ -4512,8 +4450,6 @@ WRITING (Original Screenplay),Divorce American Style,Story by Robert Kaufman; Sc
 WRITING (Original Screenplay),Guess Who's Coming to Dinner,William Rose,True
 WRITING (Original Screenplay),La Guerre Est Finie,Jorge Semprun,False
 WRITING (Original Screenplay),Two for the Road,Frederic Raphael,False
-JEAN HERSHOLT HUMANITARIAN AWARD,nan,Gregory Peck,True
-IRVING G. THALBERG MEMORIAL AWARD,nan,Alfred Hitchcock,True
 ACTOR IN A LEADING ROLE,The Heart Is a Lonely Hunter,Alan Arkin,False
 ACTOR IN A LEADING ROLE,The Fixer,Alan Bates,False
 ACTOR IN A LEADING ROLE,Oliver!,Ron Moody,False
@@ -4619,7 +4555,6 @@ WRITING (Original Screenplay),Faces,John Cassavetes,False
 WRITING (Original Screenplay),Hot Millions,"Ira Wallach, Peter Ustinov",False
 WRITING (Original Screenplay),The Producers,Mel Brooks,True
 WRITING (Original Screenplay),2001: A Space Odyssey,"Stanley Kubrick, Arthur C. Clarke",False
-JEAN HERSHOLT HUMANITARIAN AWARD,nan,Martha Raye,True
 HONORARY AWARD,Planet of the Apes,nan,True
 HONORARY AWARD,Oliver!,nan,True
 ACTOR IN A LEADING ROLE,Anne of the Thousand Days,Richard Burton,False
@@ -4725,7 +4660,6 @@ WRITING (Original Screenplay),Butch Cassidy and the Sundance Kid,William Goldman
 WRITING (Original Screenplay),The Damned,"Story by Nicola Badalucco; Screenplay by Nicola Badalucco, Enrico Medioli, Luchino Visconti",False
 WRITING (Original Screenplay),Easy Rider,"Peter Fonda, Dennis Hopper, Terry Southern",False
 WRITING (Original Screenplay),The Wild Bunch,"Story by Walon Green, Roy N. Sickner; Screenplay by Walon Green, Sam Peckinpah",False
-JEAN HERSHOLT HUMANITARIAN AWARD,nan,George Jessel,True
 ACTOR IN A LEADING ROLE,I Never Sang for My Father,Melvyn Douglas,False
 ACTOR IN A LEADING ROLE,The Great White Hope,James Earl Jones,False
 ACTOR IN A LEADING ROLE,Five Easy Pieces,Jack Nicholson,False
@@ -4829,8 +4763,6 @@ WRITING (Original Screenplay),Joe,Norman Wexler,False
 WRITING (Original Screenplay),Love Story,Erich Segal,False
 WRITING (Original Screenplay),My Night at Maud's,Eric Rohmer,False
 WRITING (Original Screenplay),Patton,"Francis Ford Coppola, Edmund H. North",True
-JEAN HERSHOLT HUMANITARIAN AWARD,nan,Frank Sinatra,True
-IRVING G. THALBERG MEMORIAL AWARD,nan,Ingmar Bergman,True
 ACTOR IN A LEADING ROLE,Sunday Bloody Sunday,Peter Finch,False
 ACTOR IN A LEADING ROLE,The French Connection,Gene Hackman,True
 ACTOR IN A LEADING ROLE,Kotch,Walter Matthau,False
@@ -5035,7 +4967,6 @@ WRITING (Original Screenplay),Lady Sings the Blues,"Terence McCloy, Chris Clark,
 WRITING (Original Screenplay),Murmur of the Heart,Louis Malle,False
 WRITING (Original Screenplay),Young Winston,Carl Foreman,False
 SPECIAL ACHIEVEMENT AWARD (Visual Effects),The Poseidon Adventure,"L. B. Abbott, A. D. Flowers",True
-JEAN HERSHOLT HUMANITARIAN AWARD,nan,Rosalind Russell,True
 ACTOR IN A LEADING ROLE,Last Tango in Paris,Marlon Brando,False
 ACTOR IN A LEADING ROLE,Save the Tiger,Jack Lemmon,True
 ACTOR IN A LEADING ROLE,The Last Detail,Jack Nicholson,False
@@ -5135,8 +5066,6 @@ WRITING (Original Screenplay),Cries and Whispers,Ingmar Bergman,False
 WRITING (Original Screenplay),Save the Tiger,Steve Shagan,False
 WRITING (Original Screenplay),The Sting,David S. Ward,True
 WRITING (Original Screenplay),A Touch of Class,"Melvin Frank, Jack Rose",False
-JEAN HERSHOLT HUMANITARIAN AWARD,nan,Lew Wasserman,True
-IRVING G. THALBERG MEMORIAL AWARD,nan,Lawrence Weingarten,True
 ACTOR IN A LEADING ROLE,Harry and Tonto,Art Carney,True
 ACTOR IN A LEADING ROLE,Murder on the Orient Express,Albert Finney,False
 ACTOR IN A LEADING ROLE,Lenny,Dustin Hoffman,False
@@ -5241,7 +5170,6 @@ WRITING (Adapted Screenplay),Lenny,Julian Barry,False
 WRITING (Adapted Screenplay),Murder on the Orient Express,Paul Dehn,False
 WRITING (Adapted Screenplay),Young Frankenstein,"Gene Wilder, Mel Brooks",False
 SPECIAL ACHIEVEMENT AWARD (Visual Effects),Earthquake,"Frank Brendel, Glen Robinson, Albert Whitlock",True
-JEAN HERSHOLT HUMANITARIAN AWARD,nan,Arthur B. Krim,True
 ACTOR IN A LEADING ROLE,The Sunshine Boys,Walter Matthau,False
 ACTOR IN A LEADING ROLE,One Flew over the Cuckoo's Nest,Jack Nicholson,True
 ACTOR IN A LEADING ROLE,Dog Day Afternoon,Al Pacino,False
@@ -5346,8 +5274,6 @@ WRITING (Adapted Screenplay),Scent of a Woman,"Ruggero Maccari, Dino Risi",False
 WRITING (Adapted Screenplay),The Sunshine Boys,Neil Simon,False
 SPECIAL ACHIEVEMENT AWARD (Sound Effects),The Hindenburg,Peter Berkos,True
 SPECIAL ACHIEVEMENT AWARD (Visual Effects),The Hindenburg,"Albert Whitlock, Glen Robinson",True
-JEAN HERSHOLT HUMANITARIAN AWARD,nan,Dr. Jules C. Stein,True
-IRVING G. THALBERG MEMORIAL AWARD,nan,Mervyn LeRoy,True
 ACTOR IN A LEADING ROLE,Taxi Driver,Robert De Niro,False
 ACTOR IN A LEADING ROLE,Network,Peter Finch,True
 ACTOR IN A LEADING ROLE,Seven Beauties,Giancarlo Giannini,False
@@ -5451,7 +5377,6 @@ WRITING (Original Screenplay),Rocky,Sylvester Stallone,False
 WRITING (Original Screenplay),Seven Beauties,Lina Wertmüller,False
 SPECIAL ACHIEVEMENT AWARD (Visual Effects),King Kong,"Carlo Rambaldi, Glen Robinson, Frank Van der Veer",True
 SPECIAL ACHIEVEMENT AWARD (Visual Effects),Logan's Run,"L. B. Abbott, Glen Robinson, Matthew Yuricich",True
-IRVING G. THALBERG MEMORIAL AWARD,nan,Pandro S. Berman,True
 ACTOR IN A LEADING ROLE,Annie Hall,Woody Allen,False
 ACTOR IN A LEADING ROLE,Equus,Richard Burton,False
 ACTOR IN A LEADING ROLE,The Goodbye Girl,Richard Dreyfuss,True
@@ -5558,9 +5483,6 @@ WRITING (Original Screenplay),Star Wars,George Lucas,False
 WRITING (Original Screenplay),The Turning Point,Arthur Laurents,False
 SPECIAL ACHIEVEMENT AWARD,Star Wars,nan,True
 SPECIAL ACHIEVEMENT AWARD (Sound Effects Editing),Close Encounters of the Third Kind,Frank E. Warner,True
-JEAN HERSHOLT HUMANITARIAN AWARD,nan,Charlton Heston,True
-IRVING G. THALBERG MEMORIAL AWARD,nan,Walter Mirisch,True
-MEDAL OF COMMENDATION,nan,nan,True
 ACTOR IN A LEADING ROLE,Heaven Can Wait,Warren Beatty,False
 ACTOR IN A LEADING ROLE,The Buddy Holly Story,Gary Busey,False
 ACTOR IN A LEADING ROLE,The Deer Hunter,Robert De Niro,False
@@ -5662,10 +5584,6 @@ WRITING (Original Screenplay),The Deer Hunter,"Story by Michael Cimino, Deric Wa
 WRITING (Original Screenplay),Interiors,Woody Allen,False
 WRITING (Original Screenplay),An Unmarried Woman,Paul Mazursky,False
 SPECIAL ACHIEVEMENT AWARD (Visual Effects),Superman,"Les Bowie, Colin Chilvers, Denys Coop, Roy Field, Derek Meddings, Zoran Perisic",True
-JEAN HERSHOLT HUMANITARIAN AWARD,nan,Leo Jaffe,True
-SCIENTIFIC AND TECHNICAL AWARD (Academy Award of Merit),nan,nan,True
-SCIENTIFIC AND TECHNICAL AWARD (Scientific and Engineering Award),nan,nan,True
-SCIENTIFIC AND TECHNICAL AWARD (Technical Achievement Award),nan,nan,True
 ACTOR IN A LEADING ROLE,Kramer vs. Kramer,Dustin Hoffman,True
 ACTOR IN A LEADING ROLE,The China Syndrome,Jack Lemmon,False
 ACTOR IN A LEADING ROLE,...And Justice for All,Al Pacino,False
@@ -5773,8 +5691,6 @@ WRITING (Original Screenplay),Breaking Away,Steve Tesich,True
 WRITING (Original Screenplay),The China Syndrome,"Mike Gray, T.S. Cook, James Bridges",False
 WRITING (Original Screenplay),Manhattan,"Woody Allen, Marshall Brickman",False
 SPECIAL ACHIEVEMENT AWARD (Sound Editing),The Black Stallion,Alan Splet,True
-JEAN HERSHOLT HUMANITARIAN AWARD,nan,Robert Benjamin,True
-IRVING G. THALBERG MEMORIAL AWARD,nan,Ray Stark,True
 ACTOR IN A LEADING ROLE,Raging Bull,Robert De Niro,True
 ACTOR IN A LEADING ROLE,The Great Santini,Robert Duvall,False
 ACTOR IN A LEADING ROLE,The Elephant Man,John Hurt,False
@@ -5973,9 +5889,6 @@ WRITING (Original Screenplay),Atlantic City,John Guare,False
 WRITING (Original Screenplay),Chariots of Fire,Colin Welland,True
 WRITING (Original Screenplay),Reds,"Warren Beatty, Trevor Griffiths",False
 SPECIAL ACHIEVEMENT AWARD (Sound Effects Editing),Raiders of the Lost Ark,"Ben Burtt, Richard L. Anderson",True
-JEAN HERSHOLT HUMANITARIAN AWARD,nan,Danny Kaye,True
-IRVING G. THALBERG MEMORIAL AWARD,nan,Albert R. Broccoli,True
-GORDON E. SAWYER AWARD,nan,nan,True
 ACTOR IN A LEADING ROLE,Tootsie,Dustin Hoffman,False
 ACTOR IN A LEADING ROLE,Gandhi,Ben Kingsley,True
 ACTOR IN A LEADING ROLE,Missing,Jack Lemmon,False
@@ -6085,7 +5998,6 @@ WRITING (Original Screenplay),E.T. The Extra-Terrestrial,Melissa Mathison,False
 WRITING (Original Screenplay),Gandhi,John Briley,True
 WRITING (Original Screenplay),An Officer and a Gentleman,Douglas Day Stewart,False
 WRITING (Original Screenplay),Tootsie,"Screenplay by Larry Gelbart, Murray Schisgal; Story by Don McGuire, Larry Gelbart",False
-JEAN HERSHOLT HUMANITARIAN AWARD,nan,Walter Mirisch,True
 ACTOR IN A LEADING ROLE,Educating Rita,Michael Caine,False
 ACTOR IN A LEADING ROLE,"Reuben, Reuben",Tom Conti,False
 ACTOR IN A LEADING ROLE,The Dresser,Tom Courtenay,False
@@ -6187,7 +6099,6 @@ WRITING (Original Screenplay),Silkwood,"Nora Ephron, Alice Arlen",False
 WRITING (Original Screenplay),Tender Mercies,Horton Foote,True
 WRITING (Original Screenplay),WarGames,"Lawrence Lasker, Walter F. Parkes",False
 SPECIAL ACHIEVEMENT AWARD (Visual Effects),Return of the Jedi,"Richard Edlund, Dennis Muren, Ken Ralston, Phil Tippett",True
-JEAN HERSHOLT HUMANITARIAN AWARD,nan,M. J. Frankovich,True
 ACTOR IN A LEADING ROLE,Amadeus,F. Murray Abraham,True
 ACTOR IN A LEADING ROLE,Starman,Jeff Bridges,False
 ACTOR IN A LEADING ROLE,Under the Volcano,Albert Finney,False
@@ -6294,7 +6205,6 @@ WRITING (Original Screenplay),El Norte,"Gregory Nava, Anna Thomas",False
 WRITING (Original Screenplay),Places in the Heart,Robert Benton,True
 WRITING (Original Screenplay),Splash,"Screenplay by Lowell Ganz, Babaloo Mandel, Bruce Jay Friedman; Screen Story by Bruce Jay Friedman; Based on a story by Brian Grazer",False
 SPECIAL ACHIEVEMENT AWARD (Sound Effects Editing),The River,Kay Rose,True
-JEAN HERSHOLT HUMANITARIAN AWARD,nan,David L. Wolper,True
 ACTOR IN A LEADING ROLE,Witness,Harrison Ford,False
 ACTOR IN A LEADING ROLE,Murphy's Romance,James Garner,False
 ACTOR IN A LEADING ROLE,Kiss of the Spider Woman,William Hurt,True
@@ -6400,7 +6310,6 @@ WRITING (Original Screenplay),Brazil,"Terry Gilliam, Tom Stoppard, Charles McKeo
 WRITING (Original Screenplay),The Official Story,"Luis Puenzo, Aida Bortnik",False
 WRITING (Original Screenplay),The Purple Rose of Cairo,Woody Allen,False
 WRITING (Original Screenplay),Witness,"Screenplay by Earl W. Wallace, William Kelley; Story by William Kelley, Pamela Wallace, Earl W. Wallace",True
-JEAN HERSHOLT HUMANITARIAN AWARD,nan,Charles 'Buddy' Rogers,True
 ACTOR IN A LEADING ROLE,'Round Midnight,Dexter Gordon,False
 ACTOR IN A LEADING ROLE,Mona Lisa,Bob Hoskins,False
 ACTOR IN A LEADING ROLE,Children of a Lesser God,William Hurt,False
@@ -6506,7 +6415,6 @@ WRITING (Original Screenplay),Hannah and Her Sisters,Woody Allen,True
 WRITING (Original Screenplay),My Beautiful Laundrette,Hanif Kureishi,False
 WRITING (Original Screenplay),Platoon,Oliver Stone,False
 WRITING (Original Screenplay),Salvador,"Oliver Stone, Richard Boyle",False
-IRVING G. THALBERG MEMORIAL AWARD,nan,Steven Spielberg,True
 ACTOR IN A LEADING ROLE,Wall Street,Michael Douglas,True
 ACTOR IN A LEADING ROLE,Broadcast News,William Hurt,False
 ACTOR IN A LEADING ROLE,Dark Eyes,Marcello Mastroianni,False
@@ -6608,7 +6516,6 @@ WRITING (Original Screenplay),Hope and Glory,John Boorman,False
 WRITING (Original Screenplay),Moonstruck,John Patrick Shanley,True
 WRITING (Original Screenplay),Radio Days,Woody Allen,False
 SPECIAL ACHIEVEMENT AWARD (Sound Effects Editing),RoboCop,"Stephen Flick, John Pospisil",True
-IRVING G. THALBERG MEMORIAL AWARD,nan,Billy Wilder,True
 ACTOR IN A LEADING ROLE,Mississippi Burning,Gene Hackman,False
 ACTOR IN A LEADING ROLE,Big,Tom Hanks,False
 ACTOR IN A LEADING ROLE,Rain Man,Dustin Hoffman,True
@@ -6816,8 +6723,6 @@ WRITING (Original Screenplay),Dead Poets Society,Tom Schulman,True
 WRITING (Original Screenplay),Do the Right Thing,Spike Lee,False
 WRITING (Original Screenplay),"sex, lies, and videotape",Steven Soderbergh,False
 WRITING (Original Screenplay),When Harry Met Sally...,Nora Ephron,False
-JEAN HERSHOLT HUMANITARIAN AWARD,nan,Howard W. Koch,True
-AWARD OF COMMENDATION,nan,nan,True
 ACTOR IN A LEADING ROLE,Dances With Wolves,Kevin Costner,False
 ACTOR IN A LEADING ROLE,Awakenings,Robert De Niro,False
 ACTOR IN A LEADING ROLE,Cyrano de Bergerac,Gerard Depardieu,False
@@ -6923,7 +6828,6 @@ WRITING (Original Screenplay),Ghost,Bruce Joel Rubin,True
 WRITING (Original Screenplay),Green Card,Peter Weir,False
 WRITING (Original Screenplay),Metropolitan,Whit Stillman,False
 SPECIAL ACHIEVEMENT AWARD (Visual Effects),Total Recall,"Eric Brevig, Rob Bottin, Tim McGovern, Alex Funke",True
-IRVING G. THALBERG MEMORIAL AWARD,nan,David Brown and Richard D. Zanuck,True
 ACTOR IN A LEADING ROLE,Bugsy,Warren Beatty,False
 ACTOR IN A LEADING ROLE,Cape Fear,Robert De Niro,False
 ACTOR IN A LEADING ROLE,The Silence of the Lambs,Anthony Hopkins,True
@@ -7028,7 +6932,6 @@ WRITING (Original Screenplay),Bugsy,James Toback,False
 WRITING (Original Screenplay),The Fisher King,Richard LaGravenese,False
 WRITING (Original Screenplay),Grand Canyon,"Lawrence Kasdan, Meg Kasdan",False
 WRITING (Original Screenplay),Thelma & Louise,Callie Khouri,True
-IRVING G. THALBERG MEMORIAL AWARD,nan,George Lucas,True
 ACTOR IN A LEADING ROLE,Chaplin,Robert Downey Jr.,False
 ACTOR IN A LEADING ROLE,Unforgiven,Clint Eastwood,False
 ACTOR IN A LEADING ROLE,Scent of a Woman,Al Pacino,True
@@ -7138,8 +7041,6 @@ WRITING (Original Screenplay),Husbands and Wives,Woody Allen,False
 WRITING (Original Screenplay),Lorenzo's Oil,"George Miller, Nick Enright",False
 WRITING (Original Screenplay),Passion Fish,John Sayles,False
 WRITING (Original Screenplay),Unforgiven,David Webb Peoples,False
-JEAN HERSHOLT HUMANITARIAN AWARD,nan,Audrey Hepburn,True
-JEAN HERSHOLT HUMANITARIAN AWARD,nan,Elizabeth Taylor,True
 ACTOR IN A LEADING ROLE,In the Name of the Father,Daniel Day-Lewis,False
 ACTOR IN A LEADING ROLE,What's Love Got to Do with It,Laurence Fishburne,False
 ACTOR IN A LEADING ROLE,Philadelphia,Tom Hanks,True
@@ -7247,7 +7148,6 @@ WRITING (Original Screenplay),In the Line of Fire,Jeff Maguire,False
 WRITING (Original Screenplay),Philadelphia,Ron Nyswaner,False
 WRITING (Original Screenplay),The Piano,Jane Campion,True
 WRITING (Original Screenplay),Sleepless in Seattle,"Screenplay by Nora Ephron, David S. Ward, Jeff Arch; Story by Jeff Arch",False
-JEAN HERSHOLT HUMANITARIAN AWARD,nan,Paul Newman,True
 ACTOR IN A LEADING ROLE,The Shawshank Redemption,Morgan Freeman,False
 ACTOR IN A LEADING ROLE,Forrest Gump,Tom Hanks,True
 ACTOR IN A LEADING ROLE,The Madness of King George,Nigel Hawthorne,False
@@ -7356,8 +7256,6 @@ WRITING (Original Screenplay),Four Weddings and a Funeral,Richard Curtis,False
 WRITING (Original Screenplay),Heavenly Creatures,"Frances Walsh, Peter Jackson",False
 WRITING (Original Screenplay),Pulp Fiction,Screenplay by Quentin Tarantino; Stories by Quentin Tarantino & Roger Avary,True
 WRITING (Original Screenplay),Red,"Krzysztof Piesiewicz, Krzysztof Kieslowski",False
-JEAN HERSHOLT HUMANITARIAN AWARD,nan,Quincy Jones,True
-IRVING G. THALBERG MEMORIAL AWARD,nan,Clint Eastwood,True
 ACTOR IN A LEADING ROLE,Leaving Las Vegas,Nicolas Cage,True
 ACTOR IN A LEADING ROLE,Mr. Holland's Opus,Richard Dreyfuss,False
 ACTOR IN A LEADING ROLE,Nixon,Anthony Hopkins,False
@@ -7585,8 +7483,6 @@ WRITING (Original Screenplay),Jerry Maguire,Cameron Crowe,False
 WRITING (Original Screenplay),Lone Star,John Sayles,False
 WRITING (Original Screenplay),Secrets & Lies,Mike Leigh,False
 WRITING (Original Screenplay),Shine,Screenplay by Jan Sardi; Story by Scott Hicks,False
-IRVING G. THALBERG MEMORIAL AWARD,nan,Saul Zaentz,True
-JOHN A. BONNER MEDAL OF COMMENDATION,nan,nan,True
 ACTOR IN A LEADING ROLE,Good Will Hunting,Matt Damon,False
 ACTOR IN A LEADING ROLE,The Apostle,Robert Duvall,False
 ACTOR IN A LEADING ROLE,Ulee's Gold,Peter Fonda,False
@@ -7813,7 +7709,6 @@ WRITING (Original Screenplay),Life Is Beautiful,"Vincenzo Cerami, Roberto Benign
 WRITING (Original Screenplay),Saving Private Ryan,Robert Rodat,False
 WRITING (Original Screenplay),Shakespeare in Love,"Marc Norman, Tom Stoppard",True
 WRITING (Original Screenplay),The Truman Show,Andrew Niccol,False
-IRVING G. THALBERG MEMORIAL AWARD,nan,Norman Jewison,True
 ACTOR IN A LEADING ROLE,The Insider,Russell Crowe,False
 ACTOR IN A LEADING ROLE,The Straight Story,Richard Farnsworth,False
 ACTOR IN A LEADING ROLE,Sweet and Lowdown,Sean Penn,False
@@ -7922,7 +7817,6 @@ WRITING (Original Screenplay),Being John Malkovich,Charlie Kaufman,False
 WRITING (Original Screenplay),Magnolia,Paul Thomas Anderson,False
 WRITING (Original Screenplay),The Sixth Sense,M. Night Shyamalan,False
 WRITING (Original Screenplay),Topsy-Turvy,Mike Leigh,False
-IRVING G. THALBERG MEMORIAL AWARD,nan,Warren Beatty,True
 ACTOR IN A LEADING ROLE,Before Night Falls,Javier Bardem,False
 ACTOR IN A LEADING ROLE,Gladiator,Russell Crowe,True
 ACTOR IN A LEADING ROLE,Cast Away,Tom Hanks,False
@@ -8029,7 +7923,6 @@ WRITING (Original Screenplay),Billy Elliot,Written by Lee Hall,False
 WRITING (Original Screenplay),Erin Brockovich,Written by Susannah Grant,False
 WRITING (Original Screenplay),Gladiator,Screenplay by David Franzoni and John Logan and William Nicholson; Story by David Franzoni,False
 WRITING (Original Screenplay),You Can Count on Me,Written by Kenneth Lonergan,False
-IRVING G. THALBERG MEMORIAL AWARD,nan,Dino De Laurentiis,True
 ACTOR IN A LEADING ROLE,A Beautiful Mind,Russell Crowe,False
 ACTOR IN A LEADING ROLE,I Am Sam,Sean Penn,False
 ACTOR IN A LEADING ROLE,Ali,Will Smith,False
@@ -8139,7 +8032,6 @@ WRITING (Original Screenplay),Gosford Park,Written by Julian Fellowes,True
 WRITING (Original Screenplay),Memento,Screenplay by Christopher Nolan; Story by Jonathan Nolan,False
 WRITING (Original Screenplay),Monster's Ball,Written by Milo Addica & Will Rokos,False
 WRITING (Original Screenplay),The Royal Tenenbaums,Written by Wes Anderson & Owen Wilson,False
-JEAN HERSHOLT HUMANITARIAN AWARD,nan,Arthur Hiller,True
 ACTOR IN A LEADING ROLE,The Pianist,Adrien Brody,True
 ACTOR IN A LEADING ROLE,Adaptation,Nicolas Cage,False
 ACTOR IN A LEADING ROLE,The Quiet American,Michael Caine,False
@@ -8474,7 +8366,6 @@ WRITING (Original Screenplay),Eternal Sunshine of the Spotless Mind,Screenplay b
 WRITING (Original Screenplay),Hotel Rwanda,Written by Keir Pearson & Terry George,False
 WRITING (Original Screenplay),The Incredibles,Written by Brad Bird,False
 WRITING (Original Screenplay),Vera Drake,Written by Mike Leigh,False
-JEAN HERSHOLT HUMANITARIAN AWARD,nan,Roger Mayer,True
 ACTOR IN A LEADING ROLE,Capote,Philip Seymour Hoffman,True
 ACTOR IN A LEADING ROLE,Hustle & Flow,Terrence Howard,False
 ACTOR IN A LEADING ROLE,Brokeback Mountain,Heath Ledger,False
@@ -8697,7 +8588,6 @@ WRITING (Original Screenplay),Letters from Iwo Jima,Screenplay by Iris Yamashita
 WRITING (Original Screenplay),Little Miss Sunshine,Written by Michael Arndt,True
 WRITING (Original Screenplay),Pan's Labyrinth,Written by Guillermo del Toro,False
 WRITING (Original Screenplay),The Queen,Written by Peter Morgan,False
-JEAN HERSHOLT HUMANITARIAN AWARD,nan,Sherry Lansing,True
 ACTOR IN A LEADING ROLE,Michael Clayton,George Clooney,False
 ACTOR IN A LEADING ROLE,There Will Be Blood,Daniel Day-Lewis,True
 ACTOR IN A LEADING ROLE,Sweeney Todd The Demon Barber of Fleet Street,Johnny Depp,False
@@ -8920,7 +8810,6 @@ WRITING (Original Screenplay),Happy-Go-Lucky,Written by Mike Leigh,False
 WRITING (Original Screenplay),In Bruges,Written by Martin McDonagh,False
 WRITING (Original Screenplay),Milk,Written by Dustin Lance Black,True
 WRITING (Original Screenplay),WALL-E,"Screenplay by Andrew Stanton, Jim Reardon; Original story by Andrew Stanton, Pete Docter",False
-JEAN HERSHOLT HUMANITARIAN AWARD,nan,Jerry Lewis,True
 ACTOR IN A LEADING ROLE,Crazy Heart,Jeff Bridges,True
 ACTOR IN A LEADING ROLE,Up in the Air,George Clooney,False
 ACTOR IN A LEADING ROLE,A Single Man,Colin Firth,False
@@ -9041,7 +8930,6 @@ WRITING (Original Screenplay),Inglourious Basterds,Written by Quentin Tarantino,
 WRITING (Original Screenplay),The Messenger,Written by Alessandro Camon & Oren Moverman,False
 WRITING (Original Screenplay),A Serious Man,Written by Joel Coen & Ethan Coen,False
 WRITING (Original Screenplay),Up,"Screenplay by Bob Peterson, Pete Docter; Story by Pete Docter, Bob Peterson, Tom McCarthy",False
-IRVING G. THALBERG MEMORIAL AWARD,nan,John Calley,True
 ACTOR IN A LEADING ROLE,Biutiful,Javier Bardem,False
 ACTOR IN A LEADING ROLE,True Grit,Jeff Bridges,False
 ACTOR IN A LEADING ROLE,The Social Network,Jesse Eisenberg,False
@@ -9162,7 +9050,6 @@ WRITING (Original Screenplay),The Fighter,Screenplay by Scott Silver and Paul Ta
 WRITING (Original Screenplay),Inception,Written by Christopher Nolan,False
 WRITING (Original Screenplay),The Kids Are All Right,Written by Lisa Cholodenko & Stuart Blumberg,False
 WRITING (Original Screenplay),The King's Speech,Screenplay by David Seidler,True
-IRVING G. THALBERG MEMORIAL AWARD,nan,Francis Ford Coppola,True
 ACTOR IN A LEADING ROLE,A Better Life,Demián Bichir,False
 ACTOR IN A LEADING ROLE,The Descendants,George Clooney,False
 ACTOR IN A LEADING ROLE,The Artist,Jean Dujardin,True
@@ -9282,7 +9169,6 @@ WRITING (Original Screenplay),Bridesmaids,Written by Annie Mumolo & Kristen Wiig
 WRITING (Original Screenplay),Margin Call,Written by J.C. Chandor,False
 WRITING (Original Screenplay),Midnight in Paris,Written by Woody Allen,True
 WRITING (Original Screenplay),A Separation,Written by Asghar Farhadi,False
-JEAN HERSHOLT HUMANITARIAN AWARD,nan,Oprah Winfrey,True
 ACTOR IN A LEADING ROLE,Silver Linings Playbook,Bradley Cooper,False
 ACTOR IN A LEADING ROLE,Lincoln,Daniel Day-Lewis,True
 ACTOR IN A LEADING ROLE,Les Misérables,Hugh Jackman,False
@@ -9405,7 +9291,6 @@ WRITING (Original Screenplay),Django Unchained,Written by Quentin Tarantino,True
 WRITING (Original Screenplay),Flight,Written by John Gatins,False
 WRITING (Original Screenplay),Moonrise Kingdom,Written by Wes Anderson & Roman Coppola,False
 WRITING (Original Screenplay),Zero Dark Thirty,Written by Mark Boal,False
-JEAN HERSHOLT HUMANITARIAN AWARD,nan,Jeffrey Katzenberg,True
 ACTOR IN A LEADING ROLE,American Hustle,Christian Bale,False
 ACTOR IN A LEADING ROLE,Nebraska,Bruce Dern,False
 ACTOR IN A LEADING ROLE,The Wolf of Wall Street,Leonardo DiCaprio,False
@@ -9528,7 +9413,6 @@ WRITING (Original Screenplay),Blue Jasmine,Written by Woody Allen,False
 WRITING (Original Screenplay),Dallas Buyers Club,Written by Craig Borten & Melisa Wallack,False
 WRITING (Original Screenplay),Her,Written by Spike Jonze,True
 WRITING (Original Screenplay),Nebraska,Written by Bob Nelson,False
-JEAN HERSHOLT HUMANITARIAN AWARD,nan,Angelina Jolie,True
 ACTOR IN A LEADING ROLE,Foxcatcher,Steve Carell,False
 ACTOR IN A LEADING ROLE,American Sniper,Bradley Cooper,False
 ACTOR IN A LEADING ROLE,The Imitation Game,Benedict Cumberbatch,False
@@ -9650,7 +9534,6 @@ WRITING (Original Screenplay),Boyhood,Written by Richard Linklater,False
 WRITING (Original Screenplay),Foxcatcher,Written by E. Max Frye and Dan Futterman,False
 WRITING (Original Screenplay),The Grand Budapest Hotel,Screenplay by Wes Anderson; Story by Wes Anderson & Hugo Guinness,False
 WRITING (Original Screenplay),Nightcrawler,Written by Dan Gilroy,False
-JEAN HERSHOLT HUMANITARIAN AWARD,nan,Harry Belafonte,True
 ACTOR IN A LEADING ROLE,Trumbo,Bryan Cranston,False
 ACTOR IN A LEADING ROLE,The Martian,Matt Damon,False
 ACTOR IN A LEADING ROLE,The Revenant,Leonardo DiCaprio,True
@@ -9772,8 +9655,6 @@ WRITING (Original Screenplay),Ex Machina,Written by Alex Garland,False
 WRITING (Original Screenplay),Inside Out,"Screenplay by Pete Docter, Meg LeFauve, Josh Cooley; Original story by Pete Docter, Ronnie del Carmen",False
 WRITING (Original Screenplay),Spotlight,Written by Josh Singer & Tom McCarthy,True
 WRITING (Original Screenplay),Straight Outta Compton,Screenplay by Jonathan Herman and Andrea Berloff; Story by S. Leigh Savidge & Alan Wenkus and Andrea Berloff,False
-JEAN HERSHOLT HUMANITARIAN AWARD,nan,Debbie Reynolds,True
-SCIENTIFIC AND TECHNICAL AWARD (Special Award),nan,nan,True
 ACTOR IN A LEADING ROLE,Manchester by the Sea,Casey Affleck,True
 ACTOR IN A LEADING ROLE,Hacksaw Ridge,Andrew Garfield,False
 ACTOR IN A LEADING ROLE,La La Land,Ryan Gosling,False
@@ -10140,7 +10021,6 @@ WRITING (Original Screenplay),First Reformed,Written by Paul Schrader,False
 WRITING (Original Screenplay),Green Book,"Written by Nick Vallelonga, Brian Currie, Peter Farrelly",True
 WRITING (Original Screenplay),Roma,Written by Alfonso Cuarón,False
 WRITING (Original Screenplay),Vice,Written by Adam McKay,False
-IRVING G. THALBERG MEMORIAL AWARD,nan,Kathleen Kennedy and Frank Marshall,True
 ACTOR IN A LEADING ROLE,Pain and Glory,Antonio Banderas,False
 ACTOR IN A LEADING ROLE,Once upon a Time...in Hollywood,Leonardo DiCaprio,False
 ACTOR IN A LEADING ROLE,Marriage Story,Adam Driver,False
@@ -10265,7 +10145,6 @@ WRITING (Original Screenplay),Marriage Story,Written by Noah Baumbach,False
 WRITING (Original Screenplay),1917,Written by Sam Mendes & Krysty Wilson-Cairns,False
 WRITING (Original Screenplay),Once upon a Time...in Hollywood,Written by Quentin Tarantino,False
 WRITING (Original Screenplay),Parasite,"Screenplay by Bong Joon Ho, Han Jin Won; Story by Bong Joon Ho",True
-JEAN HERSHOLT HUMANITARIAN AWARD,nan,Geena Davis,True
 ACTOR IN A LEADING ROLE,Sound of Metal,Riz Ahmed,False
 ACTOR IN A LEADING ROLE,Ma Rainey's Black Bottom,Chadwick Boseman,False
 ACTOR IN A LEADING ROLE,The Father,Anthony Hopkins,True
@@ -10384,8 +10263,6 @@ WRITING (Original Screenplay),Minari,Written by Lee Isaac Chung,False
 WRITING (Original Screenplay),Promising Young Woman,Written by Emerald Fennell,True
 WRITING (Original Screenplay),Sound of Metal,Screenplay by Darius Marder & Abraham Marder; Story by Darius Marder & Derek Cianfrance,False
 WRITING (Original Screenplay),The Trial of the Chicago 7,Written by Aaron Sorkin,False
-JEAN HERSHOLT HUMANITARIAN AWARD,nan,Motion Picture & Television Fund,True
-JEAN HERSHOLT HUMANITARIAN AWARD,nan,Tyler Perry,True
 ACTOR IN A LEADING ROLE,Being the Ricardos,Javier Bardem,False
 ACTOR IN A LEADING ROLE,The Power of the Dog,Benedict Cumberbatch,False
 ACTOR IN A LEADING ROLE,"tick, tick...BOOM!",Andrew Garfield,False
@@ -10506,7 +10383,6 @@ WRITING (Original Screenplay),Don't Look Up,Screenplay by Adam McKay; Story by A
 WRITING (Original Screenplay),King Richard,Written by Zach Baylin,False
 WRITING (Original Screenplay),Licorice Pizza,Written by Paul Thomas Anderson,False
 WRITING (Original Screenplay),The Worst Person in the World,"Written by Eskil Vogt, Joachim Trier",False
-JEAN HERSHOLT HUMANITARIAN AWARD,nan,Danny Glover,True
 ACTOR IN A LEADING ROLE,Elvis,Austin Butler,False
 ACTOR IN A LEADING ROLE,The Banshees of Inisherin,Colin Farrell,False
 ACTOR IN A LEADING ROLE,The Whale,Brendan Fraser,True
@@ -10627,7 +10503,6 @@ WRITING (Original Screenplay),Everything Everywhere All at Once,Written by Danie
 WRITING (Original Screenplay),The Fabelmans,Written by Steven Spielberg & Tony Kushner,False
 WRITING (Original Screenplay),Tár,Written by Todd Field,False
 WRITING (Original Screenplay),Triangle of Sadness,Written by Ruben Östlund,False
-JEAN HERSHOLT HUMANITARIAN AWARD,nan,Michael J. Fox,True
 AWARD OF COMMENDATION,Welcome to Chechnya,nan,True
 ACTOR IN A LEADING ROLE,Maestro,Bradley Cooper,False
 ACTOR IN A LEADING ROLE,Rustin,Colman Domingo,False
@@ -10749,7 +10624,6 @@ WRITING (Original Screenplay),The Holdovers,Written by David Hemingson,False
 WRITING (Original Screenplay),Maestro,Written by Bradley Cooper & Josh Singer,False
 WRITING (Original Screenplay),May December,Screenplay by Samy Burch; Story by Samy Burch & Alex Mechanik,False
 WRITING (Original Screenplay),Past Lives,Written by Celine Song,False
-JEAN HERSHOLT HUMANITARIAN AWARD,nan,Michelle Satter,True
 ACTOR IN A LEADING ROLE,The Brutalist,Adrien Brody,True
 ACTOR IN A LEADING ROLE,A Complete Unknown,Timothée Chalamet,False
 ACTOR IN A LEADING ROLE,Sing Sing,Colman Domingo,False
@@ -10870,5 +10744,3 @@ WRITING (Original Screenplay),The Brutalist,"Written by Brady Corbet, Mona Fastv
 WRITING (Original Screenplay),A Real Pain,Written by Jesse Eisenberg,False
 WRITING (Original Screenplay),September 5,"Written by Moritz Binder, Tim Fehlbaum; Co-Written by Alex David",False
 WRITING (Original Screenplay),The Substance,Written by Coralie Fargeat,False
-JEAN HERSHOLT HUMANITARIAN AWARD,nan,Richard Curtis,True
-IRVING G. THALBERG MEMORIAL AWARD,nan,Michael G. Wilson and Barbara Broccoli,True
