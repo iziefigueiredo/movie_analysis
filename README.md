@@ -19,6 +19,7 @@ movie_analysis/
 │   ├── eda_tmdb.py
 │   ├── profile_imdb.py
 │   ├── profile_tmdb.py
+│   ├── merge_data.py
 │   ├── modeling.py
 │   └── predict.py
 ├── config.yaml
