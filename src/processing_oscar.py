@@ -14,7 +14,7 @@ def clean_data(df: pd.DataFrame) -> pd.DataFrame:
     )
 
     df = df.drop(
-        columns=["year", "ceremony", "film_year", "note", "nomid", "nomineeids", "filmid", "citation"],
+        columns=["year", "ceremony", "film_year", "note", "nomid", "nomineeids", "filmid", "citation", "multifilmnomination"],
         errors="ignore"
     )
 
