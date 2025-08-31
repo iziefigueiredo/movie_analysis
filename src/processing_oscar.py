@@ -1,3 +1,5 @@
+import re
+import unidecode
 import os
 import pandas as pd
 
@@ -14,7 +16,7 @@ def clean_data(df: pd.DataFrame) -> pd.DataFrame:
     )
 
     df = df.drop(
-        columns=["year", "ceremony", "film_year", "note", "nomid", "nomineeids", "filmid", "citation", "multifilmnomination"],
+        columns=["year", "ceremony", "film_year", "note", "nomid", "nomineeids", "filmid", "citation", "multifilmnomination", "nominees", "detail"],
         errors="ignore"
     )
 
@@ -29,7 +31,6 @@ def clean_data(df: pd.DataFrame) -> pd.DataFrame:
     # Mantém apenas linhas com 'film' (chave mínima para análise)
     if "film" in df.columns:
         df = df.dropna(subset=["film"])
-        # normaliza 'film' minimamente para evitar diferenças 
         df["film"] = df["film"].str.replace(r"\s+", " ", regex=True)
 
     # Converte 'winner' para boolean 
@@ -40,8 +41,9 @@ def clean_data(df: pd.DataFrame) -> pd.DataFrame:
             }).fillna(False)
         )
 
-    df = df.drop_duplicates()
+   
 
+    df = df.drop_duplicates()
 
     return df
 
