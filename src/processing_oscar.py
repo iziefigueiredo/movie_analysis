@@ -16,7 +16,7 @@ def clean_data(df: pd.DataFrame) -> pd.DataFrame:
     )
 
     df = df.drop(
-        columns=["year", "ceremony", "film_year", "note", "nomid", "nomineeids", "filmid", "citation", "multifilmnomination", "nominees", "detail"],
+        columns=["ceremony", "year", "note", "nomid", "nomineeids", "filmid", "citation", "multifilmnomination", "nominees", "detail", "class", "category"],
         errors="ignore"
     )
 
@@ -28,7 +28,7 @@ def clean_data(df: pd.DataFrame) -> pd.DataFrame:
     # Remove linhas totalmente vazias (todas colunas NaN/vazias)
     df = df.replace({"": pd.NA}).dropna(how="all")
 
-    # Mantém apenas linhas com 'film' (chave mínima para análise)
+    # Mantém apenas linhas com 'film' 
     if "film" in df.columns:
         df = df.dropna(subset=["film"])
         df["film"] = df["film"].str.replace(r"\s+", " ", regex=True)
