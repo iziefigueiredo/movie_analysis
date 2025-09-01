@@ -10,8 +10,6 @@ from .merge_data import (
     merge_oscar_data,
 )
 
-from .profile_imdb import run_profile as profile_imdb
 from .profile_imdb_oscar import run_profile as profile_imdb_oscar  
 
-from .eda_imdb import run_all as eda_imdb
 
