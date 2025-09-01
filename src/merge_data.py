@@ -20,8 +20,6 @@ def transform_genres(input_path="data/processed/imdb_clean.csv", output_path="da
     df = df.rename(columns={'Series_Title': 'film'})
     
     # 3. Prepara a coluna 'Genre' para one-hot encoding
-    # A coluna Genre vem como uma string com múltiplos valores (ex: "Action, Adventure")
-    # Para transformá-la, a dividimos em linhas separadas
     df_genres = df[['film', 'Genre']].copy()
     df_genres['Genre'] = df_genres['Genre'].str.split(', ')
     df_genres = df_genres.explode('Genre')
@@ -35,5 +33,41 @@ def transform_genres(input_path="data/processed/imdb_clean.csv", output_path="da
     
     print(f"[OK] Dados transformados salvos em: {output_path}")
 
+
+def merge_imdb_data(genres_path="data/processed/genres_encodded.csv", imdb_path="data/processed/imdb_clean.csv", output_path="data/processed/imdb_merged.csv"):
+    """
+    Lê os arquivos de gêneros codificados e dados limpos do IMDB,
+    e os une com base no nome do filme, salvando o resultado em um novo CSV.
+    """
+    try:
+        df_genres = pd.read_csv(genres_path)
+    except FileNotFoundError:
+        print(f"Erro: Arquivo não encontrado em {genres_path}")
+        return
+
+    try:
+        df_imdb = pd.read_csv(imdb_path)
+    except FileNotFoundError:
+        print(f"Erro: Arquivo não encontrado em {imdb_path}")
+        return
+
+    # Renomear a coluna para coincidir com o DataFrame de gêneros
+    df_imdb = df_imdb.rename(columns={'Series_Title': 'film'})
+
+    # Selecionar as colunas desejadas do DataFrame do IMDB
+    cols_to_merge = ['film', 'Released_Year', 'Runtime', 'IMDB_Rating', 'No_of_Votes', 'Gross']
+    df_imdb_selected = df_imdb[cols_to_merge]
+
+    # Unir os DataFrames
+    df_merged = pd.merge(df_genres, df_imdb_selected, on='film', how='inner')
+
+    # Salvar o DataFrame unido em um novo CSV
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+    df_merged.to_csv(output_path, index=False)
+
+    print(f"[OK] Dados do IMDB unidos e salvos em: {output_path}")
+
+
 if __name__ == "__main__":
     transform_genres()
+    merge_imdb_data()

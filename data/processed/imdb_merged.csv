@@ -1,0 +1,714 @@
+film,Action,Adventure,Animation,Biography,Comedy,Crime,Drama,Family,Fantasy,Film-Noir,History,Horror,Music,Musical,Mystery,Romance,Sci-Fi,Sport,Thriller,War,Western,Released_Year,Runtime,IMDB_Rating,No_of_Votes,Gross
+(500) Days of Summer,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False,2009.0,95,7.7,472242,32391374
+12 Angry Men,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1957.0,96,9.0,689845,4360000
+12 Years a Slave,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,2013.0,134,8.1,640533,56671993
+1917,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True,True,False,2019.0,119,8.3,425844,159227644
+2001: A Space Odyssey,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,1968.0,149,8.3,603517,56954992
+21 Grams,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False,2003.0,124,7.6,224545,16290476
+25th Hour,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2002.0,135,7.6,169708,13060843
+28 Days Later...,False,False,False,False,False,False,True,False,False,False,False,True,False,False,False,False,True,False,False,False,False,2002.0,113,7.6,376853,45064915
+3 Idiots,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2009.0,170,8.4,344445,6532908
+300,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2006.0,117,7.6,732876,210614939
+3:10 to Yuma,True,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2007.0,122,7.7,288797,53606916
+50/50,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False,2011.0,100,7.6,315426,35014192
+A Beautiful Mind,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2001.0,135,8.2,848920,170742341
+A Bronx Tale,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False,1993.0,121,7.8,128171,17266971
+A Christmas Story,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,1983.0,93,7.9,132947,20605209
+A Clockwork Orange,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,True,False,False,False,False,1971.0,136,8.3,757904,6207725
+A Few Good Men,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False,1992.0,138,7.7,235388,141340178
+A Hard Day's Night,False,False,False,False,True,False,False,False,False,False,False,False,True,True,False,False,False,False,False,False,False,1964.0,87,7.6,40351,13780024
+A Little Princess,False,False,False,False,False,False,True,True,True,False,False,False,False,False,False,False,False,False,False,False,False,1995.0,97,7.7,32236,10019307
+A Man for All Seasons,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,1966.0,120,7.7,31222,28350000
+A Star Is Born,False,False,False,False,False,False,True,False,False,False,False,False,True,False,False,True,False,False,False,False,False,2018.0,136,7.6,334312,215288866
+A Streetcar Named Desire,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1951.0,122,8.0,99182,8000000
+About Time,False,False,False,False,True,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,2013.0,123,7.8,303032,15322921
+Ace in the Hole,False,False,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,1951.0,111,8.1,31568,3969893
+Adams æbler,False,False,False,False,True,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2005.0,94,7.8,45717,1305
+Adaptation.,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2002.0,115,7.7,178565,22245861
+After Hours,False,False,False,False,True,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1985.0,97,7.7,59635,10600000
+Ah-ga-ssi,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,True,False,False,2016.0,145,8.1,113649,2006788
+Airplane!,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1980.0,88,7.7,214882,83400000
+Aladdin,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1992.0,90,8.0,373845,217350219
+Alien,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,True,False,False,False,False,1979.0,117,8.4,787806,78900000
+Aliens,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,1986.0,137,8.3,652719,85160248
+All About Eve,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1950.0,138,8.2,120539,10177
+All Quiet on the Western Front,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,True,False,1930.0,152,8.0,57318,3270000
+All That Jazz,False,False,False,False,False,False,True,False,False,False,False,False,True,True,False,False,False,False,False,False,False,1979.0,123,7.9,28223,37823676
+All the President's Men,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,1976.0,138,7.9,103031,70600000
+Almost Famous,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2000.0,122,7.9,252586,32534850
+Amadeus,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,1984.0,160,8.3,369007,51973029
+American Beauty,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1999.0,122,8.3,1069738,130096601
+American Gangster,False,False,False,True,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2007.0,157,7.8,392449,130164645
+American History X,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1998.0,119,8.5,1034705,6719864
+American Psycho,False,False,False,False,True,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2000.0,101,7.6,490062,15070285
+Amores perros,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False,2000.0,154,8.1,223741,5383834
+Amour,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False,2012.0,127,7.9,93090,6739492
+Amélie,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,2001.0,122,8.3,703810,33225499
+Annie Hall,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,1977.0,93,8.0,251823,39200000
+Apocalypse Now,False,False,False,False,False,False,True,False,False,False,False,False,False,False,True,False,False,False,False,True,False,1979.0,147,8.4,606398,83471511
+Apocalypto,True,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2006.0,139,7.8,291018,50866635
+Apollo 13,False,True,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,,140,7.6,269197,173837933
+Argo,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False,2012.0,120,7.7,572581,136025503
+Arrival,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True,False,False,False,False,2016.0,116,7.9,594181,100546139
+As Good as It Gets,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False,1997.0,139,7.7,275755,148478011
+Atonement,False,False,False,False,False,False,True,False,False,False,False,False,False,False,True,True,False,False,False,False,False,2007.0,123,7.8,251370,50927067
+Au revoir les enfants,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,True,False,1987.0,104,8.0,31163,4542825
+Avatar,True,True,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,2009.0,162,7.8,1118998,760507625
+Avengers: Endgame,True,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2019.0,181,8.4,809955,858373000
+Avengers: Infinity War,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,2018.0,149,8.4,834477,678815482
+Awakenings,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1990.0,121,7.8,125276,52096475
+Baby Driver,True,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2017.0,113,7.6,439406,107825862
+Bacheha-Ye aseman,False,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,True,False,False,False,1997.0,89,8.3,65341,933933
+Back to the Future,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,1985.0,116,8.5,1058081,210609762
+Back to the Future Part II,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,1989.0,108,7.8,481918,118500000
+Barton Fink,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False,1991.0,116,7.7,113240,6153939
+Batman Begins,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2005.0,140,8.2,1308302,206852432
+Beauty and the Beast,False,False,True,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,1991.0,84,8.0,417178,218967620
+Before Midnight,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False,2013.0,109,7.9,141457,8114627
+Before Sunrise,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False,1995.0,101,8.1,272291,5535405
+Before Sunset,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False,2004.0,80,8.1,236311,5820649
+Being John Malkovich,False,False,False,False,True,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,1999.0,113,7.7,312542,22858926
+Being There,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1979.0,130,8.0,65625,30177511
+Ben-Hur,False,True,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,1959.0,212,8.1,219466,74700000
+Big Fish,False,True,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,2003.0,125,8.0,415218,66257002
+Big Hero 6,True,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2014.0,102,7.8,410983,222527828
+Billy Elliot,False,False,False,False,False,False,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False,2000.0,110,7.7,126770,21995263
+Bin-jip,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False,2004.0,88,8.0,50610,238507
+Birdman or (The Unexpected Virtue of Ignorance),False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2014.0,119,7.7,580291,42340598
+Black Hawk Down,False,False,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,True,False,2001.0,144,7.7,364254,108638745
+Black Swan,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False,2010.0,108,8.0,699673,106954678
+Blade Runner,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,True,False,False,1982.0,117,8.1,693827,32868943
+Blade Runner 2049,True,False,False,False,False,False,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False,2017.0,164,8.0,461823,92054159
+Blazing Saddles,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,1974.0,93,7.7,125993,119500000
+Blood Diamond,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False,2006.0,143,8.0,499439,57366262
+Blood Simple,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False,1984.0,99,7.6,87745,2150000
+Blow,False,False,False,True,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2001.0,124,7.6,240714,52990775
+Blue Velvet,False,False,False,False,False,False,True,False,False,False,False,False,False,False,True,False,False,False,True,False,False,1986.0,120,7.7,181285,8551228
+Bohemian Rhapsody,False,False,False,True,False,False,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False,2018.0,134,8.0,450349,216428042
+Boksuneun naui geot,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False,2002.0,129,7.6,62659,45289
+Bom Yeoareum Gaeul Gyeoul Geurigo Bom,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False,2003.0,103,8.0,77520,2380788
+Boogie Nights,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1997.0,155,7.9,239473,26400640
+Bound by Honor,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1993.0,180,8.0,28825,4496583
+Boyhood,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2014.0,165,7.9,335533,25379975
+Boyz n the Hood,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1991.0,112,7.8,126082,57504069
+Braveheart,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,1995.0,178,8.3,959181,75600000
+Brazil,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True,False,False,False,False,1985.0,132,7.9,187567,9929135
+Breaking the Waves,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1996.0,159,7.8,62428,4040691
+Bridge of Spies,False,False,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,True,False,False,2015.0,142,7.6,287659,72313754
+Brokeback Mountain,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False,2005.0,134,7.7,323103,83043761
+Butch Cassidy and the Sundance Kid,False,False,False,True,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1969.0,110,8.0,201888,102308889
+Cabaret,False,False,False,False,False,False,True,False,False,False,False,False,True,True,False,False,False,False,False,False,False,1972.0,124,7.8,48334,42765000
+Call Me by Your Name,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False,2017.0,132,7.9,212651,18095701
+Capharnaüm,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2018.0,126,8.4,62635,1661096
+Captain America: Civil War,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,2016.0,147,7.8,663649,408084349
+Captain America: The Winter Soldier,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,2014.0,136,7.7,736182,259766572
+Captain Fantastic,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2016.0,118,7.9,189400,5875006
+Captain Phillips,False,True,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2013.0,134,7.8,421244,107100855
+Carlito's Way,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False,1993.0,144,7.9,201000,36948322
+Casablanca,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,True,False,1942.0,102,8.5,522093,1024560
+Casino,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1995.0,178,8.2,466276,42438300
+Casino Royale,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,2006.0,144,8.0,582239,167445960
+Cast Away,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False,2000.0,143,7.8,524235,233632142
+Cat on a Hot Tin Roof,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1958.0,108,8.0,45062,17570324
+Catch Me If You Can,False,False,False,True,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2002.0,141,8.1,832846,164615351
+Central do Brasil,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1998.0,110,8.0,36419,5595428
+Chak De! India,False,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,True,False,False,False,2007.0,153,8.2,74129,1113541
+Changeling,False,False,False,True,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2008.0,141,7.7,239203,35739802
+Charade,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True,True,False,False,False,False,False,1963.0,113,7.9,68689,13474588
+Children of Men,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True,False,False,False,False,2006.0,109,7.9,465113,35552383
+Chinatown,False,False,False,False,False,False,True,False,False,False,False,False,False,False,True,False,False,False,True,False,False,1974.0,130,8.1,294230,29000000
+Chung Hing sam lam,False,False,False,False,True,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1994.0,102,8.1,63122,600200
+Cidade de Deus,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2002.0,130,8.6,699256,7563397
+Cinderella Man,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,2005.0,144,8.0,176151,61649911
+Citizen Kane,False,False,False,False,False,False,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False,1941.0,119,8.3,403351,1585634
+City Lights,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False,1931.0,87,8.5,167839,19181
+Clerks,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1994.0,92,7.7,211450,3151130
+Close Encounters of the Third Kind,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True,False,False,False,False,1977.0,138,7.6,184966,132088635
+Coco,False,True,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,2017.0,105,8.4,384171,209726015
+Control,False,False,False,True,False,False,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False,2007.0,122,7.7,61609,871577
+Cool Hand Luke,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1967.0,127,8.1,161984,16217773
+Coraline,False,False,True,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,2009.0,100,7.7,197761,75286229
+Cowboy Bebop: Tengoku no tobira,True,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2001.0,115,7.9,42897,1000045
+Crash,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False,2004.0,112,7.7,419483,54580300
+Creed,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True,False,False,False,2015.0,133,7.6,247666,109767581
+Crimes and Misdemeanors,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1989.0,104,7.9,54670,18254702
+"Crna macka, beli macor",False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,1998.0,127,8.1,50862,348660
+Dallas Buyers Club,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2013.0,117,8.0,441614,27298285
+Dancer in the Dark,False,False,False,False,False,True,True,False,False,False,False,False,False,True,False,False,False,False,False,False,False,2000.0,140,8.0,102285,4184036
+Dances with Wolves,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,True,1990.0,181,8.0,240266,184208848
+Darbareye Elly,False,False,False,False,False,False,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False,2009.0,119,8.0,45803,106662
+Dark City,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,True,False,True,False,False,1998.0,100,7.6,187927,14378331
+Das Boot,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False,1981.0,149,8.3,231855,11487676
+Das Experiment,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False,2001.0,120,7.7,90842,141072
+Das weiße Band - Eine deutsche Kindergeschichte,False,False,False,False,False,False,True,False,False,False,True,False,False,False,True,False,False,False,False,False,False,2009.0,144,7.8,68715,2222647
+Dawn of the Dead,True,True,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,1978.0,127,7.9,111512,5100000
+Dawn of the Planet of the Apes,True,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2014.0,130,7.6,411599,208545589
+Dazed and Confused,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1993.0,102,7.6,165465,7993039
+Dead Man,False,True,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,1995.0,121,7.6,90442,1037847
+Dead Poets Society,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1989.0,128,8.1,425457,95860116
+Deadpool,True,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2016.0,108,8.0,902669,363070709
+Deadpool 2,True,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2018.0,119,7.7,478586,324591735
+Delicatessen,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1991.0,99,7.6,80487,1794187
+Deliverance,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False,1972.0,109,7.7,98740,7056013
+Der Himmel über Berlin,False,False,False,False,False,False,True,False,True,False,False,False,False,False,False,True,False,False,False,False,False,1987.0,128,8.0,64722,3333969
+Der Name der Rose,False,False,False,False,False,True,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False,1986.0,130,7.7,102031,7153487
+Der Untergang,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,2004.0,156,8.2,331308,5509040
+Despicable Me,False,False,True,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2010.0,95,7.6,500851,251513985
+Dial M for Murder,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,1954.0,105,8.2,158335,12562
+Diarios de motocicleta,False,True,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2004.0,126,7.8,96703,16756372
+Die Hard,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,1988.0,132,8.2,793164,83008852
+Die Hard: With a Vengeance,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,1995.0,128,7.6,364420,100012499
+Dirty Harry,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,1971.0,102,7.7,143292,35900000
+District 9,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,True,False,False,2009.0,112,7.9,638202,115646235
+Django Unchained,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,True,2012.0,165,8.4,1357682,162805434
+Do the Right Thing,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1989.0,120,8.0,89429,27545445
+Doctor Zhivago,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,True,False,1965.0,197,8.0,69903,111722000
+Dog Day Afternoon,False,False,False,True,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1975.0,125,8.0,235652,50000000
+Dogville,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2003.0,178,8.0,137963,1530386
+Donnie Brasco,False,False,False,True,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1997.0,127,7.7,279318,41909762
+Donnie Darko,False,False,False,False,False,False,True,False,False,False,False,False,False,False,True,False,True,False,False,False,False,2001.0,113,8.0,740086,1480006
+Double Indemnity,False,False,False,False,False,True,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,1944.0,107,8.3,143525,5720000
+Down by Law,False,False,False,False,True,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1986.0,107,7.8,47834,1436000
+Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1964.0,95,8.4,450474,275902
+Drive,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2011.0,100,7.8,571571,35061555
+Dunkirk,True,False,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,2017.0,106,7.8,555092,188373161
+E.T. the Extra-Terrestrial,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,1982.0,115,7.8,372490,435110554
+Eastern Promises,True,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2007.0,100,7.6,227760,17114882
+Ed Wood,False,False,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1994.0,127,7.8,164937,5887457
+Edge of Tomorrow,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,2014.0,113,7.9,600004,100206256
+Edward Scissorhands,False,False,False,False,False,False,True,False,True,False,False,False,False,False,False,True,False,False,False,False,False,1990.0,105,7.9,447368,56362352
+Efter brylluppet,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2006.0,120,7.7,32001,412544
+El secreto de sus ojos,False,False,False,False,False,False,True,False,False,False,False,False,False,False,True,True,False,False,False,False,False,2009.0,129,8.2,193217,6391436
+Empire of the Sun,True,False,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,1987.0,153,7.7,115677,22238696
+En man som heter Ove,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False,2015.0,116,7.7,47444,3358518
+End of Watch,True,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2012.0,109,7.6,228132,41003371
+Enemy at the Gates,False,False,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,True,False,2001.0,131,7.6,243729,51401758
+Enter the Dragon,True,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1973.0,102,7.7,96561,25000000
+Escape from Alcatraz,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1979.0,112,7.6,121731,43000000
+Eternal Sunshine of the Spotless Mind,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,True,False,False,False,False,2004.0,108,8.3,911664,34400301
+Evil Dead II,True,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,1987.0,84,7.8,148359,5923044
+Ex Machina,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True,False,True,False,False,2014.0,108,7.7,474141,25442958
+Fa yeung nin wah,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False,2000.0,98,8.1,124383,2734044
+Falling Down,True,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1993.0,113,7.6,171640,40903593
+Fanny och Alexander,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1982.0,188,8.1,57784,4971340
+Fantasia,False,False,True,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,1940.0,125,7.7,88662,76408097
+Fantastic Mr. Fox,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2009.0,87,7.9,199696,21002919
+Fargo,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False,1996.0,98,8.1,617444,24611975
+Fear and Loathing in Las Vegas,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1998.0,118,7.6,259753,10680275
+Ferris Bueller's Day Off,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1986.0,103,7.8,321382,70136369
+Festen,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1998.0,105,8.0,78341,1647780
+Fiddler on the Roof,False,False,False,False,False,False,True,True,False,False,False,False,False,True,False,False,False,False,False,False,False,1971.0,181,8.0,39491,80500000
+Fight Club,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1999.0,139,8.8,1854740,37030102
+Finding Nemo,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2003.0,100,8.1,949565,380843261
+Finding Neverland,False,False,False,True,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,2004.0,106,7.6,198677,51680613
+First Blood,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1982.0,93,7.7,226541,47212904
+Flipped,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False,2010.0,90,7.7,81446,1752214
+Ford v Ferrari,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2019.0,152,8.1,291289,117624028
+Forrest Gump,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False,1994.0,142,8.8,1809221,330252182
+Forushande,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2016.0,124,7.8,51240,2402067
+Fried Green Tomatoes,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1991.0,130,7.7,66941,82418501
+From Here to Eternity,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,True,False,1953.0,118,7.6,43374,30500000
+Frost/Nixon,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,2008.0,122,7.7,103330,18593156
+Full Metal Jacket,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,True,False,1987.0,116,8.3,675146,46357676
+Gake no ue no Ponyo,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2008.0,101,7.7,125317,15090400
+Gandhi,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,1982.0,191,8.0,217664,52767889
+Gattaca,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True,False,True,False,False,1997.0,106,7.8,280845,12339633
+Get Out,False,False,False,False,False,False,False,False,False,False,False,True,False,False,True,False,False,False,True,False,False,2017.0,104,7.7,492851,176040665
+Ghostbusters,True,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,1984.0,105,7.8,355413,238632124
+Gifted,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2017.0,101,7.6,99643,24801212
+Gisaengchung,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False,2019.0,132,8.6,552778,53367844
+Giù la testa,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,True,True,1971.0,157,7.6,30144,696690
+Gladiator,True,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2000.0,155,8.5,1341460,187705427
+Glengarry Glen Ross,False,False,False,False,False,True,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False,1992.0,100,7.7,95826,10725228
+Glory,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,1989.0,122,7.8,122779,26830000
+Goldfinger,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,1964.0,110,7.7,174119,51081062
+Gone Baby Gone,False,False,False,False,False,True,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False,2007.0,114,7.6,250590,20300218
+Gone Girl,False,False,False,False,False,False,True,False,False,False,False,False,False,False,True,False,False,False,True,False,False,2014.0,149,8.1,859695,167767189
+Gone with the Wind,False,False,False,False,False,False,True,False,False,False,True,False,False,False,False,True,False,False,False,False,False,1939.0,238,8.1,290074,198676459
+Good Bye Lenin!,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False,2003.0,121,7.7,137981,4064200
+Good Will Hunting,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False,1997.0,126,8.3,861606,138433435
+Goodfellas,False,False,False,True,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1990.0,146,8.7,1020727,46836394
+Gran Torino,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2008.0,116,8.1,720450,148095302
+Gravity,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True,False,True,False,False,2013.0,91,7.7,769145,274092705
+Green Book,False,False,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2018.0,130,8.2,377884,85080171
+Groundhog Day,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,True,False,False,False,False,False,1993.0,101,8.0,577991,70906973
+Guardians of the Galaxy,True,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2014.0,121,8.0,1043455,333176600
+Guardians of the Galaxy Vol. 2,True,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2017.0,136,7.6,569974,389813101
+Gully Boy,False,False,False,False,False,False,True,False,False,False,False,False,True,False,False,True,False,False,False,False,False,2019.0,154,8.0,31886,5566534
+Hable con ella,False,False,False,False,False,False,True,False,False,False,False,False,False,False,True,True,False,False,False,False,False,2002.0,112,7.9,104691,9284265
+Hacksaw Ridge,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,2016.0,139,8.1,435928,67209615
+Halloween,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,True,False,False,1978.0,91,7.7,233106,47000000
+Hannah and Her Sisters,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1986.0,107,7.9,67176,40084041
+Harry Potter and the Deathly Hallows: Part 1,False,True,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,2010.0,146,7.7,479120,295983305
+Harry Potter and the Deathly Hallows: Part 2,False,True,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,2011.0,130,8.1,764493,381011219
+Harry Potter and the Goblet of Fire,False,True,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,2005.0,157,7.7,548619,290013036
+Harry Potter and the Half-Blood Prince,True,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,2009.0,153,7.6,474827,301959197
+Harry Potter and the Prisoner of Azkaban,False,True,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,2004.0,142,7.9,552493,249358727
+Harry Potter and the Sorcerer's Stone,False,True,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,2001.0,152,7.6,658185,317575550
+Hauru no ugoku shiro,False,True,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,2004.0,119,8.2,333915,4711096
+Heat,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False,1995.0,170,8.2,577113,67436818
+Hedwig and the Angry Inch,False,False,False,False,True,False,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False,2001.0,95,7.7,31957,3029081
+Hell or High Water,True,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2016.0,102,7.6,204175,26862450
+Her,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,True,False,False,False,False,2013.0,126,8.0,540772,25568251
+Hidden Figures,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,2016.0,127,7.8,200876,169607287
+High Noon,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True,False,True,1952.0,85,7.9,97222,9450000
+Home Alone,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,1990.0,103,7.6,488817,285761243
+Hot Fuzz,True,False,False,False,True,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,2007.0,121,7.8,463466,23637265
+Hotel Rwanda,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,2004.0,121,8.1,334320,23530892
+How to Train Your Dragon,True,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2010.0,98,8.1,666773,217581231
+How to Train Your Dragon 2,True,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2014.0,102,7.8,305611,177002924
+Hunt for the Wilderpeople,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2016.0,101,7.9,111483,5202582
+Huo Yuan Jia,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2006.0,104,7.6,72863,24633730
+Hævnen,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False,2010.0,118,7.6,38491,1008098
+I Am Sam,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2001.0,132,7.7,142863,40311852
+"I, Daniel Blake",False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2016.0,100,7.9,53818,258168
+"Il buono, il brutto, il cattivo",False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,1966.0,161,8.8,688390,6100000
+Il conformista,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1970.0,113,8.0,27067,541940
+Il postino,False,False,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1994.0,108,7.7,33600,21848932
+In America,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2002.0,105,7.7,40403,15539266
+In Bruges,False,False,False,False,True,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2008.0,107,7.9,390334,7757130
+In the Heat of the Night,False,False,False,False,False,True,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False,1967.0,110,7.9,67804,24379978
+In the Name of the Father,False,False,False,True,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1993.0,133,8.1,156842,25010410
+Incendies,False,False,False,False,False,False,True,False,False,False,False,False,False,False,True,False,False,False,False,True,False,2010.0,131,8.3,150023,6857096
+Inception,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,2010.0,148,8.8,2067042,292576195
+Incredibles 2,True,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2018.0,118,7.6,250057,608581744
+Indiana Jones and the Last Crusade,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1989.0,127,8.2,692366,197171806
+Inglourious Basterds,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,True,False,2009.0,153,8.3,1267869,120540719
+Inside Man,False,False,False,False,False,True,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False,2006.0,129,7.6,339757,88513495
+Inside Out,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2015.0,95,8.1,616228,356461711
+Interstellar,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True,False,False,False,False,2014.0,169,8.6,1512360,188020017
+Into the Wild,False,True,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2007.0,148,8.1,572921,18354356
+Iron Man,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,2008.0,126,7.9,939644,318412101
+Isle of Dogs,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2018.0,101,7.9,139114,32015231
+It Happened One Night,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,1934.0,105,8.1,94016,4360000
+JFK,False,False,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,True,False,False,1991.0,189,8.0,142110,70405498
+Jagten,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2012.0,115,8.3,281623,687185
+Jaws,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,1975.0,124,8.0,543388,260000000
+Jeux d'enfants,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False,2003.0,93,7.6,67360,548707
+Jodaeiye Nader az Simin,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2011.0,123,8.3,220002,7098492
+Jojo Rabbit,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,True,False,2019.0,108,7.9,297918,349555
+Joker,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False,2019.0,122,8.5,939252,335451311
+Joyeux Noël,False,False,False,False,False,False,True,False,False,False,True,False,True,False,False,False,False,False,False,False,False,2005.0,116,7.7,28003,1054361
+Jurassic Park,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,1993.0,127,8.1,867615,402453882
+Kaguyahime no monogatari,False,True,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2013.0,137,8.0,38746,1506975
+Kai po che!,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True,False,False,False,2013.0,130,7.7,32628,1122527
+Kal Ho Naa Ho,False,False,False,False,True,False,True,False,False,False,False,False,False,True,False,False,False,False,False,False,False,2003.0,186,8.0,63460,1787378
+Kari-gurashi no Arietti,False,True,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,2010.0,94,7.6,80939,19202743
+Kaze no tani no Naushika,False,True,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,1984.0,117,8.1,150924,495770
+Kaze tachinu,False,False,True,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2013.0,126,7.8,73690,5209580
+Kelly's Heroes,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,1970.0,144,7.6,45338,1378435
+Kick-Ass,True,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2010.0,117,7.6,524081,48071303
+Kill Bill: Vol. 1,True,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2003.0,111,8.1,1000639,70099045
+Kill Bill: Vol. 2,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,2004.0,137,8.0,683900,66208183
+Kimi no na wa.,False,False,True,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,2016.0,106,8.4,194838,5017246
+King Kong,False,True,False,False,False,False,False,False,False,False,False,True,False,False,False,False,True,False,False,False,False,1933.0,100,7.9,78991,10000000
+Kingsman: The Secret Service,True,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2014.0,129,7.7,590440,128261724
+Knives Out,False,False,False,False,True,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2019.0,130,7.9,454203,165359751
+Kramer vs. Kramer,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1979.0,105,7.8,133351,106260000
+Kubo and the Two Strings,True,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2016.0,101,7.8,118035,48023088
+Kung fu,True,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,2004.0,99,7.7,127250,17108591
+Kôkaku Kidôtai,True,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1995.0,83,8.0,129231,515905
+L.A. Confidential,False,False,False,False,False,True,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False,1997.0,138,8.2,531967,64616940
+La La Land,False,False,False,False,True,False,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False,2016.0,128,8.0,505918,151101803
+La Vie En Rose,False,False,False,True,False,False,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False,2007.0,140,7.6,82781,10301706
+La dolce vita,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1960.0,174,8.0,66621,19516000
+La double vie de Véronique,False,False,False,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,1991.0,98,7.8,42376,1999955
+La leggenda del pianista sull'oceano,False,False,False,False,False,False,True,False,False,False,False,False,True,False,False,True,False,False,False,False,False,1998.0,169,8.1,59020,259127
+La migliore offerta,False,False,False,False,False,True,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False,2013.0,131,7.8,108399,85433
+La montaña sagrada,False,True,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,1973.0,114,7.9,37183,61001
+La piel que habito,False,False,False,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False,True,False,False,2011.0,120,7.6,138959,3185812
+La planète sauvage,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,1973.0,72,7.8,25229,193817
+La vie d'Adèle,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False,2013.0,180,7.7,138741,2199675
+La vita è bella,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False,1997.0,116,8.6,623629,57598247
+Lagaan: Once Upon a Time in India,False,True,False,False,False,False,True,False,False,False,False,False,False,True,False,False,False,False,False,False,False,2001.0,224,8.1,105036,70147
+Lawrence of Arabia,False,True,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1962.0,228,8.3,268085,44824144
+Le Petit Prince,False,True,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2015.0,108,7.7,56720,1339152
+Le charme discret de la bourgeoisie,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1972.0,102,7.9,38737,198809
+Le dîner de cons,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1998.0,80,7.7,37424,4065116
+Le locataire,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False,1976.0,126,7.7,39889,1924733
+Le passé,False,False,False,False,False,False,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False,2013.0,130,7.8,45002,1330596
+Le scaphandre et le papillon,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2007.0,112,8.0,103284,5990075
+Les choristes,False,False,False,False,False,False,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False,2004.0,97,7.9,57430,3635164
+Les triplettes de Belleville,False,False,True,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2003.0,80,7.8,50622,7002255
+Lethal Weapon,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,1987.0,109,7.6,236894,65207127
+Letters from Iwo Jima,True,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2006.0,141,7.9,154011,13756082
+Leviafan,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2014.0,140,7.6,49397,1092800
+Life of Brian,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1979.0,94,8.1,367250,20045115
+Life of Pi,False,True,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,2012.0,127,7.9,580708,124987023
+Lilja 4-ever,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2002.0,109,7.8,42673,181655
+Lion,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2016.0,118,8.0,213970,51739495
+Little Miss Sunshine,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2006.0,101,7.8,439856,59891098
+Little Women,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False,2019.0,135,7.8,143250,108101214
+"Lock, Stock and Two Smoking Barrels",True,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1998.0,107,8.2,535216,3897569
+Logan,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True,False,False,False,False,2017.0,137,8.1,647884,226277068
+Lola rennt,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False,1998.0,81,7.6,188317,7267585
+Lord of War,True,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2005.0,122,7.6,294140,24149632
+Lost Highway,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,True,False,False,1997.0,134,7.6,131101,3796699
+Lost in Translation,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2003.0,102,7.7,415074,44585453
+Loving Vincent,False,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2017.0,94,7.8,50778,6735118
+Lucky Number Slevin,True,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2006.0,110,7.7,299524,22494487
+Låt den rätte komma in,False,False,False,False,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,2008.0,114,7.9,205609,2122065
+Léon,True,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1994.0,110,8.5,1035236,19501238
+Mad Max 2,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,1981.0,96,7.6,166588,12465371
+Mad Max: Fury Road,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,2015.0,120,8.1,882316,154058340
+Madeo,False,False,False,False,False,True,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False,2009.0,129,7.8,52758,547292
+Magnolia,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1999.0,188,8.0,289742,22455976
+Malcolm X,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,1992.0,202,7.7,85819,48169908
+Man on Fire,True,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2004.0,146,7.7,329592,77911774
+Manbiki kazoku,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2018.0,121,7.9,62754,3313513
+Manchester by the Sea,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2016.0,137,7.8,246963,47695120
+Manhattan,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False,1979.0,96,7.9,131436,45700000
+Mar adentro,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2014.0,126,8.0,77554,2086345
+Marriage Story,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False,2019.0,137,7.9,246644,2000000
+Mary Poppins,False,False,False,False,True,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,1964.0,139,7.8,158029,102272727
+Match Point,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,True,False,False,2005.0,124,7.6,206294,23089926
+Me and Earl and the Dying Girl,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2015.0,105,7.7,123210,6743776
+Memento,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,True,False,False,2000.0,113,8.4,1125712,25544867
+Midnight Cowboy,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1969.0,113,7.8,101124,44785053
+Midnight Express,False,False,False,True,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1978.0,121,7.6,73662,35000000
+Midnight in Paris,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,True,False,False,False,False,False,2011.0,96,7.7,388089,56816662
+Miller's Crossing,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False,1990.0,115,7.7,125822,5080409
+Million Dollar Baby,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True,False,False,False,2004.0,132,8.1,635975,100492203
+Minority Report,True,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,2002.0,145,7.6,508417,132072926
+Misery,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False,1990.0,107,7.8,184740,61276872
+Mission: Impossible - Fallout,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,2018.0,147,7.7,291257,220159104
+Mississippi Burning,False,False,False,False,False,True,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,1988.0,128,7.8,88214,34603943
+Moana,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2016.0,107,7.6,272784,248757044
+Modern Times,False,False,False,False,True,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,1936.0,87,8.5,217881,163245
+Mommy,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2014.0,139,8.1,50700,3492754
+Moneyball,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True,False,False,False,2011.0,133,7.6,369529,75605492
+Mononoke-hime,True,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1997.0,134,8.4,343171,2375308
+"Monsters, Inc.",False,True,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2001.0,92,8.1,815505,289916256
+Monty Python and the Holy Grail,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,1975.0,91,8.2,500875,1229197
+Moon,False,False,False,False,False,False,True,False,False,False,False,False,False,False,True,False,True,False,False,False,False,2009.0,97,7.9,335152,5009677
+Moonrise Kingdom,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False,2012.0,94,7.8,318789,45512466
+Mou gaan dou,True,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2002.0,101,8.0,117857,169659
+Mr. Nobody,False,False,False,False,False,False,True,False,True,False,False,False,False,False,False,True,False,False,False,False,False,2009.0,141,7.8,216421,3600
+Mr. Smith Goes to Washington,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1939.0,129,8.1,107017,9600000
+Mulan,False,True,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,1998.0,88,7.6,256906,120620254
+Mulholland Dr.,False,False,False,False,False,False,True,False,False,False,False,False,False,False,True,False,False,False,True,False,False,2001.0,147,7.9,322031,7220243
+Mustang,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2015.0,97,7.6,35785,845464
+My Cousin Vinny,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1992.0,120,7.6,107325,52929168
+My Fair Lady,False,False,False,False,False,False,True,True,False,False,False,False,False,True,False,False,False,False,False,False,False,1964.0,170,7.8,86525,72000000
+My Left Foot: The Story of Christy Brown,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1989.0,103,7.9,68076,14743391
+My Name Is Khan,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2010.0,165,8.0,98575,4018695
+Mysterious Skin,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2004.0,105,7.6,65939,697181
+Mystic River,False,False,False,False,False,True,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False,2003.0,138,7.9,419420,90135191
+Män som hatar kvinnor,False,False,False,False,False,True,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False,2009.0,152,7.8,208994,10095170
+Nebraska,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2013.0,115,7.7,112298,17654912
+Nelyubov,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2017.0,127,7.6,29765,566356
+Night on Earth,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1991.0,129,7.8,55362,2015810
+Nightcrawler,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False,2014.0,117,7.9,466134,32381218
+No Country for Old Men,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False,2007.0,122,8.1,856916,74283625
+No Man's Land,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,True,False,2001.0,98,7.9,44618,1059830
+North by Northwest,False,True,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,True,False,False,1959.0,136,8.3,299198,13275000
+Notorious,False,False,False,False,False,False,True,False,False,True,False,False,False,False,False,True,False,False,False,False,False,1946.0,102,7.9,92306,10464000
+Nueve reinas,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False,2000.0,114,7.9,49721,1221261
+Nuovo Cinema Paradiso,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False,1988.0,155,8.5,230763,11990401
+"O Brother, Where Art Thou?",False,True,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2000.0,107,7.7,286742,45512588
+Ocean's Eleven,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,2001.0,116,7.7,516372,183417150
+October Sky,False,False,False,True,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,1999.0,108,7.8,82855,32481825
+Office Space,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1999.0,89,7.7,241575,10824921
+Okuribito,False,False,False,False,False,False,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False,2008.0,130,8.1,48582,1498210
+Oldeuboi,True,False,False,False,False,False,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False,2003.0,101,8.4,515451,707481
+Omohide poro poro,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False,1991.0,118,7.6,27071,453243
+Omoide no Mânî,False,False,True,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,2014.0,103,7.7,32798,765127
+On Golden Pond,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1981.0,109,7.6,27650,119285432
+On the Waterfront,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False,1954.0,108,8.1,142107,9600000
+Once,False,False,False,False,False,False,True,False,False,False,False,False,True,False,False,True,False,False,False,False,False,2007.0,86,7.8,110656,9439923
+Once Upon a Time in the West,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,1968.0,165,8.5,302844,5321508
+Once Upon a Time... in Hollywood,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2019.0,161,7.6,551309,142502728
+Once Were Warriors,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1994.0,102,7.9,31590,2201126
+One Flew Over the Cuckoo's Nest,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1975.0,133,8.7,918088,112000000
+Only the Brave,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2017.0,134,7.6,58371,18340051
+Ordinary People,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1980.0,124,7.7,47099,54800000
+Paddington 2,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,2017.0,103,7.8,61594,40442052
+Pan's Labyrinth,False,False,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,True,False,2006.0,118,8.2,618623,37634615
+Paper Moon,False,False,False,False,True,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1973.0,102,8.1,42285,30933743
+Papillon,False,False,False,True,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1973.0,151,8.0,121627,53267000
+Papurika,False,False,True,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,2006.0,90,7.7,71379,881302
+"Paris, Texas",False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1984.0,145,8.1,91188,2181987
+Patton,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,True,False,1970.0,172,7.9,93741,61700000
+Per qualche dollaro in più,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,1965.0,132,8.3,232772,15000000
+Per un pugno di dollari,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,True,1964.0,99,8.0,198219,14500000
+Persepolis,False,False,True,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2007.0,96,8.0,88656,4445756
+Philadelphia,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1993.0,125,7.7,224169,77324422
+Philomena,False,False,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2013.0,98,7.6,94212,37707719
+Pink Floyd: The Wall,False,False,False,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,1982.0,95,8.1,76081,22244207
+Pirates of the Caribbean: The Curse of the Black Pearl,True,True,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,2003.0,143,8.0,1015122,305413918
+"Planes, Trains & Automobiles",False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1987.0,93,7.6,124773,49530280
+Planet of the Apes,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,1968.0,112,8.0,165167,33395426
+Platoon,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,True,False,1986.0,120,8.1,381222,138530565
+Portrait de la jeune fille en feu,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False,2019.0,122,8.1,63134,3759854
+Predator,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,1987.0,107,7.8,371387,59735548
+Pride & Prejudice,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False,2005.0,129,7.8,258924,38405088
+Primal Fear,False,False,False,False,False,True,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False,1996.0,129,7.7,189716,56116183
+Prisoners,False,False,False,False,False,True,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False,2013.0,153,8.1,601149,61002302
+Psycho,False,False,False,False,False,False,False,False,False,False,False,True,False,False,True,False,False,False,True,False,False,1960.0,109,8.5,604211,32000000
+Pulp Fiction,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1994.0,154,8.9,1826188,107928762
+Raging Bull,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True,False,False,False,1980.0,129,8.2,321860,23383987
+Raiders of the Lost Ark,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1981.0,115,8.4,884112,248159971
+Rain Man,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1988.0,133,8.0,473064,178800000
+Ran,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,True,False,1985.0,162,8.2,112505,4135750
+Ratatouille,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2007.0,111,8.0,641645,206445654
+Ray,False,False,False,True,False,False,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False,2004.0,152,7.7,138356,75331600
+Rear Window,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,True,False,False,1954.0,112,8.4,444074,36764313
+Rebecca,False,False,False,False,False,False,True,False,False,False,False,False,False,False,True,True,False,False,False,False,False,1940.0,130,8.1,123942,4360000
+Relatos salvajes,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False,2014.0,122,8.1,177059,3107072
+Remember the Titans,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True,False,False,False,2000.0,113,7.8,198089,115654751
+Requiem for a Dream,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2000.0,102,8.3,766870,3635482
+Reservoir Dogs,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False,1992.0,99,8.3,918562,2832029
+Rio Bravo,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,True,1959.0,141,8.0,56305,12535000
+Road to Perdition,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False,2002.0,117,7.7,246840,104454762
+Rocky,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True,False,False,False,1976.0,120,8.1,518546,117235247
+Rogue One,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,2016.0,133,7.8,556608,532177324
+Room,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False,2015.0,118,8.1,371538,14677674
+Rush,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2013.0,123,8.1,432811,26947624
+Rushmore,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False,1998.0,93,7.7,169229,17105219
+Salinui chueok,False,False,False,False,False,True,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False,2003.0,131,8.1,139558,14131
+Saving Private Ryan,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,True,False,1998.0,169,8.6,1235804,216540909
+Saw,False,False,False,False,False,False,False,False,False,False,False,True,False,False,True,False,False,False,True,False,False,2004.0,103,7.6,379020,56000369
+Scarface,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1983.0,170,8.3,740911,45598982
+Scent of a Woman,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1992.0,156,8.0,263918,63895607
+Schindler's List,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,1993.0,195,8.9,1213505,96898818
+Se7en,False,False,False,False,False,True,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False,1995.0,127,8.6,1445096,100125643
+Searching,False,False,False,False,False,False,True,False,False,False,False,False,False,False,True,False,False,False,True,False,False,2018.0,102,7.6,140840,26020957
+Secrets & Lies,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1996.0,136,8.0,37564,13417292
+Sen to Chihiro no kamikakushi,False,True,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,2001.0,125,8.6,651376,10055859
+Sense and Sensibility,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False,1995.0,136,7.6,102598,43182776
+Serbuan maut,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,2011.0,101,7.6,190531,4105123
+Serbuan maut 2: Berandal,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,2014.0,150,8.0,114316,2625803
+Serenity,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,2005.0,119,7.8,283310,25514517
+Serpico,False,False,False,True,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1973.0,130,7.7,109941,29800000
+Seven Pounds,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2008.0,123,7.6,286770,69951824
+Shaun of the Dead,False,False,False,False,True,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,2004.0,99,7.9,512249,13542874
+Sherlock Holmes,True,True,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,2009.0,128,7.6,583158,209028679
+Shichinin no samurai,True,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1954.0,207,8.6,315744,269061
+Shine,False,False,False,True,False,False,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False,1996.0,105,7.7,51350,35811509
+Short Cuts,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1993.0,188,7.7,42275,6110979
+Short Term 12,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2013.0,96,8.0,81770,1010414
+Shrek,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2001.0,90,7.8,613941,267665011
+Shutter Island,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,True,False,False,2010.0,138,8.2,1129894,128012934
+Sicario,True,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2015.0,121,7.6,371291,46889293
+Silver Linings Playbook,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False,2012.0,122,7.7,661871,132092958
+Sin City,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,2005.0,124,8.0,738512,74103820
+Sing Street,False,False,False,False,True,False,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False,2016.0,106,7.9,85109,3237118
+Singin' in the Rain,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,True,False,False,False,False,False,1952.0,103,8.3,218957,8819028
+Skyfall,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,2012.0,143,7.7,630614,304360277
+Sleepers,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False,1996.0,147,7.6,186734,49100000
+Sling Blade,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1996.0,135,8.0,86838,24475416
+Slumdog Millionaire,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False,2008.0,120,8.0,798882,141319928
+Snatch,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2000.0,104,8.3,782001,30328156
+Some Like It Hot,False,False,False,False,True,False,False,False,False,False,False,False,True,False,False,True,False,False,False,False,False,1959.0,121,8.2,243943,25000000
+Song of the Sea,False,True,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2014.0,93,8.1,51679,857524
+"South Park: Bigger, Longer & Uncut",False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,1999.0,81,7.7,192112,52037603
+Spartacus,False,True,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1960.0,197,7.9,124339,30000000
+Spider-Man: Into the Spider-Verse,True,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2018.0,117,8.4,375110,190241310
+Spotlight,False,False,False,True,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2015.0,129,8.1,420316,45055776
+Stand by Me,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1986.0,89,8.1,363401,52287414
+Star Trek,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,2009.0,127,7.9,577336,257730019
+Star Trek II: The Wrath of Khan,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,1982.0,113,7.7,112704,78912963
+Star Trek Into Darkness,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,2013.0,132,7.7,463188,228778661
+Star Wars,True,True,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,1977.0,121,8.6,1231473,322740140
+Star Wars: Episode V - The Empire Strikes Back,True,True,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,1980.0,124,8.7,1159315,290475067
+Star Wars: Episode VI - Return of the Jedi,True,True,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,1983.0,131,8.3,950470,309125409
+Star Wars: Episode VII - The Force Awakens,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,2015.0,138,7.9,860823,936662225
+Stardust,False,True,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,2007.0,127,7.6,255036,38634938
+Straight Outta Compton,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,2015.0,147,7.8,179264,161197785
+Strangers on a Train,False,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,1951.0,101,7.9,123341,7630000
+"Synecdoche, New York",False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2008.0,124,7.6,83158,3081925
+Taegukgi hwinalrimyeo,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,True,False,2004.0,140,8.1,37820,1111061
+Taken,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,2008.0,90,7.8,564791,145000989
+Tangled,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2010.0,100,7.7,405922,200821936
+Taxi Driver,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1976.0,114,8.3,724636,28262574
+Terminator 2: Judgment Day,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,1991.0,137,8.5,995506,204843350
+The Adventures of Robin Hood,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,1938.0,102,7.9,47175,3981000
+The African Queen,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False,1951.0,105,7.7,71481,536118
+The Apartment,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False,1960.0,125,8.3,164363,18600000
+The Artist,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False,2011.0,100,7.9,230624,44671682
+The Avengers,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,2012.0,143,8.0,1260806,623279547
+The Best Years of Our Lives,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,True,False,1946.0,170,8.0,57259,23650000
+The Big Lebowski,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,1998.0,117,8.1,732620,17498804
+The Big Short,False,False,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2015.0,130,7.8,362942,70259870
+The Birds,False,False,False,False,False,False,True,False,False,False,False,True,False,False,True,False,False,False,False,False,False,1963.0,119,7.7,171739,11403529
+The Blind Side,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True,False,False,False,2009.0,129,7.6,293266,255959475
+The Blues Brothers,True,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1980.0,133,7.9,183182,57229890
+The Boondock Saints,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,1999.0,108,7.8,227143,25812
+The Bourne Identity,True,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,True,False,False,2002.0,119,7.9,508771,121661683
+The Bourne Supremacy,True,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,True,False,False,2004.0,108,7.7,434841,176241941
+The Bourne Ultimatum,True,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,True,False,False,2007.0,115,8.0,604694,227471070
+The Boy in the Striped Pyjamas,False,False,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,True,False,2008.0,94,7.8,190748,9030581
+The Breakfast Club,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1985.0,97,7.8,357026,45875171
+The Bridge on the River Kwai,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,True,False,1957.0,161,8.1,203463,44908000
+The Bridges of Madison County,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False,1995.0,135,7.6,73172,71516617
+The Butterfly Effect,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True,False,True,False,False,2004.0,113,7.6,451479,57938693
+The Color Purple,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1985.0,154,7.8,78321,98467863
+The Conversation,False,False,False,False,False,False,True,False,False,False,False,False,False,False,True,False,False,False,True,False,False,1974.0,113,7.8,98611,4420000
+The Count of Monte Cristo,True,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2002.0,131,7.8,129022,54234062
+The Curious Case of Benjamin Button,False,False,False,False,False,False,True,False,True,False,False,False,False,False,False,True,False,False,False,False,False,2008.0,166,7.8,589160,127509326
+The Dark Knight,True,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2008.0,152,9.0,2303232,534858444
+The Dark Knight Rises,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2012.0,164,8.4,1516346,448139099
+The Day of the Jackal,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False,1973.0,143,7.8,37445,16056255
+The Deer Hunter,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,True,False,1978.0,183,8.1,311361,48979328
+The Departed,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False,2006.0,151,8.5,1189773,132384315
+The Exorcist,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,1973.0,122,8.0,362393,232906145
+The Fall,False,True,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,2006.0,117,7.9,107290,2280348
+The Fault in Our Stars,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False,2014.0,126,7.7,344312,124872350
+The Fifth Element,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,1997.0,126,7.7,434125,63540020
+The Fighter,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True,False,False,False,2010.0,116,7.8,340584,93617009
+The Florida Project,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2017.0,111,7.6,95181,5904366
+The French Connection,True,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1971.0,104,7.7,110075,15630710
+The Fugitive,True,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1993.0,130,7.8,267684,183875760
+The Game,True,False,False,False,False,False,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False,1997.0,129,7.8,345096,48323648
+The Girl with the Dragon Tattoo,False,False,False,False,False,True,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False,2011.0,158,7.8,423010,102515793
+The Godfather,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1972.0,175,9.2,1620367,134966411
+The Godfather: Part II,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1974.0,202,9.0,1129952,57300000
+The Godfather: Part III,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1990.0,162,7.6,359809,66666062
+The Goonies,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,1985.0,114,7.8,244430,61503218
+The Graduate,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False,1967.0,106,8.0,253676,104945305
+The Grand Budapest Hotel,False,True,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2014.0,99,8.1,707630,59100318
+The Grapes of Wrath,False,False,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,1940.0,129,8.0,85559,55000
+The Great Escape,False,True,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,1963.0,172,8.2,224730,12100000
+The Green Mile,False,False,False,False,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,1999.0,189,8.6,1147794,136801374
+The Hangover,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2009.0,100,7.7,717559,277322503
+The Hateful Eight,False,False,False,False,False,True,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False,2015.0,168,7.8,517059,54117416
+The Help,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2011.0,146,8.0,428521,169708112
+The Hobbit: An Unexpected Journey,False,True,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,2012.0,169,7.8,757377,303003568
+The Hobbit: The Desolation of Smaug,False,True,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,2013.0,161,7.8,601408,258366855
+The Hurricane,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True,False,False,False,1999.0,146,7.6,91557,50668906
+The Hustler,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True,False,False,False,1961.0,134,8.0,75067,8284000
+The Illusionist,False,False,False,False,False,False,True,False,True,False,False,False,False,False,True,False,False,False,False,False,False,2006.0,110,7.6,354728,39868642
+The Imitation Game,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False,2014.0,114,8.0,685201,91125683
+The Incredibles,True,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2004.0,115,8.0,657047,261441092
+The Innocents,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,1961.0,100,7.8,27007,2616000
+The Insider,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False,1999.0,157,7.8,159886,28965197
+The Intouchables,False,False,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2011.0,112,8.5,760360,13182281
+The Irishman,False,False,False,True,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2019.0,209,7.9,324720,7000000
+The Iron Giant,True,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1999.0,86,8.0,172083,23159305
+The Jungle Book,False,True,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,1967.0,78,7.6,166409,141843612
+The Killing Fields,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,1984.0,141,7.8,51585,34700291
+The King of Comedy,False,False,False,False,True,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1982.0,109,7.8,88511,2500000
+The King's Speech,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,2010.0,118,8.0,639603,138797449
+The Last Emperor,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,1987.0,163,7.7,94326,43984230
+The Last King of Scotland,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,2006.0,123,7.7,175355,17605861
+The Last Picture Show,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False,1971.0,118,8.0,42456,29133000
+The Last Samurai,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2003.0,154,7.7,400049,111110575
+The Last of the Mohicans,True,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1992.0,112,7.7,150409,75505856
+The Lego Movie,True,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2014.0,100,7.7,323982,257760692
+The Lion King,False,True,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1994.0,88,8.5,942045,422783777
+The Little Mermaid,False,False,True,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,1989.0,83,7.6,237696,111543479
+The Lives of Others,False,False,False,False,False,False,True,False,False,False,False,False,False,False,True,False,False,False,True,False,False,2006.0,137,8.4,358685,11286112
+The Long Goodbye,False,False,False,False,True,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1973.0,112,7.6,26337,959000
+The Longest Day,True,False,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,1962.0,178,7.8,52141,39100000
+The Lord of the Rings: The Fellowship of the Ring,True,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2001.0,178,8.8,1661481,315544750
+The Lord of the Rings: The Return of the King,True,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2003.0,201,8.9,1642758,377845905
+The Lord of the Rings: The Two Towers,True,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2002.0,179,8.7,1485555,342551365
+The Lunchbox,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False,2013.0,104,7.8,50523,4231500
+The Machinist,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False,2004.0,101,7.7,358432,1082715
+The Magdalene Sisters,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2002.0,114,7.7,25938,4890878
+The Magnificent Seven,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,1960.0,128,7.7,87719,4905000
+The Martian,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True,False,False,False,False,2015.0,144,8.0,760094,228433663
+The Matrix,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,1999.0,136,8.7,1676426,171479930
+The Muppet Christmas Carol,False,False,False,False,True,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,1992.0,85,7.7,50298,27281507
+The Muppet Movie,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,1979.0,95,7.6,32802,76657000
+The Naked Gun: From the Files of Police Squad!,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1988.0,85,7.6,152871,78756177
+The Nightmare Before Christmas,False,False,True,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,1993.0,76,8.0,300208,75082668
+The Notebook,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False,2004.0,123,7.8,520284,81001787
+The Odd Couple,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1968.0,105,7.7,31572,44527234
+The Others,False,False,False,False,False,False,False,False,False,False,False,True,False,False,True,False,False,False,True,False,False,2001.0,101,7.6,337651,96522687
+The Outlaw Josey Wales,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,1976.0,135,7.8,65659,31800000
+The Peanut Butter Falcon,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2019.0,97,7.6,66346,13122642
+The Perks of Being a Wallflower,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False,2012.0,103,8.0,462252,17738570
+The Pianist,False,False,False,True,False,False,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False,2002.0,150,8.5,729603,32572577
+The Prestige,False,False,False,False,False,False,True,False,False,False,False,False,False,False,True,False,True,False,False,False,False,2006.0,130,8.5,1190259,53089891
+The Princess Bride,False,True,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,1987.0,98,8.0,393899,30857814
+The Purple Rose of Cairo,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,True,False,False,False,False,False,1985.0,82,7.7,47102,10631333
+The Pursuit of Happyness,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2006.0,117,8.0,448930,163566459
+The Remains of the Day,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False,1993.0,134,7.8,66065,22954968
+The Revenant,True,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2015.0,156,8.0,705589,183637894
+The Right Stuff,False,True,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1983.0,193,7.8,56235,21500000
+The Royal Tenenbaums,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2001.0,110,7.6,266842,52364010
+The Sandlot,False,False,False,False,True,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,1993.0,101,7.8,78963,32416586
+The Shining,False,False,False,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,1980.0,146,8.4,898237,44017374
+The Silence of the Lambs,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False,1991.0,118,8.6,1270197,130742922
+The Sixth Sense,False,False,False,False,False,False,True,False,False,False,False,False,False,False,True,False,False,False,True,False,False,1999.0,107,8.1,911573,293506292
+The Social Network,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2010.0,120,7.7,624982,96962694
+The Sound of Music,False,False,False,True,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,1965.0,172,8.0,205425,163214286
+The Station Agent,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2003.0,89,7.6,67370,5739376
+The Sting,False,False,False,False,True,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1973.0,129,8.3,241513,159600000
+The Straight Story,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1999.0,112,8.0,82002,6203044
+The Terminator,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,1984.0,107,8.0,799795,38400000
+The Theory of Everything,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False,2014.0,123,7.7,404182,35893537
+The Thin Red Line,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,True,False,1998.0,170,7.6,172710,36400491
+The Thing,False,False,False,False,False,False,False,False,False,False,False,True,False,False,True,False,True,False,False,False,False,1982.0,109,8.1,371271,13782838
+The Third Man,False,False,False,False,False,False,False,False,False,True,False,False,False,False,True,False,False,False,True,False,False,1949.0,104,8.1,158731,449191
+The Treasure of the Sierra Madre,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,True,1948.0,126,8.2,114304,5014000
+The Truman Show,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1998.0,103,8.1,939631,125618201
+The Untouchables,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False,1987.0,119,7.9,281842,76270454
+The Usual Suspects,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,True,False,False,1995.0,106,8.5,991208,23341568
+The Verdict,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1982.0,129,7.7,36096,54000000
+The Visitor,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2007.0,104,7.6,41544,9422422
+The Warriors,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,1979.0,92,7.6,93878,22490039
+The Wild Bunch,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,1969.0,145,7.9,77401,12064472
+The Wizard of Oz,False,True,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,1939.0,102,8.0,371379,2076020
+The Wolf of Wall Street,False,False,False,True,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2013.0,180,8.2,1187498,116900694
+The World's Fastest Indian,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True,False,False,False,2005.0,127,7.8,51980,5128124
+The Wrestler,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True,False,False,False,2008.0,109,7.9,289415,26236603
+There Will Be Blood,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2007.0,158,8.2,517359,40222514
+This Is Spinal Tap,False,False,False,False,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,1984.0,82,7.9,128812,188751
+Thor: Ragnarok,True,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2017.0,130,7.9,587775,315058289
+"Three Billboards Outside Ebbing, Missouri",False,False,False,False,True,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2017.0,115,8.2,432610,54513740
+Titanic,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False,1997.0,194,7.8,1046089,659325379
+Todo sobre mi madre,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1999.0,101,7.8,89058,8264530
+Tombstone,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1993.0,130,7.8,126871,56505065
+Tonari no Totoro,False,False,True,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,1988.0,86,8.2,291180,1105564
+Touch of Evil,False,False,False,False,False,True,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,1958.0,95,8.0,98431,2237659
+Toy Story,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1995.0,81,8.3,887429,191796233
+Toy Story 2,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1999.0,92,7.9,527512,245852179
+Toy Story 3,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2010.0,103,8.2,757032,415004880
+Toy Story 4,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2019.0,100,7.8,203177,434038008
+Training Day,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False,2001.0,122,7.7,390247,76631907
+Trainspotting,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1996.0,93,8.1,634716,16501785
+Trois couleurs: Blanc,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False,1994.0,92,7.6,64390,1464625
+Trois couleurs: Bleu,False,False,False,False,False,False,True,False,False,False,False,False,True,False,True,False,False,False,False,False,False,1993.0,94,7.9,89836,1324974
+Trois couleurs: Rouge,False,False,False,False,False,False,True,False,False,False,False,False,False,False,True,True,False,False,False,False,False,1994.0,99,8.1,90729,4043686
+Tropa de Elite,True,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2007.0,115,8.0,98097,8060
+True Grit,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,True,2010.0,110,7.6,311822,171243005
+True Romance,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False,1993.0,119,7.9,206918,12281500
+Twelve Monkeys,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,True,False,True,False,False,1995.0,129,8.0,578443,57141459
+Tôkyô goddofâzâzu,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2003.0,90,7.8,31658,128985
+Un long dimanche de fiançailles,False,False,False,False,False,False,True,False,False,False,False,False,False,False,True,True,False,False,False,False,False,2004.0,133,7.6,70925,6167817
+Un prophète,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2009.0,155,7.9,93560,2084637
+Under sandet,False,False,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,True,False,2015.0,100,7.8,35539,435266
+Unforgiven,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,True,1992.0,130,8.2,375935,101157447
+Up,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2009.0,96,8.2,935507,293004164
+V for Vendetta,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True,False,False,False,False,2005.0,132,8.2,1032749,70511035
+Vampire Hunter D: Bloodlust,True,False,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,2000.0,103,7.7,29210,151086
+Veer-Zaara,False,False,False,False,False,False,True,True,False,False,False,False,False,True,False,False,False,False,False,False,False,2004.0,192,7.8,49050,2921738
+Vertigo,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,True,False,False,True,False,False,1958.0,128,8.3,364368,3200000
+WALL·E,False,True,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,2008.0,98,8.4,999790,223808164
+Waking Life,False,False,True,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,2001.0,99,7.8,60684,2892011
+Walk the Line,False,False,False,True,False,False,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False,2005.0,136,7.8,234207,119519402
+Warrior,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True,False,False,False,2011.0,140,8.2,435950,13657115
+Watchmen,True,False,False,False,False,False,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False,2009.0,162,7.6,500799,107509799
+What Ever Happened to Baby Jane?,False,False,False,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False,True,False,False,1962.0,134,8.1,50058,4050000
+What We Do in the Shadows,False,False,False,False,True,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,2014.0,86,7.7,157498,3333000
+What's Eating Gilbert Grape,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1993.0,118,7.8,215034,9170214
+When Harry Met Sally...,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False,1989.0,95,7.6,195663,92823600
+Whiplash,False,False,False,False,False,False,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False,2014.0,106,8.5,717585,13092000
+Who Framed Roger Rabbit,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1988.0,104,7.7,182009,156452370
+Willy Wonka & the Chocolate Factory,False,False,False,False,False,False,False,True,True,False,False,False,False,True,False,False,False,False,False,False,False,1971.0,100,7.8,178731,4000000
+Wind River,False,False,False,False,False,True,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False,2017.0,107,7.7,205444,33800859
+Withnail & I,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1987.0,107,7.7,40396,1544889
+Wo hu cang long,True,True,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,2000.0,120,7.8,253228,128078872
+Wonder,False,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,2017.0,113,8.0,141923,132422809
+Wreck-It Ralph,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2012.0,101,7.7,380195,189422889
+X-Men: Days of Future Past,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,2014.0,132,7.9,659763,233921534
+X: First Class,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,2011.0,131,7.7,645512,146408305
+Y tu mamá también,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2001.0,106,7.6,115827,13622333
+Ying xiong,True,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,2002.0,120,7.9,173999,53710019
+Young Frankenstein,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1974.0,106,8.0,143359,86300000
+Zodiac,False,False,False,False,False,True,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False,2007.0,157,7.7,466080,33080084
+Zombieland,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,2009.0,88,7.6,520041,75590286
+Zootopia,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2016.0,108,8.0,434143,341268248
+Zwartboek,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True,True,False,2006.0,145,7.7,72643,4398392
