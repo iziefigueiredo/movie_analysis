@@ -68,6 +68,45 @@ def merge_imdb_data(genres_path="data/processed/genres_encodded.csv", imdb_path=
     print(f"[OK] Dados do IMDB unidos e salvos em: {output_path}")
 
 
+def merge_tmdb_imdb(imdb_path="data/processed/imdb_merged.csv", tmdb_path="data/processed/tmdb_clean.csv", output_path="data/processed/merge_imdb_tmdb.csv"):
+    """
+    Lê os arquivos unidos do IMDB e limpos do TMDB, e os une com base no nome do filme.
+    """
+    try:
+        df_imdb = pd.read_csv(imdb_path)
+    except FileNotFoundError:
+        print(f"Erro: Arquivo não encontrado em {imdb_path}")
+        return
+
+    try:
+        df_tmdb = pd.read_csv(tmdb_path)
+    except FileNotFoundError:
+        print(f"Erro: Arquivo não encontrado em {tmdb_path}")
+        return
+
+    # Renomear a coluna para coincidir com o DataFrame do IMDB
+    df_tmdb = df_tmdb.rename(columns={'title': 'film'})
+
+    # Selecionar as colunas desejadas do DataFrame do TMDB
+    cols_to_merge = ['film', 'budget', 'revenue', 'popularity' ]
+    df_tmdb_selected = df_tmdb[cols_to_merge]
+
+    # Unir os DataFrames
+    df_merged = pd.merge(df_imdb, df_tmdb_selected, on='film', how='inner')
+
+    # Salvar o DataFrame unido em um novo CSV
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+    df_merged.to_csv(output_path, index=False)
+
+    print(f"[OK] Dados finais unidos e salvos em: {output_path}")
+
+
+
+
+
 if __name__ == "__main__":
     transform_genres()
     merge_imdb_data()
+    merge_tmdb_imdb()
+    
+    print("Pipeline de união de dados concluída.")
