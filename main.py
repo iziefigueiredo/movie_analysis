@@ -48,9 +48,9 @@ def main_pipeline():
     # 2. Carrega e limpa os dados
     # 2. Carrega e limpa os dados
     try:
-        df_imdb = clean_imdb(pd.read_csv(df_imdb_raw_path))   # <-- era clean_data
+        df_imdb = clean_imdb(pd.read_csv(df_imdb_raw_path))   
         df_tmdb = clean_tmdb(load_tmdb(df_tmdb_raw_path))
-        df_oscar = clean_oscar(load_oscar(df_oscar_raw_path)) # <-- era clean_data
+        df_oscar = clean_oscar(load_oscar(df_oscar_raw_path)) 
     except FileNotFoundError as e:
         print(f"Erro: Arquivo não encontrado: {e}. "
             "Por favor, verifique se todos os arquivos .csv brutos estão na pasta raw.")
