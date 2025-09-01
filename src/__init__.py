@@ -1,7 +1,6 @@
 # src/__init__.py
 
 from .processing_imdb import load_data as load_imdb, clean_data as clean_imdb  #  
-from .processing_tmdb import load_tmdb, clean_tmdb                             #  
 from .processing_oscar import load_data as load_oscar, clean_data as clean_oscar  #  
 
 from .merge_data import (                                                     #  
@@ -13,6 +12,5 @@ from .merge_data import (                                                     #
 )
 
 from .profile_imdb import run_profile as profile_imdb                          #  
-from .profile_tmdb import run_profile as profile_tmdb                          #  
 
 from .eda_imdb import run_all as eda_imdb                                      #  
