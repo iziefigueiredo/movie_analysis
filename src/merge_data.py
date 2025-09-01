@@ -47,7 +47,7 @@ def transform_genres(
     one_hot.to_csv(output_path, index=False)
     print(f"[OK] Dados transformados salvos em: {output_path}")
 
-# --------------- 2) IMDB + gêneros (sem TMDB) ------------------
+# --------------- 2) IMDB + gêneros ------------------
 def merge_imdb_data(
     genres_path="data/processed/genres_encodded.csv",
     imdb_path="data/processed/imdb_clean.csv",
@@ -72,7 +72,7 @@ def merge_imdb_data(
     df_imdb = df_imdb.rename(columns={'Series_Title': 'film'})
     df_imdb['title_norm'] = df_imdb['film'].map(normalize_title)
 
-    cols_to_keep = ['title_norm', 'film', 'Released_Year', 'Runtime', 'IMDB_Rating', 'No_of_Votes', 'Gross']
+    cols_to_keep = ['title_norm', 'film', 'Released_Year', 'Runtime', 'IMDB_Rating', 'No_of_Votes', 'Gross', 'Overview']
     cols_to_keep = [c for c in cols_to_keep if c in df_imdb.columns]
     base = df_imdb[cols_to_keep].drop_duplicates(subset=['title_norm'])
 
@@ -82,7 +82,7 @@ def merge_imdb_data(
     df_merged.to_csv(output_path, index=False)
     print(f"[OK] Dados do IMDB unidos e salvos em: {output_path}")
 
-# -------- 3) Oscar agregado (por title_norm), sem TMDB ---------
+# -------- 3) Oscar agregado (por title_norm)---------
 def transform_oscar_data(oscar_path="data/processed/oscar_clean.csv"):
     """
     Agrega Oscar por filme, criando contagens de indicações e vitórias
