@@ -13,12 +13,9 @@ movie_analysis/
 ├── src/
 │   ├── __init__.py
 │   ├── processing_imdb.py
-│   ├── processing_tmdb.py
 │   ├── processing_oscar.py
 │   ├── eda_imdb.py
-│   ├── eda_tmdb.py
 │   ├── profile_imdb.py
-│   ├── profile_tmdb.py
 │   ├── merge_data.py
 │   ├── modeling.py
 │   └── predict.py
