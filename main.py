@@ -5,14 +5,13 @@ from pathlib import Path
 
 from src import (
     # IMDB
-    load_imdb,     # era load_data (processing_imdb)
-    clean_imdb,    # era clean_data (processing_imdb)
+    load_imdb,    
+    clean_imdb,    
 
    
-
     # OSCAR
-    load_oscar,    # era load_oscar_data
-    clean_oscar,   # era clean_oscar_data
+    load_oscar,    
+    clean_oscar,   
 
     # Merge / features
     transform_genres,
@@ -52,7 +51,7 @@ def main_pipeline():
         return
 
 
-    # Salva os arquivos limpos (boa prática para evitar reprocessamento)
+    # Salva os arquivos limpos na pasta processed
     df_imdb.to_csv(data_processed_dir / "imdb_clean.csv", index=False)
     df_oscar.to_csv(data_processed_dir / "oscar_clean.csv", index=False)
 

@@ -1,4 +1,36 @@
 
+## Getting Started  
+
+### Create and activate a virtual environment  
+
+```
+python -m venv .venv
+
+```
+
+```
+source .venv/bin/activate   # Linux/Mac
+
+```
+
+```
+.venv\Scripts\activate      # Windows
+
+```
+### Install dependencies
+
+```
+pip install -r requirements.txt
+
+```
+
+### Run the pipeline  
+```
+python main.py
+```
+
+
+
 # Project structure
 ```
 movie_analysis/
@@ -19,6 +51,8 @@ movie_analysis/
 │   ├── merge_data.py
 │   ├── modeling.py
 │   └── predict.py
+├── notebooks/
+│   ├── answers.ipynb
 ├── config.yaml
 ├── main.py
 ├── .gitignore
