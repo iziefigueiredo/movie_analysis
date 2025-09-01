@@ -101,12 +101,66 @@ def merge_tmdb_imdb(imdb_path="data/processed/imdb_merged.csv", tmdb_path="data/
     print(f"[OK] Dados finais unidos e salvos em: {output_path}")
 
 
+def transform_oscar_data(oscar_path="data/processed/oscar_clean.csv"):
+    """
+    Lê o arquivo de dados brutos do Oscar e agrega o número de indicações e vitórias por filme.
+    Retorna o DataFrame agregado.
+    """
+    try:
+        df_oscar = pd.read_csv(oscar_path)
+    except FileNotFoundError:
+        print(f"Erro: Arquivo não encontrado em {oscar_path}")
+        return None
 
+    # Certifica que a coluna 'winner' é booleana
+    df_oscar['winner'] = df_oscar['winner'].astype(bool)
+
+    # Agrega os dados por filme
+    df_aggregated = (
+        df_oscar.groupby('film')
+        .agg(
+            oscar_nominations=('film', 'count'),
+            oscar_wins=('winner', 'sum')
+        )
+        .reset_index()
+    )
+    return df_aggregated
+
+
+def merge_oscar_data(main_path="data/processed/merge_imdb_tmdb.csv", df_oscar_aggregated=None, output_path="data/processed/final_dataset.csv"):
+    """
+    Lê o arquivo de dados unidos (IMDB + TMDB) e os dados agregados do Oscar,
+    e os une com base no nome do filme.
+    """
+    try:
+        df_main = pd.read_csv(main_path)
+    except FileNotFoundError:
+        print(f"Erro: Arquivo não encontrado em {main_path}")
+        return
+
+    # Certifica que os dados agregados do Oscar foram fornecidos
+    if df_oscar_aggregated is None:
+        print("Erro: DataFrame agregado do Oscar não fornecido.")
+        return
+        
+    # Unir os DataFrames
+    df_merged = pd.merge(df_main, df_oscar_aggregated, on='film', how='inner')
+
+    # Salvar o DataFrame unido em um novo CSV
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+    df_merged.to_csv(output_path, index=False)
+
+    print(f"[OK] Dados do Oscar unidos e salvos em: {output_path}")
 
 
 if __name__ == "__main__":
     transform_genres()
     merge_imdb_data()
     merge_tmdb_imdb()
+    
+    # Nova etapa de agregação e união do Oscar
+    df_oscar_agg = transform_oscar_data()
+    if df_oscar_agg is not None:
+        merge_oscar_data(df_oscar_aggregated=df_oscar_agg)
     
     print("Pipeline de união de dados concluída.")
