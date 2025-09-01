@@ -72,7 +72,7 @@ def merge_imdb_data(
     df_imdb = df_imdb.rename(columns={'Series_Title': 'film'})
     df_imdb['title_norm'] = df_imdb['film'].map(normalize_title)
 
-    cols_to_keep = ['title_norm', 'film', 'Released_Year', 'Runtime', 'IMDB_Rating', 'No_of_Votes', 'Gross', 'Overview', "Director", "Star1", "Star2", "Star3", "Star4"]
+    cols_to_keep = ['title_norm', 'film', 'Released_Year', 'Runtime', 'IMDB_Rating', 'No_of_Votes', 'Gross', 'Overview', "Director", "Star1", "Star2", "Star3", "Star4", "Meta_score"]
     cols_to_keep = [c for c in cols_to_keep if c in df_imdb.columns]
     base = df_imdb[cols_to_keep].drop_duplicates(subset=['title_norm'])
 
