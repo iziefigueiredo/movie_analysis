@@ -39,9 +39,10 @@ movie_analysis/
 │   └── processed/
 ├── models/
 │   └── imdb_predictor.pkl
+│   └── model_features.pkl
 ├── reports/
-│   ├── figures/
-│   └── analysis_report.pdf
+│   ├── stats/
+│   ├── viz/
 ├── src/
 │   ├── __init__.py
 │   ├── processing_imdb.py
