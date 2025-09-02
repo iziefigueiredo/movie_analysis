@@ -1,6 +1,12 @@
 <html><head><meta charset='utf-8'><title>IMDB+Oscar — EDA</title>
-<style>body{font-family:system-ui,Arial;margin:22px;background:#0f172a;color:#e2e8f0} h2{margin-top:26px} img{max-width:100%;border:1px solid #1e293b;border-radius:8px}</style>
-</head><body><h1>IMDB + Oscar — EDA</h1>
+<style>
+body{font-family:system-ui,Arial;margin:22px;background:#0f172a;color:#e2e8f0}
+h1{margin:0 0 10px 0;font-weight:700}
+h2{margin-top:26px}
+img{max-width:100%;border:1px solid #1e293b;border-radius:8px}
+a{color:#60a5fa;text-decoration:none}
+</style></head><body>
+<h1>IMDB + Oscar — EDA</h1>
 <p>Resumo visual gerado automaticamente. Se alguma figura não aparece, provavelmente a coluna correspondente não estava na base.</p>
 <h2>Distribuições</h2>
 <img src='distributions.png'/>
@@ -14,6 +20,13 @@
 <img src='scatter_log_votes_log_gross.png'/>
 <h2>Correlação numérica</h2>
 <img src='corr_numeric.png'/>
-<h2>Top atores</h2>
-<img src='top_actors.png'/>
+<h2>Atores – mais presentes</h2>
+<img src='actors_top_presence.png'/>
+<h2>Atores – mais vitórias (filmes vencedores)</h2>
+<img src='actors_top_wins.png'/>
+<h2>Atores – melhor nota média (mín. 3 filmes)</h2>
+<img src='actors_best_mean_rating.png'/>
+<h2>Atores × Gênero – participação</h2>
+<img src='actors_genre_heatmap.png'/>
+<hr/><p style='opacity:.7'>Gerado por <code>src/eda_imdb_oscar.py</code></p>
 </body></html>

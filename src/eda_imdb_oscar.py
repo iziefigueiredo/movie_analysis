@@ -81,7 +81,7 @@ def barh_simple(index, values, xlabel, title, color=PALETTE["bar"]) -> plt.Axes:
     return ax
 
 def detect_genre_cols(df: pd.DataFrame) -> list[str]:
-    """Detecta colunas dummy (0/1) como gêneros. Ajuste se tiver prefixos."""
+    """Detecta colunas dummy (0/1) como gêneros."""
     candidates: list[str] = []
     for c in df.columns:
         lc = c.lower()
@@ -91,6 +91,17 @@ def detect_genre_cols(df: pd.DataFrame) -> list[str]:
         if len(uniq) > 0 and set(uniq).issubset({0, 1}):
             candidates.append(c)
     return sorted(candidates)
+
+def melt_stars(df: pd.DataFrame) -> pd.DataFrame:
+    stars = [c for c in STAR_COLS if c in df.columns]
+    if not stars: return pd.DataFrame(columns=["actor","film",COL_RATING,COL_WINS])
+    long = (pd.melt(
+        df[[COL_TITLE, COL_RATING, COL_WINS] + stars],
+        id_vars=[COL_TITLE, COL_RATING, COL_WINS],
+        value_vars=stars, value_name="actor")
+        .dropna(subset=["actor"]))
+    long = long.rename(columns={COL_TITLE:"film"})
+    return long[["actor","film",COL_RATING,COL_WINS]]
 
 
 # ========================== VISUALIZAÇÕES =========================== #
@@ -104,19 +115,15 @@ def hist_panel(df: pd.DataFrame, out: Path):
     fig.tight_layout(); fig.savefig(out, bbox_inches="tight"); plt.close(fig)
 
 def viz_rating_by_genre(genre_summary: pd.DataFrame, out: Path, topn=10):
-    top = (genre_summary
-           .sort_values("n_films", ascending=False)
-           .head(topn)
-           .sort_values("mean_rating"))
+    top = (genre_summary.sort_values("n_films", ascending=False)
+           .head(topn).sort_values("mean_rating"))
     ax = barh_simple(top["genre"], top["mean_rating"], "Nota média IMDB",
                      "Nota média por gênero (Top por contagem)")
     savefig(ax, out)
 
 def viz_win_rate_by_genre(genre_summary: pd.DataFrame, out: Path, topn=10):
-    top = (genre_summary
-           .sort_values("oscar_win_rate", ascending=False)
-           .head(topn)
-           .sort_values("oscar_win_rate"))
+    top = (genre_summary.sort_values("oscar_win_rate", ascending=False)
+           .head(topn).sort_values("oscar_win_rate"))
     ax = barh_simple(top["genre"], top["oscar_win_rate"],
                      "Taxa de vitórias (wins / filmes)",
                      "Top gêneros por taxa de vitórias no Oscar",
@@ -134,9 +141,9 @@ def viz_box_rating_winners(df: pd.DataFrame, out: Path):
 
     tmp = df.copy()
     tmp["winner_bin"] = (pd.to_numeric(tmp[COL_WINS], errors="coerce").fillna(0) > 0)\
-                        .map({False: "Não-vencedor", True: "Vencedor"})
+                        .map({False:"Não-vencedor",True:"Vencedor"})
 
-    fig, ax = plt.subplots(figsize=(8, 6))
+    fig, ax = plt.subplots(figsize=(8,6))
     sns.boxplot(
         data=tmp,
         x="winner_bin",
@@ -144,7 +151,7 @@ def viz_box_rating_winners(df: pd.DataFrame, out: Path):
         hue="winner_bin",                       # hue explícito
         legend=False,                           # sem legenda redundante
         ax=ax,
-        palette={"Não-vencedor": PALETTE["bar"], "Vencedor": PALETTE["bar2"]},
+        palette={"Não-vencedor":PALETTE["bar"], "Vencedor":PALETTE["bar2"]},
         showcaps=True,
         fliersize=0
     )
@@ -161,16 +168,11 @@ def viz_scatter_reg(df: pd.DataFrame, x, y, out: Path, logx=False, logy=False, t
     if logy: ydata = np.log1p(np.where(ydata < 0, 0, ydata))
     fig, ax = plt.subplots()
     ax.scatter(xdata, ydata, s=14, alpha=0.35, color="#93c5fd")
-    if len(xdata) >= 5:
-        coeff = np.polyfit(xdata, ydata, 1)
-        xp = np.linspace(xdata.min(), xdata.max(), 100)
-        yp = np.polyval(coeff, xp)
-        ax.plot(xp, yp, color=PALETTE["line"], lw=2)
-        r = np.corrcoef(xdata, ydata)[0, 1]
-        ttl = title or f"{y} × {x}"
-        savefig(ax, out, f"{ttl}  (r={r:.2f})")
-    else:
-        savefig(ax, out, title or f"{y} × {x}")
+    coeff = np.polyfit(xdata, ydata, 1)
+    xp = np.linspace(xdata.min(), xdata.max(), 100); yp = np.polyval(coeff, xp)
+    ax.plot(xp, yp, color=PALETTE["line"], lw=2)
+    r = np.corrcoef(xdata, ydata)[0, 1]
+    savefig(ax, out, (title or f"{y} × {x}") + f"  (r={r:.2f})")
 
 def viz_corr_heatmap(df: pd.DataFrame, out: Path, cols: list[str]):
     """Heatmap divergente (pink↔blue) centrado em 0, padronizado com o tema."""
@@ -191,6 +193,7 @@ def viz_corr_heatmap(df: pd.DataFrame, out: Path, cols: list[str]):
     norm = TwoSlopeNorm(vmin=-1, vcenter=0, vmax=1)
 
     fig, ax = plt.subplots(figsize=(11, 10))
+    import seaborn as sns
     sns.heatmap(
         corr, mask=mask, cmap=cmap, norm=norm, annot=True, fmt=".2f",
         linewidths=0.6, linecolor="#1e293b", square=True,
@@ -200,14 +203,71 @@ def viz_corr_heatmap(df: pd.DataFrame, out: Path, cols: list[str]):
     ax.tick_params(axis="x", rotation=35); ax.tick_params(axis="y", rotation=0)
     savefig(ax, out)
 
-def viz_top_actors(df: pd.DataFrame, out: Path, topn=15):
-    stars = [c for c in STAR_COLS if c in df.columns]
-    if not stars: return
-    actors = (pd.melt(df, value_vars=stars, value_name="actor")
-                .dropna(subset=["actor"]))
-    cnt = actors["actor"].value_counts().head(topn).sort_values()
+def viz_top_actors_by_presence(df: pd.DataFrame, out: Path, topn=20):
+    long = melt_stars(df)
+    if long.empty: return
+    cnt = (long.groupby("actor")["film"].nunique()
+                 .sort_values().tail(topn))
     ax = barh_simple(cnt.index, cnt.values, "Qtde de filmes",
-                     f"Top {topn} atores mais frequentes")
+                     f"Top {topn} atores com mais filmes")
+    savefig(ax, out)
+
+def viz_top_actors_by_wins(df: pd.DataFrame, out: Path, topn=15):
+    long = melt_stars(df)
+    if long.empty: return
+    long["_won"] = (pd.to_numeric(long[COL_WINS], errors="coerce").fillna(0) > 0)
+    wins = (long[long["_won"]].groupby("actor")["film"].nunique()
+            .sort_values().tail(topn))
+    ax = barh_simple(wins.index, wins.values, "Filmes vencedores",
+                     f"Top {topn} atores por filmes vencedores no Oscar",
+                     color=PALETTE["bar2"])
+    savefig(ax, out)
+
+def viz_actor_mean_rating(df: pd.DataFrame, out: Path, min_films=3, topn=15):
+    long = melt_stars(df)
+    if long.empty: return
+    long[COL_RATING] = pd.to_numeric(long[COL_RATING], errors="coerce")
+    agg = (long.groupby("actor")
+                .agg(n_films=("film","nunique"),
+                     mean_rating=(COL_RATING,"mean"))
+                .query("n_films >= @min_films")
+                .sort_values(["mean_rating","n_films"], ascending=[False,False])
+                .head(topn).sort_values("mean_rating"))
+    if agg.empty: return
+    ax = barh_simple(agg.index, agg["mean_rating"].values,
+                     "Nota média IMDB",
+                     f"Atores com maior nota média (mín. {min_films} filmes)")
+    savefig(ax, out)
+
+def viz_actor_genre_heatmap(df: pd.DataFrame, out: Path,
+                            min_films=5, topk_actors=20, topk_genres=10):
+    try:
+        import seaborn as sns
+        from matplotlib.colors import LinearSegmentedColormap
+    except Exception:
+        print("[info] seaborn indisponível; pulando heatmap ator×gênero.")
+        return
+    genre_cols = detect_genre_cols(df)
+    if not genre_cols: return
+    long = melt_stars(df)
+    if long.empty: return
+    base = df[[COL_TITLE]+genre_cols].drop_duplicates()
+    m = long.merge(base, left_on="film", right_on=COL_TITLE, how="left")
+    grp = m.groupby("actor")[genre_cols].sum(min_count=1)
+    grp["n_films"] = m.groupby("actor")["film"].nunique()
+    grp = grp.query("n_films >= @min_films").drop(columns="n_films")
+    if grp.empty: return
+    top_genres = grp.sum().sort_values(ascending=False).head(topk_genres).index.tolist()
+    grp = grp[top_genres]
+    pct = grp.div(grp.sum(axis=1), axis=0).fillna(0)
+    top_actors = pct.sum(axis=1).sort_values(ascending=False).head(topk_actors).index
+    pct = pct.loc[top_actors]
+    cmap = LinearSegmentedColormap.from_list("dark_blue", ["#0f172a","#1d4ed8","#60a5fa"])
+    fig, ax = plt.subplots(figsize=(max(8,len(top_genres)*0.9), max(8,len(top_actors)*0.45)))
+    sns.heatmap(pct, cmap=cmap, vmin=0, vmax=1, annot=False,
+                cbar_kws={"shrink":0.85,"label":"participação (%)"})
+    ax.set_xlabel("Gênero"); ax.set_ylabel("Ator")
+    ax.set_title("Mix de gêneros por ator (proporção dos filmes)")
     savefig(ax, out)
 
 
@@ -223,55 +283,60 @@ def run(
 
     if not inp.exists():
         raise FileNotFoundError(f"CSV não encontrado: {inp}")
-
     df = pd.read_csv(inp)
     print(f"[ok] Base: {df.shape[0]} linhas, {df.shape[1]} colunas")
 
-    # ------------------- 1) Distribuições básicas ------------------- #
+    # 1) Distribuições
     hist_panel(df, out_viz / "distributions.png")
 
-    # ------------------- 2) Gêneros (dummies 0/1) ------------------- #
+    # 2) Gêneros
     genre_cols = detect_genre_cols(df)
     genre_rows = []
     for g in genre_cols:
-        sub = df[df[g] == 1]
+        sub = df[df[g]==1]
         genre_rows.append({
-            "genre": g,
-            "n_films": len(sub),
-            "mean_rating": pd.to_numeric(sub.get(COL_RATING), errors="coerce").mean(),
-            "mean_gross":  pd.to_numeric(sub.get(COL_GROSS),  errors="coerce").mean(),
-            "mean_votes":  pd.to_numeric(sub.get(COL_VOTES),  errors="coerce").mean(),
-            "oscar_win_rate": (pd.to_numeric(sub.get(COL_WINS, 0), errors="coerce").fillna(0) > 0).mean() if len(sub)>0 else 0.0,
+            "genre":g,
+            "n_films":len(sub),
+            "mean_rating":pd.to_numeric(sub.get(COL_RATING), errors="coerce").mean(),
+            "mean_gross": pd.to_numeric(sub.get(COL_GROSS), errors="coerce").mean(),
+            "mean_votes": pd.to_numeric(sub.get(COL_VOTES), errors="coerce").mean(),
+            "oscar_win_rate": (pd.to_numeric(sub.get(COL_WINS,0), errors="coerce").fillna(0)>0).mean() if len(sub)>0 else 0.0,
         })
     genre_summary = pd.DataFrame(genre_rows).sort_values("n_films", ascending=False)
     genre_summary.to_csv(out_stats / "genres_summary.csv", index=False)
-
     if not genre_summary.empty:
-        viz_rating_by_genre(genre_summary, out_viz / "rating_by_genre.png", topn=top_genres)
-        viz_win_rate_by_genre(genre_summary, out_viz / "oscar_win_rate_by_genre.png", topn=top_genres)
+        viz_rating_by_genre(genre_summary, out_viz/"rating_by_genre.png", topn=top_genres)
+        viz_win_rate_by_genre(genre_summary, out_viz/"oscar_win_rate_by_genre.png", topn=top_genres)
 
-    # ------------------- 3) Winners vs Others ------------------- #
+    # 3) Winners vs others
     if COL_RATING in df.columns and COL_WINS in df.columns:
-        viz_box_rating_winners(df, out_viz / "box_imdb_winner_vs_other.png")
+        viz_box_rating_winners(df, out_viz/"box_imdb_winner_vs_other.png")
 
-    # ------------------- 4) Correlações / Relações ------------------- #
+    # 4) Correlações / relações
     if COL_VOTES in df.columns and COL_GROSS in df.columns:
-        viz_scatter_reg(df, COL_VOTES, COL_GROSS,
-                        out_viz / "scatter_log_votes_log_gross.png",
-                        logx=True, logy=True,
-                        title="log(Gross) × log(Votes)")
-    num_cols = [c for c in [COL_RATING, COL_META, COL_VOTES, COL_GROSS, "Runtime"] if c in df.columns]
-    if len(num_cols) >= 3:
-        viz_corr_heatmap(df, out_viz / "corr_numeric.png", num_cols)
+        viz_scatter_reg(df, COL_VOTES, COL_GROSS, out_viz/"scatter_log_votes_log_gross.png",
+                        logx=True, logy=True, title="log(Gross) × log(Votes)")
+    num_cols = [c for c in [COL_RATING,COL_META,COL_VOTES,COL_GROSS,"Runtime"] if c in df.columns]
+    if len(num_cols)>=3:
+        viz_corr_heatmap(df, out_viz/"corr_numeric.png", num_cols)
 
-    # ------------------- 5) Atores ------------------- #
-    viz_top_actors(df, out_viz / "top_actors.png", topn=15)
+    # 5) Atores
+    viz_top_actors_by_presence(df, out_viz/"actors_top_presence.png", topn=20)
+    viz_top_actors_by_wins(df, out_viz/"actors_top_wins.png", topn=15)
+    viz_actor_mean_rating(df, out_viz/"actors_best_mean_rating.png", min_films=3, topn=15)
+    viz_actor_genre_heatmap(df, out_viz/"actors_genre_heatmap.png", min_films=5, topk_actors=20, topk_genres=10)
 
-    # ------------------- 6) HTML simples ------------------- #
+    # 6) HTML
     html = [
         "<html><head><meta charset='utf-8'><title>IMDB+Oscar — EDA</title>",
-        "<style>body{font-family:system-ui,Arial;margin:22px;background:#0f172a;color:#e2e8f0} h2{margin-top:26px} img{max-width:100%;border:1px solid #1e293b;border-radius:8px}</style>",
-        "</head><body><h1>IMDB + Oscar — EDA</h1>",
+        "<style>",
+        "body{font-family:system-ui,Arial;margin:22px;background:#0f172a;color:#e2e8f0}",
+        "h1{margin:0 0 10px 0;font-weight:700}",
+        "h2{margin-top:26px}",
+        "img{max-width:100%;border:1px solid #1e293b;border-radius:8px}",
+        "a{color:#60a5fa;text-decoration:none}",
+        "</style></head><body>",
+        "<h1>IMDB + Oscar — EDA</h1>",
         "<p>Resumo visual gerado automaticamente. Se alguma figura não aparece, provavelmente a coluna correspondente não estava na base.</p>",
     ]
     figs = [
@@ -281,13 +346,19 @@ def run(
         ("Vencedores vs não-vencedores (IMDB_Rating)", "box_imdb_winner_vs_other.png"),
         ("log(Gross) × log(Votes)", "scatter_log_votes_log_gross.png"),
         ("Correlação numérica", "corr_numeric.png"),
-        ("Top atores", "top_actors.png"),
+        ("Atores – mais presentes", "actors_top_presence.png"),
+        ("Atores – mais vitórias (filmes vencedores)", "actors_top_wins.png"),
+        ("Atores – melhor nota média (mín. 3 filmes)", "actors_best_mean_rating.png"),
+        ("Atores × Gênero – participação", "actors_genre_heatmap.png"),
     ]
     for title, fname in figs:
         p = out_viz / fname
         if p.exists():
             html += [f"<h2>{title}</h2>", f"<img src='{p.name}'/>"]
-    html += ["</body></html>"]
+    html += [
+        "<hr/><p style='opacity:.7'>Gerado por <code>src/eda_imdb_oscar.py</code></p>",
+        "</body></html>"
+    ]
     (out_viz / "index.html").write_text("\n".join(html), encoding="utf-8")
 
     print(f"[ok] figures → {out_viz}")
@@ -302,6 +373,7 @@ def parse_args():
     ap.add_argument("--out-stats", default=str(OUT_STATS_DIR))
     ap.add_argument("--top-genres", type=int, default=10)
     return ap.parse_args()
+
 
 if __name__ == "__main__":
     args = parse_args()
