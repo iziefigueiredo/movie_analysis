@@ -2,6 +2,8 @@
 import os
 import pandas as pd
 from pathlib import Path
+import warnings
+warnings.simplefilter(action='ignore', category=FutureWarning)
 
 from src import (
     # IMDB
@@ -79,3 +81,5 @@ def main_pipeline():
 
 if __name__ == "__main__":
     main_pipeline()
+
+
