@@ -6,9 +6,11 @@ The primary goal is to **predict a movie's IMDB rating** based on features such 
 In addition, the project includes exploratory analyses to extract insights into what makes a movie successful.
 
 ## Visualizations
+### Gross comparison: Oscar competitors vs non-competitors
+![Oscar Gross Comparison](https://github.com/iziefigueiredo/movie_analysis/blob/main/reports/viz/gross_by_oscar_nomination.png?raw=true)
 
-
-
+### Analysis of IMDB Rating Distribution
+![Oscar IMDB](https://github.com/iziefigueiredo/movie_analysis/blob/main/reports/viz/box_imdb_winner_vs_other.png?raw=true)
 
 ## Exploratory Data Analysis (EDA)
 
