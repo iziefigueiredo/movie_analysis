@@ -46,6 +46,7 @@ The evaluation metrics used were **Mean Absolute Error (MAE)** and **R² (coeffi
 - **Linear Regression**, while interpretable, showed the weakest predictive power in this context. 
 
 ➡️ Errors (MAE ~0.16) are relatively small, meaning predictions are on average within **0.16 rating points** of the true IMDB rating. 
+
 ➡️ However, R² values below 0.6 suggest that while the models capture important patterns, there is still **significant unexplained variance** — likely due to subjective factors in movie ratings (e.g., cultural impact, critical reception, or time trends) that are not fully captured by the available features.
 
 ---
