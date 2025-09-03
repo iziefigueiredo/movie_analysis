@@ -130,6 +130,37 @@ def viz_win_rate_by_genre(genre_summary: pd.DataFrame, out: Path, topn=10):
                      color=PALETTE["bar2"])
     savefig(ax, out)
 
+def viz_gross_by_oscar_nomination(df: pd.DataFrame, out: Path):
+    """
+    Gráfico de barras comparando o faturamento médio de filmes
+    que competiram vs. não competiram no Oscar.
+    """
+    if "oscar_nominations" not in df.columns:
+        print("Aviso: coluna 'oscar_nominations' não encontrada. Pulando gráfico.")
+        return
+
+    # Tratar a coluna Gross
+    df["Gross"] = pd.to_numeric(df["Gross"], errors="coerce").fillna(0)
+
+    # Criar uma coluna binária para a competição no Oscar
+    df["Competiu_Oscar"] = np.where(df["oscar_nominations"] > 0, "Competiu", "Não Competiu")
+
+    # Calcular a média de faturamento por categoria
+    gross_by_category = df.groupby("Competiu_Oscar")["Gross"].mean().sort_values()
+
+    # Criar o gráfico de barras
+    fig, ax = plt.subplots()
+    ax.barh(gross_by_category.index, gross_by_category.values, color=[PALETTE["bar"], PALETTE["bar2"]])
+    ax.set_xlabel("Faturamento Médio (Gross)")
+    ax.set_title("Faturamento Médio de Filmes que Competiram vs. Não Competiram no Oscar")
+
+    # Adicionar os rótulos de valor
+    add_value_labels_h(ax, gross_by_category.values, fmt="${:,.0f}")
+    
+    savefig(ax, out)
+    print(f"[ok] Gerado gráfico de faturamento por competição no Oscar: {out}")
+
+
 def viz_box_rating_winners(df: pd.DataFrame, out: Path):
     """Boxplot IMDB_Rating de vencedores vs não, sem FutureWarning (usa hue)."""
     try:
@@ -308,6 +339,10 @@ def run(
         viz_rating_by_genre(genre_summary, out_viz/"rating_by_genre.png", topn=top_genres)
         viz_win_rate_by_genre(genre_summary, out_viz/"oscar_win_rate_by_genre.png", topn=top_genres)
 
+    # Adicionando a nova visualização aqui
+    if "oscar_nominations" in df.columns and "Gross" in df.columns:
+        viz_gross_by_oscar_nomination(df, out_viz / "gross_by_oscar_nomination.png")
+    
     # 3) Winners vs others
     if COL_RATING in df.columns and COL_WINS in df.columns:
         viz_box_rating_winners(df, out_viz/"box_imdb_winner_vs_other.png")
@@ -343,6 +378,7 @@ def run(
         ("Distribuições", "distributions.png"),
         ("Nota média por gênero", "rating_by_genre.png"),
         ("Taxa de vitórias por gênero", "oscar_win_rate_by_genre.png"),
+        ("Faturamento vs. Competição no Oscar", "gross_by_oscar_nomination.png"),
         ("Vencedores vs não-vencedores (IMDB_Rating)", "box_imdb_winner_vs_other.png"),
         ("log(Gross) × log(Votes)", "scatter_log_votes_log_gross.png"),
         ("Correlação numérica", "corr_numeric.png"),
