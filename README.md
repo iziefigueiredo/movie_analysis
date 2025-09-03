@@ -7,11 +7,7 @@ In addition, the project includes exploratory analyses to extract insights into 
 
 ## Visualizations
 
-### Gross comparison: Oscar competitors vs non-competitors
-![Oscar Gross Comparison](https://github.com/iziefigueiredo/movie_analysis/blob/main/reports/viz/oscar_gross_comparison.png?raw=true)
 
-### Correlation heatmap
-![Correlation Heatmap](https://github.com/iziefigueiredo/movie_analysis/blob/main/reports/viz/corr_numeric.png?raw=true)
 
 
 ## Exploratory Data Analysis (EDA)
@@ -116,8 +112,6 @@ movie_analysis/
 │   ├── modeling_regression.py
 │   ├── predict.py
 │   └── text_classifier.py
-├── notebooks/
-│   └── answers.ipynb
 ├── main.py
 ├── .gitignore
 └── requirements.txt

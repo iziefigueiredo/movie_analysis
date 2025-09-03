@@ -6,7 +6,7 @@ import os
 import nltk
 from nltk.corpus import stopwords
 
-# Certifique-se de que as stopwords estão baixadas
+
 try:
     stopwords.words('english')
 except LookupError:
@@ -16,28 +16,27 @@ except LookupError:
 DATA_PATH = Path("data/processed/imdb_oscar.csv")
 TEXT_COL = "Overview"
 
-# =========================== FUNÇÕES =========================== #
-def load_and_prepare_data(path: Path) -> pd.DataFrame:
-    """Carrega os dados e filtra as colunas necessárias."""
-    if not os.path.exists(path):
-        raise FileNotFoundError(f"Arquivo não encontrado: {path}")
-    df = pd.read_csv(path)
+# =========================== FUNCTIONS ========================== #
+def load_data(data_path: Path) -> pd.DataFrame:
+    """Loads the data and filters for necessary columns."""
+    if not os.path.exists(data_path):
+        raise FileNotFoundError(f"File not found: {data_path}")
+    df = pd.read_csv(data_path)
     if TEXT_COL not in df.columns:
-        raise ValueError(f"A coluna '{TEXT_COL}' não foi encontrada.")
+        raise ValueError(f"The column '{TEXT_COL}' was not found.")
     return df.dropna(subset=[TEXT_COL]).reset_index(drop=True)
 
 def preprocess_text(text: str) -> list[str]:
-    """Faz a limpeza básica do texto e tokeniza."""
+    """Performs basic text cleaning and tokenization."""
     text = re.sub(r'[^a-z\s]', '', text.lower())
     tokens = [word for word in text.split() if word not in stopwords.words('english')]
     return tokens
 
-def detect_genre_cols(df: pd.DataFrame) -> list[str]:
-    """Detecta as colunas de gênero (dummys) de forma mais segura."""
-    # Lista de colunas não-gênero para exclusão
+def detect_genres(df: pd.DataFrame) -> list[str]:
+    """Detects dummy genre columns in a safer way."""
     non_genre_cols = [
         "film", "Overview", "Director", "Star1", "Star2", "Star3", "Star4", 
-        "oscar_wins", "oscar_nominations", "title_norm", "Unnamed: 0", 
+        "oscar_wins", "oscar_nominations", 
         "IMDB_Rating", "Released_Year", "Runtime", "Gross", "Meta_score", 
         "No_of_Votes", "Certificate", "winner", "canonicalcategory",
         "best_picture_nom", "best_picture_win"
@@ -45,37 +44,37 @@ def detect_genre_cols(df: pd.DataFrame) -> list[str]:
     genre_cols = [c for c in df.columns if c not in non_genre_cols and set(df[c].dropna().unique()).issubset({0, 1})]
     return genre_cols
 
-def analyze_genre_tokens():
-    """Analisa a frequência de tokens por gênero para inferir o perfil do filme."""
-    print("Iniciando a análise de tokens por gênero...")
+def analyze_tokens():
+    """Analyzes the frequency of tokens by genre to infer a film's profile."""
+    print("Starting genre token analysis...")
     try:
-        df = load_and_prepare_data(DATA_PATH)
+        data_frame = load_data(DATA_PATH)
     except (FileNotFoundError, ValueError) as e:
-        print(f"Erro: {e}")
+        print(f"Error: {e}")
         return
     
-    genre_cols = detect_genre_cols(df)
+    genre_cols = detect_genres(data_frame)
     if not genre_cols:
-        print("Aviso: Nenhuma coluna de gênero encontrada. A análise não pode continuar.")
+        print("Warning: No genre columns found. Analysis cannot continue.")
         return
         
-    df['tokens'] = df[TEXT_COL].apply(preprocess_text)
+    data_frame['tokens'] = data_frame[TEXT_COL].apply(preprocess_text)
     
     genre_profiles = {}
     for genre in genre_cols:
-        genre_df = df[df[genre] == 1]
-        all_tokens = [token for sublist in genre_df['tokens'] for token in sublist]
+        genre_data = data_frame[data_frame[genre] == 1]
+        all_tokens = [token for sublist in genre_data['tokens'] for token in sublist]
         token_counts = Counter(all_tokens).most_common(20)
         genre_profiles[genre] = token_counts
     
-    print("\nAnálise de Tokens por Gênero:")
+    print("\nGenre Token Analysis:")
     for genre, tokens in genre_profiles.items():
-        print(f"\n--- Gênero: {genre} ---")
+        print(f"\n--- Genre: {genre} ---")
         if not tokens:
-            print("Nenhum token encontrado.")
+            print("No tokens found.")
         else:
             for token, count in tokens:
-                print(f"  - '{token}': {count} ocorrências")
+                print(f"  - '{token}': {count} occurrences")
 
 if __name__ == "__main__":
-    analyze_genre_tokens()
+    analyze_tokens()

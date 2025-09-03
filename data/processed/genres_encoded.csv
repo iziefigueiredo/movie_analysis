@@ -1,0 +1,714 @@
+title_norm,Action,Adventure,Animation,Biography,Comedy,Crime,Drama,Family,Fantasy,Film-Noir,History,Horror,Music,Musical,Mystery,Romance,Sci-Fi,Sport,Thriller,War,Western
+12 angry men,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+12 years a slave,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+1917,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True,True,False
+2001 a space odyssey,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+21 grams,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+25th hour,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+28 days later,False,False,False,False,False,False,True,False,False,False,False,True,False,False,False,False,True,False,False,False,False
+3 10 to yuma,True,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+3 idiots,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+300,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+50 50,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+500 days of summer,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+a beautiful mind,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+a bronx tale,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+a christmas story,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False
+a clockwork orange,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+a few good men,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+a hard day s night,False,False,False,False,True,False,False,False,False,False,False,False,True,True,False,False,False,False,False,False,False
+a little princess,False,False,False,False,False,False,True,True,True,False,False,False,False,False,False,False,False,False,False,False,False
+a man for all seasons,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+a star is born,False,False,False,False,False,False,True,False,False,False,False,False,True,False,False,True,False,False,False,False,False
+a streetcar named desire,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+about time,False,False,False,False,True,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+ace in the hole,False,False,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+adams aebler,False,False,False,False,True,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+adaptation,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+after hours,False,False,False,False,True,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+ah ga ssi,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,True,False,False
+airplane,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+aladdin,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+alien,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,True,False,False,False,False
+aliens,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+all about eve,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+all quiet on the western front,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,True,False
+all that jazz,False,False,False,False,False,False,True,False,False,False,False,False,True,True,False,False,False,False,False,False,False
+all the president s men,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+almost famous,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+amadeus,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+amelie,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+american beauty,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+american gangster,False,False,False,True,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+american history x,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+american psycho,False,False,False,False,True,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+amores perros,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+amour,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+annie hall,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+apocalypse now,False,False,False,False,False,False,True,False,False,False,False,False,False,False,True,False,False,False,False,True,False
+apocalypto,True,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+apollo 13,False,True,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+argo,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+arrival,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+as good as it gets,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+atonement,False,False,False,False,False,False,True,False,False,False,False,False,False,False,True,True,False,False,False,False,False
+au revoir les enfants,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,True,False
+avatar,True,True,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+avengers endgame,True,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+avengers infinity war,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+awakenings,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+baby driver,True,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+bacheha ye aseman,False,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,True,False,False,False
+back to the future,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+back to the future part ii,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+barton fink,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+batman begins,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+beauty and the beast,False,False,True,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False
+before midnight,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+before sunrise,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+before sunset,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+being john malkovich,False,False,False,False,True,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+being there,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+ben hur,False,True,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+big fish,False,True,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+big hero 6,True,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+billy elliot,False,False,False,False,False,False,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False
+bin jip,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+birdman or the unexpected virtue of ignorance,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+black hawk down,False,False,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,True,False
+black swan,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+blade runner,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,True,False,False
+blade runner 2049,True,False,False,False,False,False,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+blazing saddles,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True
+blood diamond,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+blood simple,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+blow,False,False,False,True,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+blue velvet,False,False,False,False,False,False,True,False,False,False,False,False,False,False,True,False,False,False,True,False,False
+bohemian rhapsody,False,False,False,True,False,False,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False
+boksuneun naui geot,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+bom yeoareum gaeul gyeoul geurigo bom,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+boogie nights,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+bound by honor,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+boyhood,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+boyz n the hood,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+braveheart,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+brazil,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+breaking the waves,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+bridge of spies,False,False,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,True,False,False
+brokeback mountain,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+butch cassidy and the sundance kid,False,False,False,True,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+cabaret,False,False,False,False,False,False,True,False,False,False,False,False,True,True,False,False,False,False,False,False,False
+call me by your name,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+capharnaum,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+captain america civil war,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+captain america the winter soldier,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+captain fantastic,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+captain phillips,False,True,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+carlito s way,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+casablanca,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,True,False
+casino,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+casino royale,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+cast away,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+cat on a hot tin roof,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+catch me if you can,False,False,False,True,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+central do brasil,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+chak de india,False,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,True,False,False,False
+changeling,False,False,False,True,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+charade,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True,True,False,False,False,False,False
+children of men,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+chinatown,False,False,False,False,False,False,True,False,False,False,False,False,False,False,True,False,False,False,True,False,False
+chung hing sam lam,False,False,False,False,True,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+cidade de deus,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+cinderella man,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+citizen kane,False,False,False,False,False,False,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+city lights,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+clerks,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+close encounters of the third kind,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+coco,False,True,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False
+control,False,False,False,True,False,False,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False
+cool hand luke,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+coraline,False,False,True,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False
+cowboy bebop tengoku no tobira,True,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+crash,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+creed,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True,False,False,False
+crimes and misdemeanors,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+crna macka beli macor,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+dallas buyers club,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+dancer in the dark,False,False,False,False,False,True,True,False,False,False,False,False,False,True,False,False,False,False,False,False,False
+dances with wolves,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,True
+darbareye elly,False,False,False,False,False,False,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+dark city,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,True,False,True,False,False
+das boot,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+das experiment,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+das weisse band eine deutsche kindergeschichte,False,False,False,False,False,False,True,False,False,False,True,False,False,False,True,False,False,False,False,False,False
+dawn of the dead,True,True,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False
+dawn of the planet of the apes,True,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+dazed and confused,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+dead man,False,True,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+dead poets society,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+deadpool,True,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+deadpool 2,True,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+delicatessen,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+deliverance,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+der himmel uber berlin,False,False,False,False,False,False,True,False,True,False,False,False,False,False,False,True,False,False,False,False,False
+der name der rose,False,False,False,False,False,True,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+der untergang,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+despicable me,False,False,True,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+dial m for murder,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+diarios de motocicleta,False,True,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+die hard,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+die hard with a vengeance,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+dirty harry,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+district 9,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,True,False,False
+django unchained,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,True
+do the right thing,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+doctor zhivago,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,True,False
+dog day afternoon,False,False,False,True,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+dogville,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+donnie brasco,False,False,False,True,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+donnie darko,False,False,False,False,False,False,True,False,False,False,False,False,False,False,True,False,True,False,False,False,False
+double indemnity,False,False,False,False,False,True,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+down by law,False,False,False,False,True,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+dr strangelove or how i learned to stop worrying and love the bomb,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+drive,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+dunkirk,True,False,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+e t the extra terrestrial,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False
+eastern promises,True,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+ed wood,False,False,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+edge of tomorrow,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+edward scissorhands,False,False,False,False,False,False,True,False,True,False,False,False,False,False,False,True,False,False,False,False,False
+efter brylluppet,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+el secreto de sus ojos,False,False,False,False,False,False,True,False,False,False,False,False,False,False,True,True,False,False,False,False,False
+empire of the sun,True,False,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+en man som heter ove,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+end of watch,True,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+enemy at the gates,False,False,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,True,False
+enter the dragon,True,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+escape from alcatraz,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+eternal sunshine of the spotless mind,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,True,False,False,False,False
+evil dead ii,True,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+ex machina,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True,False,True,False,False
+fa yeung nin wah,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+falling down,True,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+fanny och alexander,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+fantasia,False,False,True,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False
+fantastic mr fox,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+fargo,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+fear and loathing in las vegas,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+ferris bueller s day off,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+festen,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+fiddler on the roof,False,False,False,False,False,False,True,True,False,False,False,False,False,True,False,False,False,False,False,False,False
+fight club,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+finding nemo,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+finding neverland,False,False,False,True,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False
+first blood,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+flipped,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+ford v ferrari,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+forrest gump,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+forushande,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+fried green tomatoes,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+from here to eternity,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,True,False
+frost nixon,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+full metal jacket,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,True,False
+gake no ue no ponyo,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+gandhi,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+gattaca,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True,False,True,False,False
+get out,False,False,False,False,False,False,False,False,False,False,False,True,False,False,True,False,False,False,True,False,False
+ghostbusters,True,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+gifted,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+gisaengchung,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+giu la testa,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,True,True
+gladiator,True,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+glengarry glen ross,False,False,False,False,False,True,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+glory,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+goldfinger,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+gone baby gone,False,False,False,False,False,True,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+gone girl,False,False,False,False,False,False,True,False,False,False,False,False,False,False,True,False,False,False,True,False,False
+gone with the wind,False,False,False,False,False,False,True,False,False,False,True,False,False,False,False,True,False,False,False,False,False
+good bye lenin,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+good will hunting,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+goodfellas,False,False,False,True,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+gran torino,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+gravity,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True,False,True,False,False
+green book,False,False,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+groundhog day,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,True,False,False,False,False,False
+guardians of the galaxy,True,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+guardians of the galaxy vol 2,True,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+gully boy,False,False,False,False,False,False,True,False,False,False,False,False,True,False,False,True,False,False,False,False,False
+hable con ella,False,False,False,False,False,False,True,False,False,False,False,False,False,False,True,True,False,False,False,False,False
+hacksaw ridge,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+haevnen,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+halloween,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,True,False,False
+hannah and her sisters,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+harry potter and the deathly hallows part 1,False,True,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False
+harry potter and the deathly hallows part 2,False,True,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+harry potter and the goblet of fire,False,True,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False
+harry potter and the half blood prince,True,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False
+harry potter and the prisoner of azkaban,False,True,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False
+harry potter and the sorcerer s stone,False,True,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False
+hauru no ugoku shiro,False,True,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False
+heat,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+hedwig and the angry inch,False,False,False,False,True,False,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False
+hell or high water,True,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+her,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,True,False,False,False,False
+hidden figures,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+high noon,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True,False,True
+home alone,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False
+hot fuzz,True,False,False,False,True,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+hotel rwanda,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+how to train your dragon,True,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+how to train your dragon 2,True,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+hunt for the wilderpeople,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+huo yuan jia,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+i am sam,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+i daniel blake,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+il buono il brutto il cattivo,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True
+il conformista,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+il postino,False,False,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+in america,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+in bruges,False,False,False,False,True,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+in the heat of the night,False,False,False,False,False,True,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+in the name of the father,False,False,False,True,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+incendies,False,False,False,False,False,False,True,False,False,False,False,False,False,False,True,False,False,False,False,True,False
+inception,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+incredibles 2,True,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+indiana jones and the last crusade,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+inglourious basterds,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,True,False
+inside man,False,False,False,False,False,True,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+inside out,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+interstellar,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+into the wild,False,True,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+iron man,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+isle of dogs,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+it happened one night,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+jagten,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+jaws,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+jeux d enfants,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+jfk,False,False,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,True,False,False
+jodaeiye nader az simin,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+jojo rabbit,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,True,False
+joker,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+joyeux noel,False,False,False,False,False,False,True,False,False,False,True,False,True,False,False,False,False,False,False,False,False
+jurassic park,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+kaguyahime no monogatari,False,True,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+kai po che,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True,False,False,False
+kal ho naa ho,False,False,False,False,True,False,True,False,False,False,False,False,False,True,False,False,False,False,False,False,False
+kari gurashi no arietti,False,True,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False
+kaze no tani no naushika,False,True,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+kaze tachinu,False,False,True,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+kelly s heroes,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False
+kick ass,True,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+kill bill vol 1,True,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+kill bill vol 2,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+kimi no na wa,False,False,True,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+king kong,False,True,False,False,False,False,False,False,False,False,False,True,False,False,False,False,True,False,False,False,False
+kingsman the secret service,True,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+knives out,False,False,False,False,True,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+kokaku kidotai,True,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+kramer vs kramer,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+kubo and the two strings,True,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+kung fu,True,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+l a confidential,False,False,False,False,False,True,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+la dolce vita,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+la double vie de veronique,False,False,False,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False
+la la land,False,False,False,False,True,False,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False
+la leggenda del pianista sull oceano,False,False,False,False,False,False,True,False,False,False,False,False,True,False,False,True,False,False,False,False,False
+la migliore offerta,False,False,False,False,False,True,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+la montana sagrada,False,True,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+la piel que habito,False,False,False,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False,True,False,False
+la planete sauvage,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+la vie d adele,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+la vie en rose,False,False,False,True,False,False,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False
+la vita e bella,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+lagaan once upon a time in india,False,True,False,False,False,False,True,False,False,False,False,False,False,True,False,False,False,False,False,False,False
+lat den ratte komma in,False,False,False,False,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+lawrence of arabia,False,True,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+le charme discret de la bourgeoisie,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+le diner de cons,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+le locataire,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+le passe,False,False,False,False,False,False,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+le petit prince,False,True,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+le scaphandre et le papillon,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+leon,True,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+les choristes,False,False,False,False,False,False,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False
+les triplettes de belleville,False,False,True,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+lethal weapon,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+letters from iwo jima,True,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+leviafan,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+life of brian,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+life of pi,False,True,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+lilja 4 ever,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+lion,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+little miss sunshine,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+little women,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+lock stock and two smoking barrels,True,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+logan,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+lola rennt,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+lord of war,True,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+lost highway,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,True,False,False
+lost in translation,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+loving vincent,False,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+lucky number slevin,True,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+mad max 2,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+mad max fury road,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+madeo,False,False,False,False,False,True,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+magnolia,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+malcolm x,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+man on fire,True,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+man som hatar kvinnor,False,False,False,False,False,True,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+manbiki kazoku,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+manchester by the sea,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+manhattan,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+mar adentro,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+marriage story,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+mary poppins,False,False,False,False,True,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False
+match point,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,True,False,False
+me and earl and the dying girl,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+memento,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,True,False,False
+midnight cowboy,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+midnight express,False,False,False,True,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+midnight in paris,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,True,False,False,False,False,False
+miller s crossing,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+million dollar baby,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True,False,False,False
+minority report,True,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+misery,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+mission impossible fallout,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+mississippi burning,False,False,False,False,False,True,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+moana,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+modern times,False,False,False,False,True,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False
+mommy,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+moneyball,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True,False,False,False
+mononoke hime,True,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+monsters inc,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+monty python and the holy grail,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+moon,False,False,False,False,False,False,True,False,False,False,False,False,False,False,True,False,True,False,False,False,False
+moonrise kingdom,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+mou gaan dou,True,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+mr nobody,False,False,False,False,False,False,True,False,True,False,False,False,False,False,False,True,False,False,False,False,False
+mr smith goes to washington,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+mulan,False,True,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False
+mulholland dr,False,False,False,False,False,False,True,False,False,False,False,False,False,False,True,False,False,False,True,False,False
+mustang,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+my cousin vinny,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+my fair lady,False,False,False,False,False,False,True,True,False,False,False,False,False,True,False,False,False,False,False,False,False
+my left foot the story of christy brown,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+my name is khan,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+mysterious skin,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+mystic river,False,False,False,False,False,True,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+nebraska,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+nelyubov,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+night on earth,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+nightcrawler,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+no country for old men,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+no man s land,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,True,False
+north by northwest,False,True,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,True,False,False
+notorious,False,False,False,False,False,False,True,False,False,True,False,False,False,False,False,True,False,False,False,False,False
+nueve reinas,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+nuovo cinema paradiso,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+o brother where art thou,False,True,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+ocean s eleven,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+october sky,False,False,False,True,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False
+office space,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+okuribito,False,False,False,False,False,False,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False
+oldeuboi,True,False,False,False,False,False,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+omohide poro poro,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+omoide no mani,False,False,True,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False
+on golden pond,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+on the waterfront,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+once,False,False,False,False,False,False,True,False,False,False,False,False,True,False,False,True,False,False,False,False,False
+once upon a time in hollywood,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+once upon a time in the west,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True
+once were warriors,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+one flew over the cuckoo s nest,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+only the brave,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+ordinary people,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+paddington 2,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False
+pan s labyrinth,False,False,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,True,False
+paper moon,False,False,False,False,True,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+papillon,False,False,False,True,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+papurika,False,False,True,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+paris texas,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+patton,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,True,False
+per qualche dollaro in piu,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True
+per un pugno di dollari,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,True
+persepolis,False,False,True,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+philadelphia,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+philomena,False,False,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+pink floyd the wall,False,False,False,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False
+pirates of the caribbean the curse of the black pearl,True,True,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+planes trains automobiles,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+planet of the apes,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+platoon,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,True,False
+portrait de la jeune fille en feu,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+predator,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+pride prejudice,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+primal fear,False,False,False,False,False,True,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+prisoners,False,False,False,False,False,True,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+psycho,False,False,False,False,False,False,False,False,False,False,False,True,False,False,True,False,False,False,True,False,False
+pulp fiction,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+raging bull,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True,False,False,False
+raiders of the lost ark,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+rain man,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+ran,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,True,False
+ratatouille,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+ray,False,False,False,True,False,False,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False
+rear window,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,True,False,False
+rebecca,False,False,False,False,False,False,True,False,False,False,False,False,False,False,True,True,False,False,False,False,False
+relatos salvajes,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+remember the titans,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True,False,False,False
+requiem for a dream,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+reservoir dogs,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+rio bravo,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,True
+road to perdition,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+rocky,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True,False,False,False
+rogue one,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+room,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+rush,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+rushmore,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+salinui chueok,False,False,False,False,False,True,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+saving private ryan,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,True,False
+saw,False,False,False,False,False,False,False,False,False,False,False,True,False,False,True,False,False,False,True,False,False
+scarface,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+scent of a woman,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+schindler s list,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+se7en,False,False,False,False,False,True,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+searching,False,False,False,False,False,False,True,False,False,False,False,False,False,False,True,False,False,False,True,False,False
+secrets lies,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+sen to chihiro no kamikakushi,False,True,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False
+sense and sensibility,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+serbuan maut,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+serbuan maut 2 berandal,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+serenity,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+serpico,False,False,False,True,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+seven pounds,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+shaun of the dead,False,False,False,False,True,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False
+sherlock holmes,True,True,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+shichinin no samurai,True,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+shine,False,False,False,True,False,False,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False
+short cuts,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+short term 12,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+shrek,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+shutter island,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,True,False,False
+sicario,True,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+silver linings playbook,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+sin city,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+sing street,False,False,False,False,True,False,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False
+singin in the rain,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,True,False,False,False,False,False
+skyfall,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+sleepers,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+sling blade,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+slumdog millionaire,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+snatch,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+some like it hot,False,False,False,False,True,False,False,False,False,False,False,False,True,False,False,True,False,False,False,False,False
+song of the sea,False,True,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+south park bigger longer uncut,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+spartacus,False,True,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+spider man into the spider verse,True,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+spotlight,False,False,False,True,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+stand by me,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+star trek,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+star trek ii the wrath of khan,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+star trek into darkness,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+star wars,True,True,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+star wars episode v the empire strikes back,True,True,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+star wars episode vi return of the jedi,True,True,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+star wars episode vii the force awakens,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+stardust,False,True,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False
+straight outta compton,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+strangers on a train,False,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False
+synecdoche new york,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+taegukgi hwinalrimyeo,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,True,False
+taken,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+tangled,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+taxi driver,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+terminator 2 judgment day,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+the adventures of robin hood,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+the african queen,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+the apartment,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+the artist,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+the avengers,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+the best years of our lives,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,True,False
+the big lebowski,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False
+the big short,False,False,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+the birds,False,False,False,False,False,False,True,False,False,False,False,True,False,False,True,False,False,False,False,False,False
+the blind side,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True,False,False,False
+the blues brothers,True,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+the boondock saints,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+the bourne identity,True,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,True,False,False
+the bourne supremacy,True,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,True,False,False
+the bourne ultimatum,True,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,True,False,False
+the boy in the striped pyjamas,False,False,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,True,False
+the breakfast club,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+the bridge on the river kwai,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,True,False
+the bridges of madison county,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+the butterfly effect,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True,False,True,False,False
+the color purple,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+the conversation,False,False,False,False,False,False,True,False,False,False,False,False,False,False,True,False,False,False,True,False,False
+the count of monte cristo,True,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+the curious case of benjamin button,False,False,False,False,False,False,True,False,True,False,False,False,False,False,False,True,False,False,False,False,False
+the dark knight,True,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+the dark knight rises,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+the day of the jackal,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+the deer hunter,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,True,False
+the departed,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+the exorcist,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False
+the fall,False,True,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+the fault in our stars,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+the fifth element,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+the fighter,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True,False,False,False
+the florida project,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+the french connection,True,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+the fugitive,True,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+the game,True,False,False,False,False,False,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+the girl with the dragon tattoo,False,False,False,False,False,True,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+the godfather,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+the godfather part ii,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+the godfather part iii,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+the goonies,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False
+the graduate,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+the grand budapest hotel,False,True,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+the grapes of wrath,False,False,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+the great escape,False,True,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+the green mile,False,False,False,False,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+the hangover,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+the hateful eight,False,False,False,False,False,True,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+the help,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+the hobbit an unexpected journey,False,True,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+the hobbit the desolation of smaug,False,True,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+the hurricane,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True,False,False,False
+the hustler,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True,False,False,False
+the illusionist,False,False,False,False,False,False,True,False,True,False,False,False,False,False,True,False,False,False,False,False,False
+the imitation game,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+the incredibles,True,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+the innocents,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False
+the insider,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+the intouchables,False,False,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+the irishman,False,False,False,True,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+the iron giant,True,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+the jungle book,False,True,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False
+the killing fields,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+the king of comedy,False,False,False,False,True,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+the king s speech,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+the last emperor,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+the last king of scotland,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+the last of the mohicans,True,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+the last picture show,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+the last samurai,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+the lego movie,True,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+the lion king,False,True,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+the little mermaid,False,False,True,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False
+the lives of others,False,False,False,False,False,False,True,False,False,False,False,False,False,False,True,False,False,False,True,False,False
+the long goodbye,False,False,False,False,True,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+the longest day,True,False,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+the lord of the rings the fellowship of the ring,True,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+the lord of the rings the return of the king,True,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+the lord of the rings the two towers,True,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+the lunchbox,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+the machinist,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+the magdalene sisters,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+the magnificent seven,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True
+the martian,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+the matrix,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+the muppet christmas carol,False,False,False,False,True,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False
+the muppet movie,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False
+the naked gun from the files of police squad,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+the nightmare before christmas,False,False,True,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False
+the notebook,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+the odd couple,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+the others,False,False,False,False,False,False,False,False,False,False,False,True,False,False,True,False,False,False,True,False,False
+the outlaw josey wales,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True
+the peanut butter falcon,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+the perks of being a wallflower,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+the pianist,False,False,False,True,False,False,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False
+the prestige,False,False,False,False,False,False,True,False,False,False,False,False,False,False,True,False,True,False,False,False,False
+the princess bride,False,True,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False
+the purple rose of cairo,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,True,False,False,False,False,False
+the pursuit of happyness,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+the remains of the day,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+the revenant,True,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+the right stuff,False,True,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+the royal tenenbaums,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+the sandlot,False,False,False,False,True,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False
+the shining,False,False,False,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False
+the silence of the lambs,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+the sixth sense,False,False,False,False,False,False,True,False,False,False,False,False,False,False,True,False,False,False,True,False,False
+the social network,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+the sound of music,False,False,False,True,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False
+the station agent,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+the sting,False,False,False,False,True,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+the straight story,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+the terminator,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+the theory of everything,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+the thin red line,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,True,False
+the thing,False,False,False,False,False,False,False,False,False,False,False,True,False,False,True,False,True,False,False,False,False
+the third man,False,False,False,False,False,False,False,False,False,True,False,False,False,False,True,False,False,False,True,False,False
+the treasure of the sierra madre,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,True
+the truman show,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+the untouchables,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+the usual suspects,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,True,False,False
+the verdict,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+the visitor,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+the warriors,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+the wild bunch,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True
+the wizard of oz,False,True,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False
+the wolf of wall street,False,False,False,True,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+the world s fastest indian,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True,False,False,False
+the wrestler,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True,False,False,False
+there will be blood,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+this is spinal tap,False,False,False,False,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False
+thor ragnarok,True,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+three billboards outside ebbing missouri,False,False,False,False,True,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+titanic,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+todo sobre mi madre,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+tokyo goddofazazu,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+tombstone,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+tonari no totoro,False,False,True,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False
+touch of evil,False,False,False,False,False,True,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+toy story,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+toy story 2,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+toy story 3,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+toy story 4,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+training day,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+trainspotting,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+trois couleurs blanc,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+trois couleurs bleu,False,False,False,False,False,False,True,False,False,False,False,False,True,False,True,False,False,False,False,False,False
+trois couleurs rouge,False,False,False,False,False,False,True,False,False,False,False,False,False,False,True,True,False,False,False,False,False
+tropa de elite,True,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+true grit,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,True
+true romance,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+twelve monkeys,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,True,False,True,False,False
+un long dimanche de fiancailles,False,False,False,False,False,False,True,False,False,False,False,False,False,False,True,True,False,False,False,False,False
+un prophete,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+under sandet,False,False,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,True,False
+unforgiven,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,True
+up,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+v for vendetta,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+vampire hunter d bloodlust,True,False,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+veer zaara,False,False,False,False,False,False,True,True,False,False,False,False,False,True,False,False,False,False,False,False,False
+vertigo,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,True,False,False,True,False,False
+waking life,False,False,True,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+walk the line,False,False,False,True,False,False,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False
+wall e,False,True,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False
+warrior,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True,False,False,False
+watchmen,True,False,False,False,False,False,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+what ever happened to baby jane,False,False,False,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False,True,False,False
+what s eating gilbert grape,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+what we do in the shadows,False,False,False,False,True,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False
+when harry met sally,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+whiplash,False,False,False,False,False,False,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False
+who framed roger rabbit,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+willy wonka the chocolate factory,False,False,False,False,False,False,False,True,True,False,False,False,False,True,False,False,False,False,False,False,False
+wind river,False,False,False,False,False,True,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+withnail i,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+wo hu cang long,True,True,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+wonder,False,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False
+wreck it ralph,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+x first class,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+x men days of future past,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+y tu mama tambien,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+ying xiong,True,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+young frankenstein,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+zodiac,False,False,False,False,False,True,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+zombieland,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+zootopia,False,True,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+zwartboek,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True,True,False

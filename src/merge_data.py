@@ -3,7 +3,7 @@ import re
 import pandas as pd
 import unidecode
 
-# -------------------- util: chave canônica --------------------
+# -------------------- util: canonical key --------------------
 def normalize_title(s: str) -> str:
     if pd.isna(s):
         return ""
@@ -12,21 +12,21 @@ def normalize_title(s: str) -> str:
     s = re.sub(r"[^a-z0-9 ]", " ", s)
     return re.sub(r"\s+", " ", s).strip()
 
-# ----------------- 1) one-hot de gêneros (IMDB) ----------------
+# ----------------- 1) one-hot for genres (IMDB) ----------------
 def transform_genres(
     input_path="data/processed/imdb_clean.csv",
-    output_path="data/processed/genres_encodded.csv"  # mantém seu nome
+    output_path="data/processed/genres_encoded.csv"
 ):
     """
-    Lê o imdb_clean, transforma Genre em colunas booleanas por filme
-    e salva o resultado. Gera também title_norm para merges futuros.
+    Reads imdb_clean, transforms the 'Genre' column into boolean columns per film
+    and saves the result. Also generates a 'title_norm' column for future merges.
     """
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
     try:
         df = pd.read_csv(input_path)
     except FileNotFoundError:
-        print(f"Erro: Arquivo não encontrado em {input_path}")
+        print(f"Error: File not found at {input_path}")
         return
 
     df = df.rename(columns={'Series_Title': 'film'})
@@ -45,28 +45,28 @@ def transform_genres(
     )
 
     one_hot.to_csv(output_path, index=False)
-    print(f"[OK] Dados transformados salvos em: {output_path}")
+    print(f"[OK] Transformed data saved to: {output_path}")
 
-# --------------- 2) IMDB + gêneros ------------------
+# --------------- 2) Merge IMDB + Genres ------------------
 def merge_imdb_data(
-    genres_path="data/processed/genres_encodded.csv",
+    genres_path="data/processed/genres_encoded.csv",
     imdb_path="data/processed/imdb_clean.csv",
     output_path="data/processed/imdb_merged.csv"
 ):
     """
-    Une o one-hot de gêneros ao IMDB limpo.
-    Chave: title_norm (mais estável que 'film').
+    Merges the one-hot encoded genres with the cleaned IMDB data.
+    Key: 'title_norm' (more stable than 'film').
     """
     try:
         df_genres = pd.read_csv(genres_path)
     except FileNotFoundError:
-        print(f"Erro: Arquivo não encontrado em {genres_path}")
+        print(f"Error: File not found at {genres_path}")
         return
 
     try:
         df_imdb = pd.read_csv(imdb_path)
     except FileNotFoundError:
-        print(f"Erro: Arquivo não encontrado em {imdb_path}")
+        print(f"Error: File not found at {imdb_path}")
         return
 
     df_imdb = df_imdb.rename(columns={'Series_Title': 'film'})
@@ -80,23 +80,23 @@ def merge_imdb_data(
 
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     df_merged.to_csv(output_path, index=False)
-    print(f"[OK] Dados do IMDB unidos e salvos em: {output_path}")
+    print(f"[OK] IMDB data merged and saved to: {output_path}")
 
-# -------- 3) Oscar agregado (por title_norm)---------
+# -------- 3) Aggregate Oscar data (by title_norm)---------
 def transform_oscar_data(oscar_path="data/processed/oscar_clean.csv"):
     """
-    Agrega Oscar por filme, criando contagens de indicações e vitórias
-    + flags de 'Best Picture' (indicado/ganhou). Usa title_norm.
-    Retorna DataFrame agregado.
+    Aggregates Oscar data per film, creating counts for nominations and wins
+    + flags for 'Best Picture' (nominated/won). Uses 'title_norm'.
+    Returns an aggregated DataFrame.
     """
     try:
         df_oscar = pd.read_csv(oscar_path)
     except FileNotFoundError:
-        print(f"Erro: Arquivo não encontrado em {oscar_path}")
+        print(f"Error: File not found at {oscar_path}")
         return None
 
     if 'film' not in df_oscar.columns:
-        print("Erro: oscar_clean.csv precisa ter a coluna 'film'.")
+        print("Error: oscar_clean.csv must have a 'film' column.")
         return None
 
     df_oscar['title_norm'] = df_oscar['film'].map(normalize_title)
@@ -117,40 +117,37 @@ def transform_oscar_data(oscar_path="data/processed/oscar_clean.csv"):
     return agg
 
 def merge_oscar_data(
-    main_path="data/processed/imdb_merged.csv",            # agora junta direto no IMDB
+    main_path="data/processed/imdb_merged.csv",
     df_oscar_aggregated=None,
-    output_path="data/processed/imdb_oscar.csv"            # saída focada: IMDB + Oscar
+    output_path="data/processed/imdb_oscar.csv"
 ):
     """
-    Une IMDB_merged com o agregado do Oscar por title_norm (LEFT JOIN).
+    Merges 'imdb_merged' with the aggregated Oscar data using 'title_norm' (LEFT JOIN).
     """
     try:
         df_main = pd.read_csv(main_path)
     except FileNotFoundError:
-        print(f"Erro: Arquivo não encontrado em {main_path}")
+        print(f"Error: File not found at {main_path}")
         return
 
     if df_oscar_aggregated is None:
-        print("Erro: DataFrame agregado do Oscar não fornecido.")
+        print("Error: Aggregated Oscar DataFrame not provided.")
         return
 
-    # garante que title_norm exista em df_main (deve existir da etapa anterior)
     if 'title_norm' not in df_main.columns:
         df_main['title_norm'] = df_main['film'].map(normalize_title)
 
     df_merged = pd.merge(df_main, df_oscar_aggregated, on='title_norm', how='left')
 
-    #drop coluna auxiliar
     df_merged = df_merged.drop(columns=['title_norm'])
     
-    # preenchimento das métricas do Oscar
     for c in ['oscar_nominations', 'oscar_wins', 'best_picture_nom', 'best_picture_win']:
         if c in df_merged.columns:
             df_merged[c] = df_merged[c].fillna(0).astype(int)
 
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     df_merged.to_csv(output_path, index=False)
-    print(f"[OK] Dados do Oscar unidos e salvos em: {output_path}")
+    print(f"[OK] Oscar data merged and saved to: {output_path}")
 
 # -------------------------- runner ----------------------
 if __name__ == "__main__":
@@ -161,4 +158,4 @@ if __name__ == "__main__":
     if df_oscar_agg is not None:
         merge_oscar_data(df_oscar_aggregated=df_oscar_agg)
 
-    print("Pipeline (IMDB + Oscar opcional) concluído.")
+    print("Pipeline (IMDB + optional Oscar data) completed.")
