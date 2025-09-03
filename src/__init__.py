@@ -14,3 +14,18 @@ from .profile_imdb_oscar import run_profile as profile_imdb_oscar
 from .eda_imdb_oscar import run as eda_imdb_oscar
 
 
+# Importando o novo script de modelagem
+from .modeling_regression import (
+    load_data as load_model_data,
+    prepare_features,
+    evaluate_model,
+    main as run_modeling
+)
+
+from .predict import (
+    load_models,
+    load_features,
+    prepare_data,
+    make_prediction,
+    main as run_prediction
+)

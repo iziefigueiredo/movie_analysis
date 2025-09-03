@@ -33,7 +33,7 @@ def load_features():
         return None
 
 
-def prepare_data_for_prediction(df: pd.DataFrame, features: list) -> pd.DataFrame:
+def prepare_data(df: pd.DataFrame, features: list) -> pd.DataFrame:
     """Prepara os dados de entrada para corresponderem às features do modelo."""
     prepared_data = {}
     for feature in features:
@@ -105,7 +105,7 @@ def main():
     ])
     
     # Prepara os dados uma única vez
-    prepared_df = prepare_data_for_prediction(new_movies, features)
+    prepared_df = prepare_data(new_movies, features)
 
     print("=== Previsões para filmes de exemplo ===")
     
