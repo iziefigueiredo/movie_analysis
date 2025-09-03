@@ -1,121 +1,121 @@
 import os
-import pickle
-import numpy as np
+import joblib
 import pandas as pd
+import numpy as np
+from pathlib import Path
 
 # =========================== CONFIG =========================== #
-MODEL_DIR       = "models"
-MODEL_PATH      = os.path.join(MODEL_DIR, "imdb_predictor.pkl")
-FEATURES_PATH   = os.path.join(MODEL_DIR, "model_features.pkl")
-TARGET          = "IMDB_Rating"
-STAR_COLS       = ["Star1", "Star2", "Star3", "Star4"]
+MODEL_DIR = Path("models")
+FEATURES_PATH = MODEL_DIR / "features.pkl"
+STAR_COLS = ["Star1", "Star2", "Star3", "Star4"]
+
 
 # =========================== FUNÇÕES =========================== #
-def load_model_and_features():
-    """Carrega o modelo treinado e a lista de features."""
-    if not os.path.exists(MODEL_PATH) or not os.path.exists(FEATURES_PATH):
-        print(f"Erro: Arquivos do modelo não encontrados. Execute 'modeling.py' primeiro.")
-        return None, None
-    
-    with open(MODEL_PATH, 'rb') as f:
-        model = pickle.load(f)
-    with open(FEATURES_PATH, 'rb') as f:
-        features = pickle.load(f)
-        
-    return model, features
+def load_models():
+    """Carrega os modelos treinados e a lista de features."""
+    models = {}
+    try:
+        models["RandomForest"] = joblib.load(MODEL_DIR / "rf_model.pkl")
+        models["GradientBoosting"] = joblib.load(MODEL_DIR / "gb_model.pkl")
+        models["LinearRegression"] = joblib.load(MODEL_DIR / "lr_model.pkl")
+    except FileNotFoundError as e:
+        print(f"Erro ao carregar um dos modelos: {e}. Certifique-se de executar o 'modeling.py' primeiro.")
+        return None
+    return models
 
-def predict_imdb_rating(
-    df: pd.DataFrame,
-    model,
-    features: list
-) -> pd.DataFrame:
-    """
-    Recebe um DataFrame de filmes e utiliza o modelo para prever a
-    nota do IMDB. Abordagem otimizada para performance.
-    """
-    # 1. Prepara a entrada criando um dicionário de dados
-    data_for_prediction = {}
-    
-    # 2. Popula o dicionário com os dados necessários
+
+def load_features():
+    """Carrega a lista de features usadas no treino."""
+    try:
+        return joblib.load(FEATURES_PATH)
+    except FileNotFoundError as e:
+        print(f"Erro: Arquivo de features não encontrado em {FEATURES_PATH}. Certifique-se de que ele foi salvo pelo 'modeling.py'.")
+        return None
+
+
+def prepare_data_for_prediction(df: pd.DataFrame, features: list) -> pd.DataFrame:
+    """Prepara os dados de entrada para corresponderem às features do modelo."""
+    prepared_data = {}
     for feature in features:
-        # Lida com colunas numéricas (popula com dados do input)
-        if feature in ["Runtime", "No_of_Votes", "Gross", "Meta_score"]:
-            data_for_prediction[feature] = pd.to_numeric(df.get(feature, pd.Series([np.nan] * len(df))), errors='coerce').fillna(0).tolist()
-        # Lida com colunas de gênero e ator (dummies)
-        else:
-            is_present = pd.Series([0] * len(df))
-            if feature.startswith("actor_"):
-                actor_name = feature.replace("actor_", "")
-                is_present = df.apply(
-                    lambda row: (actor_name in str(row.get("Star1", "")) or 
-                                 actor_name in str(row.get("Star2", "")) or 
-                                 actor_name in str(row.get("Star3", "")) or 
-                                 actor_name in str(row.get("Star4", ""))), axis=1
-                )
-            elif feature.startswith("director_"):
-                director_name = feature.replace("director_", "")
-                is_present = (df["Director"] == director_name)
-            else: # Colunas de gênero
-                is_present = df.get(feature, pd.Series([0] * len(df)))
-                
-            data_for_prediction[feature] = is_present.fillna(0).astype(int).tolist()
+        # 1. Trata colunas numéricas
+        if feature in ["No_of_Votes", "Meta_score", "Runtime", "Gross"]:
+            prepared_data[feature] = pd.to_numeric(df.get(feature, pd.Series([np.nan] * len(df))), errors='coerce').fillna(0).tolist()
+        
+        # 2. Trata colunas de atores
+        elif feature.startswith("actor_"):
+            actor_name = feature.replace("actor_", "")
+            is_present = df[STAR_COLS].apply(lambda row: actor_name in str(row.astype(str).values), axis=1)
+            prepared_data[feature] = is_present.astype(int).tolist()
 
-    # 3. Cria o DataFrame de uma vez a partir do dicionário
-    df_pred = pd.DataFrame(data_for_prediction, columns=features)
+        # 3. Trata colunas de diretores
+        elif feature.startswith("director_"):
+            director_name = feature.replace("director_", "")
+            # Verifica se a coluna 'Director' existe antes de tentar acessá-la
+            if "Director" in df.columns:
+                is_present = (df["Director"] == director_name).fillna(False)
+            else:
+                is_present = pd.Series([False] * len(df))
+            prepared_data[feature] = is_present.astype(int).tolist()
+        
+        # 4. Trata colunas de gêneros (dummys)
+        else: 
+            is_present = df.get(feature, pd.Series([0] * len(df)))
+            prepared_data[feature] = is_present.fillna(0).astype(int).tolist()
     
-    # 4. Faz a predição
-    df_pred["predicted_imdb_rating"] = model.predict(df_pred[features])
-    
-    # 5. Retorna o resultado com as colunas originais
-    return pd.concat([df.reset_index(drop=True), df_pred["predicted_imdb_rating"]], axis=1)
+    return pd.DataFrame(prepared_data, columns=features)
 
-# =========================== RUNNER =========================== #
+
+def make_prediction(model, prepared_df: pd.DataFrame) -> np.ndarray:
+    """Faz a predição usando um modelo específico."""
+    return model.predict(prepared_df)
+
+
+def main():
+    models = load_models()
+    features = load_features()
+
+    if models is None or features is None:
+        return
+
+    # Dados para predição, incluindo "The Shawshank Redemption"
+    new_movies = pd.DataFrame([
+        {
+            "film": "The Shawshank Redemption",
+            "Director": "Frank Darabont",
+            "Runtime": 142,
+            "No_of_Votes": 2343110,
+            "Gross": 28341469,
+            "Meta_score": 80,
+            "Drama": 1,
+            "Star1": "Tim Robbins",
+            "Star2": "Morgan Freeman",
+            "Star3": "Bob Gunton",
+            "Star4": "William Sadler"
+        },
+        {
+            "film": "Inception",
+            "Director": "Christopher Nolan",
+            "Runtime": 148,
+            "No_of_Votes": 2400000,
+            "Gross": 292576195,
+            "Meta_score": 74,
+            "Action": 1, "Adventure": 1, "Sci-Fi": 1, "Thriller": 1,
+            "Star1": "Leonardo DiCaprio", "Star2": "Joseph Gordon-Levitt"
+        }
+    ])
+    
+    # Prepara os dados uma única vez
+    prepared_df = prepare_data_for_prediction(new_movies, features)
+
+    print("=== Previsões para filmes de exemplo ===")
+    
+    # Faz a predição para cada filme usando cada modelo
+    for name, model in models.items():
+        predictions = make_prediction(model, prepared_df)
+        print(f"\nModelo: {name}")
+        for i, film in new_movies.iterrows():
+            print(f"  - Filme: {film['film']:<30} | Nota Prevista: {predictions[i]:.3f}")
+
+
 if __name__ == "__main__":
-    model, features = load_model_and_features()
-    
-    if model and features:
-        print("[Início] Fazendo previsões com o modelo carregado...")
-
-        new_movies = pd.DataFrame([
-            {
-
-                "film": "The Shawshank Redemption",
-                "Director": "Frank Darabont",
-                "Runtime": 142,
-                "No_of_Votes": 2343110,
-                "Gross": 28341469,
-                "Meta_score": 80,
-                "Drama": 1,
-                "Star1": "Tim Robbins",
-                "Star2": "Tim Robbins",
-                "Star3": "Bob Gunton",
-                "Star4": "William Sadler"# Adicionando ator para o exemplo
-
-            },
-            {
-                "film": "The Matrix",
-                "Director": "Lana Wachowski",
-                "Runtime": 136,
-                "No_of_Votes": 1900000,
-                "Gross": 171479930,
-                "Meta_score": 88,
-                "Action": 1, "Sci-Fi": 1,
-                "Star1": "Keanu Reeves"
-            },
-            {
-                "film": "A Quiet Place",
-                "Director": "John Krasinski",
-                "Runtime": 90,
-                "No_of_Votes": 490000,
-                "Gross": 188024361,
-                "Meta_score": 82,
-                "Drama": 1, "Horror": 1
-            }
-        ])
-        
-        predictions = predict_imdb_rating(new_movies, model, features)
-        
-        print("\nPrevisões geradas:")
-        print(predictions[["film", "predicted_imdb_rating"]])
-        
-        print("\n[Fim] Predição concluída.")
+    main()

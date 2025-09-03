@@ -1,4 +1,3 @@
-# src/modeling_regression.py
 import os
 import joblib
 import pandas as pd
@@ -65,7 +64,10 @@ def main():
     df = load_data()
     X, y = prepare_features(df)
 
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.15, random_state=42)
+    
+    # Adicionando o salvamento das features
+    joblib.dump(X.columns.tolist(), MODEL_DIR / "features.pkl")
 
     results = {}
 
