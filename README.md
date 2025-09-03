@@ -52,6 +52,7 @@ movie_analysis/
 │   ├── merge_data.py
 │   ├── modeling.py
 │   └── predict.py
+│   └── text_classifier.py
 ├── notebooks/
 │   ├── answers.ipynb
 ├── config.yaml
