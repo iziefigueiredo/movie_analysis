@@ -5,6 +5,14 @@ This repository implements a complete **data science pipeline** for movie analys
 The primary goal is to **predict a movie's IMDB rating** based on features such as genre, box office revenue, directors, and actors. 
 In addition, the project includes exploratory analyses to extract insights into what makes a movie successful.
 
+## Visualizations
+
+### Gross comparison: Oscar competitors vs non-competitors
+![Oscar Gross Comparison](https://github.com/iziefigueiredo/movie_analysis/blob/main/reports/viz/oscar_gross_comparison.png?raw=true)
+
+### Correlation heatmap
+![Correlation Heatmap](https://github.com/iziefigueiredo/movie_analysis/blob/main/reports/viz/corr_numeric.png?raw=true)
+
 
 ## Exploratory Data Analysis (EDA)
 
