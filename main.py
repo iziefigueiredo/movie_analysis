@@ -7,7 +7,6 @@ from src import (
     # IMDB
     load_imdb,    
     clean_imdb,    
-
    
     # OSCAR
     load_oscar,    
@@ -18,12 +17,18 @@ from src import (
     merge_imdb_data,
     transform_oscar_data,
     merge_oscar_data,
+
+    # Modeling
+    run_modeling,
+
+    # Prediction
+    run_prediction,
 )
 
 
 def main_pipeline():
     """
-    Orquestra a pipeline completa de processamento e união de dados.
+    Orquestra a pipeline completa de processamento, modelagem e predição.
     """
     print("Iniciando a pipeline de processamento de dados...")
 
@@ -40,22 +45,19 @@ def main_pipeline():
     df_imdb_raw_path = data_raw_dir / "imdb.csv"
     df_oscar_raw_path = data_raw_dir / "oscar.csv"
 
-    # 2. Carrega e limpa os dados
-    # 2. Carrega e limpa os dados
     try:
         df_imdb = clean_imdb(pd.read_csv(df_imdb_raw_path))   
         df_oscar = clean_oscar(load_oscar(df_oscar_raw_path)) 
     except FileNotFoundError as e:
         print(f"Erro: Arquivo não encontrado: {e}. "
-            "Por favor, verifique se todos os arquivos .csv brutos estão na pasta raw.")
+              "Por favor, verifique se todos os arquivos .csv brutos estão na pasta raw.")
         return
-
 
     # Salva os arquivos limpos na pasta processed
     df_imdb.to_csv(data_processed_dir / "imdb_clean.csv", index=False)
     df_oscar.to_csv(data_processed_dir / "oscar_clean.csv", index=False)
 
-    # 3. Transformações e uniões
+    # 2. Transformações e uniões
     transform_genres()
     merge_imdb_data()
     
@@ -65,6 +67,15 @@ def main_pipeline():
         merge_oscar_data(df_oscar_aggregated=df_oscar_agg)
 
     print("Pipeline de união de dados concluída.")
+    
+    # --- Etapa 3: Modelagem ---
+    print("\nIniciando o treinamento dos modelos...")
+    run_modeling()
+    
+    # --- Etapa 4: Predição ---
+    print("\nIniciando a predição com os modelos treinados...")
+    run_prediction()
+
 
 if __name__ == "__main__":
     main_pipeline()

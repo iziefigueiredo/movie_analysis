@@ -15,7 +15,7 @@ from .eda_imdb_oscar import run as eda_imdb_oscar
 
 
 # Importando o novo script de modelagem
-from .modeling_regression import (
+from .modeling import (
     load_data as load_model_data,
     prepare_features,
     evaluate_model,
